@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.758" height="61.418" viewBox="0 0 67.758 61.418">
+  <defs>
+    <filter id="Path_9191" x="0" y="0" width="67.758" height="61.418" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="benefits_fit" transform="translate(-43.117 -63.387) rotate(-30)">
+    <g id="Group_9345" data-name="Group 9345" transform="translate(0 104.918)">
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 5.65, -28.46)" filter="url(#Path_9191)">
+        <path id="Path_9191-2" data-name="Path 9191" d="M38.109,109.075a4.406,4.406,0,0,0-2.772,1.061v-1.061a4.157,4.157,0,0,0-8.315,0v4.9H15.243v-4.9a4.157,4.157,0,0,0-8.315,0v1.061a4.061,4.061,0,0,0-2.772-1.061A4.159,4.159,0,0,0,0,113.227v8.325A4.159,4.159,0,0,0,4.157,125.7a4.061,4.061,0,0,0,2.772-1.061v1.062a4.157,4.157,0,0,0,8.315,0V120.9H27.023v4.807a4.157,4.157,0,0,0,8.315,0v-1.062a4.405,4.405,0,0,0,2.772,1.061,4.159,4.159,0,0,0,4.157-4.152v-8.325A4.16,4.16,0,0,0,38.109,109.075ZM6.929,121.553a2.772,2.772,0,0,1-5.543,0v-8.325a2.772,2.772,0,0,1,5.543,0Zm6.929-6.934v11.088a2.772,2.772,0,0,1-5.543,0V109.075a2.772,2.772,0,0,1,5.543,0Zm13.165,4.9H15.243v-4.157H27.022Zm6.929-6.286v12.479a2.772,2.772,0,0,1-5.543,0V109.075a2.772,2.772,0,0,1,5.543,0Zm6.929,8.325a2.772,2.772,0,0,1-5.543,0v-8.325a2.772,2.772,0,0,1,5.543,0Z" transform="translate(-43.12 -63.39) rotate(-30)" fill="#007ee1" stroke="#007ee1" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

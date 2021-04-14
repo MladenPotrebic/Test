@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="80.65" viewBox="0 0 73 80.65">
+  <g id="Group_10802" data-name="Group 10802" transform="translate(-947 -3935.35)">
+    <g id="Group_9745" data-name="Group 9745" transform="translate(66 2031)">
+      <circle id="Ellipse_2585" data-name="Ellipse 2585" cx="36.5" cy="36.5" r="36.5" transform="translate(881 1912)" fill="#fff"/>
+    </g>
+    <g id="Group_8112" data-name="Group 8112" transform="translate(-116 3406.5)">
+      <g id="Group_8109" data-name="Group 8109" transform="translate(1081.5 529.5)">
+        <path id="Path_11704" data-name="Path 11704" d="M1092.456,565.5h-7.826a3.132,3.132,0,0,1-3.13-3.13V532.63a3.131,3.131,0,0,1,3.13-3.13h15.652a3.131,3.131,0,0,1,3.13,3.13v14.087" transform="translate(-1081.5 -529.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <line id="Line_9080" data-name="Line 9080" x1="21.913" transform="translate(0 6.261)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <line id="Line_9081" data-name="Line 9081" x1="10.957" transform="translate(0 29.739)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <line id="Line_9082" data-name="Line 9082" x2="6.261" transform="translate(7.826 3.13)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      </g>
+      <g id="Group_8110" data-name="Group 8110" transform="translate(1095.587 549.848)">
+        <line id="Line_9083" data-name="Line 9083" x2="21.913" transform="translate(0 4.696)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <line id="Line_9084" data-name="Line 9084" x1="6.261" transform="translate(3.13 7.826)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <line id="Line_9085" data-name="Line 9085" x1="3.13" transform="translate(15.652 7.826)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <line id="Line_9086" data-name="Line 9086" x1="3.13" transform="translate(3.13 10.957)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <rect id="Rectangle_2406" data-name="Rectangle 2406" width="21.913" height="15.652" rx="2" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

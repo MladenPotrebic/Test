@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.771" height="55.188" viewBox="0 0 51.771 55.188">
+  <defs>
+    <filter id="Path_2346" x="0" y="0" width="51.771" height="33.13" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2348" x="0" y="21.274" width="33.137" height="26.257" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2349" x="0" y="6.794" width="33.97" height="48.393" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_9190" x="32.271" y="6.794" width="19.5" height="27.143" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="benefits_salary" transform="translate(-1119.75 -3642.75)">
+    <g id="Group_1823" data-name="Group 1823" transform="translate(1148.184 3668.184)">
+      <path id="Path_2345" data-name="Path 2345" d="M1152.493,3667.746l-4.246-4.246-4.246,4.246" transform="translate(-1137.754 -3658.405)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <circle id="Ellipse_544" data-name="Ellipse 544" cx="10" cy="10" r="10" transform="translate(0.316 0.316)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_1543" data-name="Line 1543" y1="10" transform="translate(10.618 5.316)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="Group_1825" data-name="Group 1825" transform="translate(1129.5 3649.5)">
+      <g id="Group_1824" data-name="Group 1824">
+        <g transform="matrix(1, 0, 0, 1, -9.75, -6.75)" filter="url(#Path_2346)">
+          <path id="Path_2346-2" data-name="Path 2346" d="M1161.772,3656.336c0,3.745-7.225,6.794-16.136,6.794s-16.136-3.049-16.136-6.794,7.226-6.836,16.136-6.836S1161.772,3652.583,1161.772,3656.336Z" transform="translate(-1119.75 -3642.75)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <path id="Path_2347" data-name="Path 2347" d="M1145.636,3664.319c-8.91,0-16.136-3.049-16.136-6.794" transform="translate(-1129.5 -3643.895)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <g transform="matrix(1, 0, 0, 1, -9.75, -6.75)" filter="url(#Path_2348)">
+          <path id="Path_2348-2" data-name="Path 2348" d="M1143.088,3668.733c-7.7-.517-13.588-3.326-13.588-6.708" transform="translate(-1119.75 -3634)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -9.75, -6.75)" filter="url(#Path_2349)">
+          <path id="Path_2349-2" data-name="Path 2349" d="M1143.938,3682.361c-8.112-.36-14.437-3.227-14.437-6.738V3653.5" transform="translate(-1119.75 -3639.96)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -9.75, -6.75)" filter="url(#Path_9190)">
+        <path id="Path_9190-2" data-name="Path 9190" d="M0,0V7.643" transform="translate(42.02 13.54)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

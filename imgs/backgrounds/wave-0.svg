@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3840" height="1322" viewBox="0 0 3840 1322">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4056" data-name="Rectangle 4056" width="3840" height="1322" transform="translate(8195 -7919)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Union_35" x="-800.998" y="539.639" width="1938" height="541.361" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.012"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_36" x="-812.998" y="583.999" width="1962" height="727.89" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7" result="blur-2"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_38" x="951" y="537.999" width="1938" height="541.001" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.012"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_39" x="939" y="581.999" width="1962" height="727.89" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7" result="blur-4"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_41" x="2871.002" y="538" width="1938" height="541" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.012"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_42" x="2859.002" y="581.999" width="1962" height="727.89" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7" result="blur-6"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.99" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#47baff"/>
+      <stop offset="0.647" stop-color="#47baff"/>
+      <stop offset="0.892" stop-color="#43b1f3"/>
+      <stop offset="1" stop-color="#42adee"/>
+    </linearGradient>
+  </defs>
+  <g id="wave10" transform="translate(-8195 7919)" clip-path="url(#clip-path)">
+    <g id="Group_9961" data-name="Group 9961">
+      <g id="Group_9958" data-name="Group 9958" transform="translate(7403 -7905.002)">
+        <path id="Union_34" data-name="Union 34" d="M0,0V927.812a908.313,908.313,0,0,0,119.51,4.507c170.5-4.5,344.113-38.812,504.245-97.076,83.57-30.4,166.332-62.913,250.507-91.667,141.328-48.271,287.15-87.329,437.75-81.047,197.658,8.239,382.119,91.542,576.236,121.394q15.9,2.449,31.754,3.987V0Z" transform="translate(1920.002 932.659) rotate(180)" fill="#008ae9"/>
+        <g transform="matrix(1, 0, 0, 1, 792, -14)" filter="url(#Union_35)">
+          <path id="Union_35-2" data-name="Union 35" d="M0,517.161V226.112H1920V377.42q-15.857-1.548-31.749-3.982c-194.12-29.82-378.582-113.022-576.24-121.255-150.6-6.275-296.42,32.739-437.747,80.954-84.178,28.719-166.937,61.191-250.51,91.562-160.129,58.192-336.018,90.642-504.243,96.961q-15.131.718-29.994.7A848.31,848.31,0,0,1,0,517.161ZM0,226V0H1920V226Z" transform="translate(1128 1081) rotate(180)" fill="#47baff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 792, -14)" filter="url(#Union_36)">
+          <path id="Union_36-2" data-name="Union 36" d="M0,682.02V154.875c6.972.544,35.938,45.78,57.892,76.891h55.349c16.7-39.943,24.766-107.778,54.721-114.195C308.3,146.757,438,185.794,590,190.857c150.6,5.017,314.409-1.31,455.737-39.859,84.177-22.961,166.936-48.923,250.509-73.205C1456.375,31.267,1629.99,3.867,1800.489.272A1136.417,1136.417,0,0,1,1920,3.87V570.3q-15.857-1.238-31.749-3.183c-194.12-23.842-378.582-90.362-576.24-96.945-150.6-5.016-296.42,26.176-437.747,64.724-84.178,22.961-166.937,48.922-250.51,73.2-160.129,46.525-333.744,73.926-504.243,77.521q-12.811.27-25.616.272Q46.851,685.89,0,682.02Z" transform="translate(1128 1300.89) rotate(180)" fill="#109aed"/>
+        </g>
+      </g>
+      <g id="Group_9959" data-name="Group 9959" transform="translate(0 -2)">
+        <path id="Union_37" data-name="Union 37" d="M15296,9179.657V8251.846a908.313,908.313,0,0,1,119.51-4.507c170.5,4.5,344.113,38.813,504.245,97.076,83.57,30.4,166.332,62.913,250.507,91.667,141.328,48.271,287.15,87.329,437.75,81.047,197.658-8.239,382.119-91.542,576.236-121.394q15.9-2.449,31.754-3.987v787.909Z" transform="translate(-6141 -16152)" fill="#008ae9"/>
+        <g transform="matrix(1, 0, 0, 1, 8195, -7917)" filter="url(#Union_38)">
+          <path id="Union_38-2" data-name="Union 38" d="M0,522V296H1920V522ZM0,295.89V4.841A909.6,909.6,0,0,1,119.511.341C290.01,4.838,463.625,39.11,623.754,97.3c83.573,30.371,166.332,62.843,250.51,91.562,141.327,48.215,287.149,87.229,437.747,80.954,197.657-8.233,382.119-91.436,576.24-121.255q15.892-2.441,31.749-3.982V295.89Z" transform="translate(960 557)" fill="#47baff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 8195, -7917)" filter="url(#Union_39)">
+          <path id="Union_39-2" data-name="Union 39" d="M1800.489,685.619c-170.5-3.6-344.113-31-504.243-77.522-83.573-24.281-166.332-50.243-250.509-73.2C904.409,496.345,740.6,490.018,590,495.034c-197.658,6.583-364.131,48.239-558.251,72.08Q15.857,569.066,0,570.3V3.871A1136.418,1136.418,0,0,1,119.511.273c170.5,3.6,344.114,31,504.243,77.522,83.573,24.281,166.332,50.243,250.51,73.2,141.327,38.549,287.149,69.74,437.747,64.724,197.657-6.583,382.119-73.1,576.24-96.944q15.892-1.952,31.749-3.183V682.021q-46.794,3.949-93.895,3.87Q1813.3,685.891,1800.489,685.619Z" transform="translate(960 613)" fill="#109aed"/>
+        </g>
+      </g>
+      <g id="Group_9960" data-name="Group 9960" transform="translate(11075 -7907.001)">
+        <path id="Union_40" data-name="Union 40" d="M0,0V927.811a908.313,908.313,0,0,0,119.51,4.507c170.5-4.5,344.113-38.812,504.245-97.076,83.57-30.4,166.332-62.913,250.507-91.667,141.328-48.271,287.15-87.329,437.75-81.047,197.658,8.239,382.119,91.542,576.236,121.394q15.9,2.449,31.754,3.987V0Z" transform="translate(1920.002 932.659) rotate(180)" fill="#008ae9"/>
+        <g transform="matrix(1, 0, 0, 1, -2880, -12)" filter="url(#Union_41)">
+          <path id="Union_41-2" data-name="Union 41" d="M0,0V226H1920V0ZM0,226.111V517.161a909.591,909.591,0,0,0,119.511,4.5c170.5-4.5,344.114-38.768,504.243-96.961,83.573-30.371,166.332-62.843,250.51-91.562,141.327-48.215,287.149-87.229,437.747-80.954,197.657,8.233,382.119,91.435,576.24,121.255q15.892,2.441,31.749,3.982V226.111Z" transform="translate(4800 1079) rotate(180)" fill="#47baff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -2880, -12)" filter="url(#Union_42)">
+          <path id="Union_42-2" data-name="Union 42" d="M1800.489.272c-170.5,3.6-344.113,31-504.243,77.522-83.573,24.281-166.332,50.243-250.509,73.2C904.409,189.546,740.6,195.873,590,190.857c-197.658-6.583-364.131-48.239-558.251-72.08Q15.857,116.824,0,115.593V449.235H1920V3.87Q1873.206-.08,1826.1,0,1813.3,0,1800.489.272ZM0,449.324v232.7a1136.422,1136.422,0,0,0,119.511,3.6c170.5-3.6,344.114-31,504.243-77.521,83.573-24.281,166.332-50.243,250.51-73.2,141.327-38.549,287.149-69.74,437.747-64.723,197.657,6.583,382.119,73.1,576.24,96.944q15.892,1.952,31.749,3.183V449.324Z" transform="translate(4800 1298.89) rotate(180)" fill="#109aed"/>
+        </g>
+      </g>
+      <path id="Path_12166" data-name="Path 12166" d="M-10.405,1.164S2.011-.005,4.016-.156l3.922-.3L8.08,54.568s-1.347.158-4.146.37-12.794.609-12.794.609Z" transform="translate(9151 -7357)" fill="url(#linear-gradient)"/>
+      <path id="Path_12167" data-name="Path 12167" d="M-11.548,0s43-9.787,78.245-9.787,79.018,3.639,79.018,3.639l46.914,546.436S98.036,558.461,66.724,556.281-29.8,534.751-29.8,534.751Z" transform="translate(9088 -7292)" fill="#109aed"/>
+      <path id="Path_12168" data-name="Path 12168" d="M-11.548,510.555s43,9.137,78.245,9.137,79.018-3.4,79.018-3.4L210.073,4.662S114.727-21.812,83.414-19.777-34.2,3.731-34.2,3.731Z" transform="translate(10988 -7743)" fill="#008ae9"/>
+      <path id="Path_12169" data-name="Path 12169" d="M10743.51-7114.728c0,19.3-.479,475.1-.479,475.1s118.717,27.427,322.813,26.076,316.8-20.982,316.8-20.982l13.273-480.191Z" fill="#109aed"/>
+      <path id="Path_12170" data-name="Path 12170" d="M-13.692,1.645s23.733-5.136,40.641-5,39.153,5,39.153,5L55,79H0Z" transform="translate(11048 -7187)" fill="#109aed"/>
+      <path id="Path_12171" data-name="Path 12171" d="M-153.516,18.634S-125.122,9.169,4.549-4.082,322.891-126.408,499.781-122.25C679.7-118.022,818.349-33.21,985.5-9.217S1237.118,2.22,1237.118,2.22L1065,172H0Z" transform="translate(10573 -7097)" fill="#109aed"/>
+      <path id="Path_12172" data-name="Path 12172" d="M-167.78,7.347S-131,7.168,0-9.758,322.891-126.408,499.781-122.25C679.7-118.022,801.874-48.256,987.308-19.3S1239.286,1.12,1239.286,1.12L1065,172H0Z" transform="translate(10573 -7641)" fill="#008ae9"/>
+      <path id="Path_12173" data-name="Path 12173" d="M1604.306,73.068S1470.379,80.1,1201.538,83.61s-452.923,92.422-629.813,88.264C391.8,167.645,171.865,81.849-91.7,83.61s-203.827,24.6-203.827,24.6L6.506-122.377h1065Z" transform="translate(8605 -6896)" fill="#109aed"/>
+    </g>
+  </g>
+</svg>

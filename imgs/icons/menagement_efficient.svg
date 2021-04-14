@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="106" viewBox="0 0 106 106">
+  <defs>
+    <filter id="Ellipse_2590" x="0" y="0" width="106" height="106" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="menagement_efficient" transform="translate(-449.5 -1770.5)">
+    <g transform="matrix(1, 0, 0, 1, 449.5, 1770.5)" filter="url(#Ellipse_2590)">
+      <circle id="Ellipse_2590-2" data-name="Ellipse 2590" cx="36.5" cy="36.5" r="36.5" transform="translate(16.5 16.5)" fill="#007ee1"/>
+    </g>
+    <g id="Group_9649" data-name="Group 9649" transform="translate(-214.487 890.5)">
+      <line id="Line_3290" data-name="Line 3290" x2="35.607" transform="translate(697.5 948.833)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <path id="Path_4787" data-name="Path 4787" d="M703.144,938.144V933.5H698.5v4.644" transform="translate(0.548 10.689)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <path id="Path_4788" data-name="Path 4788" d="M709.144,940.337V929.5H704.5v10.837" transform="translate(3.837 8.496)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <path id="Path_4789" data-name="Path 4789" d="M715.144,942.529V925.5H710.5v17.029" transform="translate(7.126 6.304)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <path id="Path_4790" data-name="Path 4790" d="M721.144,944.722V921.5H716.5v23.222" transform="translate(10.415 4.111)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <line id="Line_3291" data-name="Line 3291" y1="18.578" x2="27.866" transform="translate(701.37 914.774)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <path id="Path_4791" data-name="Path 4791" d="M719.419,920.967l.774-6.193L714,914" transform="translate(9.044 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+    </g>
+  </g>
+</svg>

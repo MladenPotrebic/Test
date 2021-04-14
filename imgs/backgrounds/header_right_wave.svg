@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3115" height="567" viewBox="0 0 3115 567">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4042" data-name="Rectangle 4042" width="3115" height="567" transform="translate(16815 -1317)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Path_12148" x="12.801" y="230.833" width="3141.629" height="349.854" filterUnits="userSpaceOnUse">
+      <feOffset dy="-24" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10850" data-name="Group 10850" transform="translate(972 2357)">
+    <g id="strelica4" transform="translate(-17787 -1040)" clip-path="url(#clip-path)">
+      <g id="Group_9946" data-name="Group 9946">
+        <g id="Group_9945" data-name="Group 9945">
+          <path id="Path_12147" data-name="Path 12147" d="M16814.8-748.646l3118.15.041s-307.053-264.028-840.936-345.271-1073.551,261.36-1357,297.071,361.41-11.155,276.762,0c-575.842,75.886-633.711-96.177-821.654-102.272S16814.8-748.646,16814.8-748.646Z" fill="#47baff"/>
+          <g transform="matrix(1, 0, 0, 1, 16815, -1317)" filter="url(#Path_12148)">
+            <path id="Path_12148-2" data-name="Path 12148" d="M16863.8-786.638l3069.629.325s-317.191-167.447-747.955-256.724S18260.8-913.61,17841.5-852.75s-520.211-37.209-689.867-40.257S16863.8-786.638,16863.8-786.638Z" transform="translate(-16815 1355)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

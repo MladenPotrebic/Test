@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169.539" height="187.401" viewBox="0 0 169.539 187.401">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.493" y1="0.181" x2="0.467" y2="0.901" gradientUnits="objectBoundingBox">
+      <stop offset="0.037" stop-color="#93fffd" stop-opacity="0"/>
+      <stop offset="0.135" stop-color="#95fefd" stop-opacity="0.071"/>
+      <stop offset="0.332" stop-color="#9afdfd" stop-opacity="0.251"/>
+      <stop offset="0.608" stop-color="#a3fcfe" stop-opacity="0.545"/>
+      <stop offset="0.951" stop-color="#b0fbfe" stop-opacity="0.941"/>
+      <stop offset="1" stop-color="#b2fbff"/>
+    </linearGradient>
+  </defs>
+  <path id="Light_mobile" d="M530.5,293c.35,21.675,23.16,163.346,23.16,163.346l.034-.006a3.531,3.531,0,0,0,1.86,2.249l35.852,20.7a10.256,10.256,0,0,0,9.291,0l77.8-45.212a3.261,3.261,0,0,0,1.9-2.664h0S693.6,344.525,700.039,293Z" transform="translate(-530.5 -293)" opacity="0.561" fill="url(#linear-gradient)"/>
+</svg>

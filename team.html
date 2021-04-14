@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rationaletech - Career</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <script src="js/team.js"></script>
+  </head>
+
+  <body>
+    <div class="body_wrap">
+      <div class="navigations_container navigations_container_negative">
+        <div class="content">
+          <div class="logo" onclick="moveToHomePage()"></div>
+          <div class="navigations">
+            <a class="navigations_item" href="index.html">Home</a>
+            <a class="navigations_item" href="products.html">Products</a>
+            <a class="navigations_item" href="services.html">Services</a>
+            <a class="navigations_item" href="support.html">Support</a>
+            <a class="navigations_item" href="career.html">Career</a>
+            <a class="navigations_item navigations_item-active" href="team.html"
+              >About Us</a
+            >
+            <a class="navigations_item" href="contact.html">Contact</a>
+          </div>
+          <div class="contact">
+            <div class="contact-btn">Contact Us</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navigations_container-M">
+        <div class="header">
+          <div class="logo" onclick="moveToHomePage()"></div>
+          <div class="navigations_btn">
+            <span class="navigations_btn_line-1"></span>
+            <span class="navigations_btn_line-2"></span>
+            <span class="navigations_btn_line-3"></span>
+          </div>
+        </div>
+        <div class="content_background">
+          <div class="background"></div>
+        </div>
+        <div class="content_navigations">
+          <a class="navigations_item navigations_item-active" href="index.html"
+            >Home</a
+          >
+          <a class="navigations_item" href="products.html">Products</a>
+          <a class="navigations_item" href="services.html">Services</a>
+          <a class="navigations_item" href="support.html">Support</a>
+          <a class="navigations_item" href="career.html">Career</a>
+          <a class="navigations_item" href="team.html">About Us</a>
+          <a class="navigations_item" href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="team_header_container">
+        <!-- <div class="illustration">
+          <img src="imgs/backgrounds/header_team.svg" />
+        </div> -->
+        <div class="content">
+          <div class="article">
+            <div class="article_content">
+              <div class="article_title">
+                We consider ourselves a huge family, find out more about us
+              </div>
+              <div class="article_text">
+                We wouldn't be here today without the commited team of engineers
+                such as you. With open and constructive communication on day to
+                day basis we are trying to create inspirative working environment
+                for all the members of our growing family.
+              </div>
+            </div>
+            <img src="imgs/backgrounds/header-aboutUs.svg" class="article_image">
+          </div>
+          <div class="statement">
+            <div class="cards">
+              <div class="statement_card mission">
+                <div class="statement_card_content">
+                  <div class="statement_card_icon"></div>
+                  <div class="statement_card_content_text">
+                    <div class="statement_card_title">Mission Statement</div>
+                    <div class="statement_card_text">
+                      To contribute to humanity by providing technology
+                      applications that benefits the lives of millions.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="statement_card vision">
+                <div class="statement_card_content">
+                  <div class="statement_card_icon"></div>
+                  <div class="statement_card_content_text">
+                    <div class="statement_card_title">Vision Statement</div>
+                    <div class="statement_card_text">
+                      To be globally recognized as the provider of choice for
+                      effective & meaningful technology applications.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart_content_container">
+          <div class="chart_container" id="chartContainer">
+              <!-- <img src="imgs/icons/chart_settings.svg" class="chart_icon1">
+              <img src="imgs/icons/chart_flag.svg" class="chart_icon2">
+              <img src="imgs/icons/chart_arrow.svg" class="chart_icon3">
+              <img src="imgs/icons/chart_time.svg" class="chart_icon4">
+              <img src="imgs/icons/chart_heart.svg" class="chart_icon5">
+              <img src="imgs/icons/chart_star.svg" class="chart_icon6"> -->
+              <div class="chart_line1" id="line1"></div>
+              <div class="chart_line2" id="line2"></div>
+              <div class="chart_line3" id="line3"></div>
+              <div class="chart_line4" id="line4"></div>
+              <div class="chart_line5" id="line5"></div>
+              <div class="chart_line6" id="line6"></div>
+              <div class="chart_heading">
+                  <div class="chart_title">Core Values</div>
+                  <div class="chart_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                  qui eum sit, deleniti esse aliquid quod in necessitatibus doloribus
+                  porro illum ducimus
+                  </div>
+              </div>
+              <div class="chart_content1" id="chart1">
+                <div class="chart_title">01. <br> <b>Solving Problems</b></div>
+                  <div class="chart_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                  qui eum sit, deleniti esse aliquid quod in necessitatibus doloribus
+                  porro illum ducimus
+                  </div>
+              </div>
+              <div class="chart_content2" id="chart2">
+                <div class="chart_title">02. <br> <b>Our Teams</b></div>
+                  <div class="chart_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                  qui eum sit, deleniti esse aliquid quod in necessitatibus doloribus
+                  porro illum ducimus
+                  </div>
+              </div>
+              <div class="chart_content3" id="chart3">
+                <div class="chart_title">03. <br> <b>Individual  Opportunity</b></div>
+                  <div class="chart_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                  qui eum sit, deleniti esse aliquid quod in necessitatibus doloribus
+                  porro illum ducimus
+                  </div>
+              </div>
+              <div class="chart_content4" id="chart4">
+                <div class="chart_title">04. <br> <b>Getting the Right Things Fast</b></div>
+                  <div class="chart_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                  qui eum sit, deleniti esse aliquid quod in necessitatibus doloribus
+                  porro illum ducimus
+                  </div>
+              </div>
+              <div class="chart_content5" id="chart5">
+                <div class="chart_title">05. <br> <b>Honesty, Integrity, Ethics & Good Judgement</b></div>
+                  <div class="chart_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                  qui eum sit, deleniti esse aliquid quod in necessitatibus doloribus
+                  porro illum ducimus
+                  </div>
+              </div>
+              <div class="chart_content6" id="chart6">
+                <div class="chart_title">06. <br> <b>Passion for Excellence</b></div>
+                  <div class="chart_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+                  qui eum sit, deleniti esse aliquid quod in necessitatibus doloribus
+                  porro illum ducimus
+                  </div>
+              </div>
+              <!-- <canvas id="testChart" width="600" height="600"></canvas> -->
+              <svg 
+                version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 551.1 556.2" style="enable-background:new 0 0 551.1 556.2;" xml:space="preserve">
+                <g id="Group_10849" transform="translate(-362.511 -1135.662)">
+                  <g id="Group_10848" transform="translate(3.316 18)">
+                    <g id="Group_10264" transform="translate(450.671 1069.707)">
+                      <g id="Group_10263" transform="translate(77.699 50.718)">
+                        <g id="Group_10244" transform="translate(635.915 110.206)">
+                        </g>
+                        <g id="Group_10246" transform="translate(-111.872 359.341)">
+                        </g>
+                        <g id="Group_10262" transform="translate(121.265 64.406)">
+                          <g id="Group_10250">
+                            <path onmouseover="hover1()" onmouseout="" id="Path_12359" class="st0" d="M101.1,100.6c27.8,29.1,43.8,67.6,44.7,107.8H255c-0.8-69.2-28.3-135.5-76.7-185
+                              L101.1,100.6z"/>
+                            
+                              <linearGradient id="Path_12360_1_" gradientUnits="userSpaceOnUse" x1="-133.9985" y1="306.4152" x2="-133.9985" y2="305.4152" gradientTransform="matrix(183.784 0 0 -153.868 24515.5801 47474.5664)">
+                              <stop  offset="0" style="stop-color:#007EE6"/>
+                              <stop  offset="1" style="stop-color:#06D3FE"/>
+                            </linearGradient>
+                            <path onmouseover="hover6()" id="Path_12360" class="st1" d="M-19.3,480.9V371.7c-42-1.1-78.5-17.9-106.4-44.7l-77.4,77.2
+                              C-154,452.5-88.1,479.9-19.3,480.9z"/>
+                            <path onmouseover="hover3()" id="Path_12361" class="st2" d="M-125.7,96.2c27.8-26.8,64.4-43.6,106.4-44.7V-57.7C-88.2-56.7-154-29.3-203.1,19
+                              L-125.7,96.2z"/>
+                            <path onmouseover="hover2()" id="Path_12362" class="st3" d="M-12.6,51.5C27.8,52,66.6,67.8,95.9,95.8l77-77.2C123.2-29.9,56.7-57.3-12.6-57.7V51.5z"
+                              />
+                            <path onmouseover="hover5()" id="Path_12363" class="st4" d="M-130.2,322.6c-27.6-28.8-43.4-66.8-44.3-106.6h-109.2c0.8,68.9,28.2,134.7,76.3,184
+                              L-130.2,322.6z"/>
+                            
+                              <linearGradient id="Path_12364_1_" gradientUnits="userSpaceOnUse" x1="-134.4738" y1="306.1253" x2="-134.4738" y2="305.1253" gradientTransform="matrix(153.46 0 0 -184.593 20429.4219 56532.3945)">
+                              <stop  offset="0" style="stop-color:#01B3F9"/>
+                              <stop  offset="1" style="stop-color:#015BEA"/>
+                            </linearGradient>
+                            <path onmouseover="hover4()" id="Path_12364" class="st5" d="M-174.5,208.4c1-40,16.8-78.2,44.3-107.4l-77.2-77.2c-48.2,49.5-75.5,115.6-76.2,184.6
+                              H-174.5z"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="Group_1615" transform="translate(703.448 -1678.399)">
+                      <g id="Group_1613" transform="translate(421.236 3060.654)">
+                        <path id="Path_2020" class="st6" d="M-263.2-37.7l2.6-4.6l-2.6-1.5c0.4-1.4,0.4-2.8,0-4.2l2.6-1.5l-2.6-4.6l-2.6,1.5
+                          c-1-1-2.3-1.7-3.7-2.1v-3.1h-5.3v3.1c-1.4,0.4-2.6,1.1-3.7,2.1l-2.6-1.5l-2.6,4.6l2.6,1.5c-0.4,1.4-0.4,2.8,0,4.2l-2.6,1.5
+                          l2.6,4.6l2.6-1.5c1,1,2.3,1.7,3.7,2.1v3.1h5.3v-3.1c1.4-0.4,2.6-1.1,3.7-2.1L-263.2-37.7z"/>
+                        <circle id="Ellipse_472" class="st6" cx="-272.1" cy="-45.9" r="3.9"/>
+                      </g>
+                      <g id="Group_1614" transform="translate(385.5 3026.5)">
+                        <path id="Path_2021" class="st7" d="M-248.3-25.5l-10.4-3.7v-5.4"/>
+                        <path id="Path_2022" class="st7" d="M-269.2-34.6v5.4l-10.4,3.7c-2.5,0.9-4.1,3.2-4.1,5.9v3.9h27.6"/>
+                        <path id="Path_2023" class="st7" d="M-253.6-45.3c0,6.9-4.6,12.5-10.4,12.5s-10.4-5.6-10.4-12.5s4.6-12.4,10.4-12.4
+                          S-253.6-52.2-253.6-45.3z"/>
+                        <path id="Path_2024" class="st7" d="M-253.7-46.4c-0.3,0-0.6,0-1,0.1c-3.5,0.7-5.8-0.6-7.7-4c-1.2,2.2-4.8,4-7.8,4
+                          c-1.4,0-2.8-0.3-4-1"/>
+                        <path id="Path_2025" class="st7" d="M-246.9-57.7c5.7,0,10.4,5.6,10.4,12.4s-4.6,12.5-10.4,12.5"/>
+                        <path id="Path_2026" class="st7" d="M-236.6-46.4c-0.3,0-0.6,0-1,0.1c-3.5,0.7-5.8-0.6-7.7-4"/>
+                        <line id="Line_1422" class="st7" x1="-241.6" y1="-30.1" x2="-241.6" y2="-34.6"/>
+                      </g>
+                    </g>
+                    <g id="Group_1593" transform="translate(491.5 -1723.499)">
+                      <g id="Group_1591" transform="translate(227.101 3105.376)">
+                        <circle id="Ellipse_467" class="st6" cx="-270.3" cy="-44.6" r="13"/>
+                        <path id="Path_1974" class="st7" d="M-265.7-42.2h-5.2v-9"/>
+                      </g>
+                      <g id="Group_1592" transform="translate(193.5 3074.5)">
+                        <path id="Path_1975" class="st7" d="M-251.4-26.9l-7.7-2.8V-35"/>
+                        <path id="Path_1976" class="st7" d="M-269.5-35v5.3l-10.2,3.6c-2.4,0.9-4,3.2-4,5.8v3.8h27.1"/>
+                        <path id="Path_1977" class="st7" d="M-254.1-45.5c0,6.7-4.6,12.2-10.2,12.2c-5.6,0-10.2-5.5-10.2-12.2s4.6-12.2,10.2-12.2
+                          S-254.1-52.3-254.1-45.5z"/>
+                        <path id="Path_1978" class="st7" d="M-254.2-46.6c-0.3,0-0.6,0-1,0.1c-3.5,0.7-5.7-0.6-7.6-3.9c-1.1,2.2-4.7,3.9-7.7,3.9
+                          c-1.4,0-2.7-0.3-3.9-1"/>
+                        <path id="Path_1979" class="st7" d="M-247.6-57.7c5.6,0,10.2,5.5,10.2,12.2s-4.6,12.2-10.2,12.2"/>
+                        <path id="Path_1980" class="st7" d="M-237.5-46.6c-0.3,0-0.6,0-1,0.1c-3.5,0.7-5.7-0.6-7.6-3.9"/>
+                        <line id="Line_1408" class="st7" x1="-242.4" y1="-30.7" x2="-242.4" y2="-35"/>
+                      </g>
+                    </g>
+                    <g id="Group_1612" transform="translate(260.5 -1516.499)">
+                      <path id="Path_2013" class="st7" d="M197.8,3025.8c4.3-3.1,11.7-9.8,11.7-14.8c0-4-2.9-6.4-5.8-6.4c-3.2,0-4.3,2.2-5.9,4.7
+                        c-1.6-2.6-2.7-4.7-5.9-4.7c-2.8,0-5.8,2.4-5.8,6.4C186.1,3016,193.4,3022.6,197.8,3025.8L197.8,3025.8z"/>
+                      <g id="Group_1611" transform="translate(433.5 3026.5)">
+                        <path id="Path_2014" class="st7" d="M-248.8-25.9l-10.2-3.7v-5.3"/>
+                        <path id="Path_2015" class="st7" d="M-269.4-34.9v5.3l-10.2,3.7c-2.4,0.9-4.1,3.2-4,5.8v3.9h27.2"/>
+                        <path id="Path_2016" class="st7" d="M-254-45.5c0,6.8-4.6,12.3-10.2,12.3s-10.2-5.5-10.2-12.3s4.6-12.3,10.2-12.3
+                          S-254-52.2-254-45.5z"/>
+                        <path id="Path_2017" class="st7" d="M-254.1-46.6c-0.3,0-0.6,0-1,0.1c-3.5,0.7-5.7-0.6-7.6-4c-1.1,2.2-4.7,4-7.7,4
+                          c-1.4,0-2.7-0.3-4-1"/>
+                        <path id="Path_2018" class="st7" d="M-247.4-57.7c5.6,0,10.2,5.5,10.2,12.3s-4.6,12.3-10.2,12.3"/>
+                        <path id="Path_2019" class="st7" d="M-237.2-46.6c-0.3,0-0.6,0-1,0.1c-3.5,0.7-5.7-0.6-7.6-4"/>
+                        <line id="Line_1421" class="st7" x1="-242.2" y1="-30.5" x2="-242.2" y2="-34.9"/>
+                      </g>
+                    </g>
+                    <g id="Group_2974" transform="translate(532.388 -1843.818)">
+                      <g id="Group_2972" transform="translate(433.5 3074.5)">
+                        <g id="Group_2971">
+                          <path id="Path_3706" class="st7" d="M-249.1-24.7l-8.3-3v-5.7"/>
+                          <path id="Path_3707" class="st7" d="M-268.4-33.3v5.7l-10.9,3.9c-2.6,0.9-4.3,3.4-4.3,6.2v4.1h33.2"/>
+                          <path id="Path_3708" class="st7" d="M-252-44.6c0,7.2-4.9,13.1-10.9,13.1s-10.9-5.9-10.9-13.1s4.9-13.1,10.9-13.1
+                            S-252-51.9-252-44.6z"/>
+                          <path id="Path_3709" class="st7" d="M-252.1-45.8c-0.4,0-0.7,0-1,0.1c-3.7,0.7-6.1-0.6-8.2-4.2c-1.2,2.4-5.1,4.2-8.2,4.2
+                            c-1.5,0-2.9-0.3-4.2-1"/>
+                          <path id="Path_3710" class="st7" d="M-244.9-57.7c6,0,10.9,5.9,10.9,13.1s-4.9,13.1-10.9,13.1"/>
+                          <path id="Path_3711" class="st7" d="M-234.1-45.8c-0.4,0-0.7,0-1,0.1c-3.7,0.7-6.1-0.6-8.2-4.2"/>
+                          <line id="Line_2389" class="st7" x1="-239.4" y1="-30" x2="-239.4" y2="-33.3"/>
+                        </g>
+                      </g>
+                      <g id="Group_2973" transform="translate(475.024 3106.379)">
+                        <line id="Line_2390" class="st7" x1="-283.7" y1="-54" x2="-283.7" y2="-28.7"/>
+                        <path id="Path_3712" class="st7" d="M-261.5-52.7c0,0-9.7,6.9-9.7-1.4s-12.5,0-12.5,0v15.2c0,0,12.5-8.3,12.5,0s9.7,2.8,9.7,2.8
+                          V-52.7z"/>
+                      </g>
+                    </g>
+                    <g id="Group_1617" transform="translate(470.5 -1398.671)">
+                      <path id="Path_2027" class="st6" d="M100.6,2998.6l3.9,9.1h9.1l-7.8,6.5l3.9,10.4l-9.1-6.5l-9.1,6.5l3.9-10.4l-7.8-6.5h9.1
+                        L100.6,2998.6z"/>
+                      <g id="Group_1616" transform="translate(337.5 3026.5)">
+                        <path id="Path_2028" class="st7" d="M-248.8-25.9l-10.2-3.7v-5.3"/>
+                        <path id="Path_2029" class="st7" d="M-269.4-34.8v5.3l-10.2,3.7c-2.4,0.9-4.1,3.2-4,5.8v3.9h27.3"/>
+                        <path id="Path_2030" class="st7" d="M-253.9-45.4c0,6.8-4.6,12.3-10.2,12.3s-10.2-5.5-10.2-12.3s4.6-12.3,10.2-12.3
+                          S-253.9-52.2-253.9-45.4z"/>
+                        <path id="Path_2031" class="st7" d="M-254-46.5c-0.3,0-0.6,0-1,0.1c-3.5,0.7-5.7-0.6-7.7-4c-1.2,2.2-4.8,4-7.7,4
+                          c-1.4,0-2.7-0.3-4-1"/>
+                        <path id="Path_2032" class="st7" d="M-247.3-57.7c5.7,0,10.2,5.5,10.2,12.3s-4.6,12.3-10.2,12.3"/>
+                        <path id="Path_2033" class="st7" d="M-237.1-46.5c-0.3,0-0.6,0-1,0.1c-3.5,0.7-5.7-0.6-7.7-4"/>
+                        <line id="Line_1423" class="st7" x1="-242.1" y1="-30.5" x2="-242.1" y2="-34.8"/>
+                      </g>
+                    </g>
+                    <g id="Group_10843">
+                      <g id="Group_5772" transform="translate(-301.487 258.282)">
+                        <g id="Group_5770" transform="translate(1131.349 1017.392)">
+                          <path id="Path_8051" class="st7" d="M-279-40.8v-5.6h-4.7v5.6"/>
+                          <path id="Path_8052" class="st7" d="M-269-40.8v-11.3h-4.9v11.3"/>
+                          <path id="Path_8054" class="st7" d="M-260-40.8v-16.9h-4.7v16.9"/>
+                        </g>
+                        <g id="Group_5771" transform="translate(1132.04 1008.5)">
+                          <path id="Path_8055" class="st7" d="M-260.6-59.9l-9.5,10l-6.8-2.3l-6.8,5.6"/>
+                          <path id="Path_8056" class="st7" d="M-266.1-58.7l5.5-1.2l-0.6,5.1"/>
+                        </g>
+                      </g>
+                      <g id="Group_411" transform="translate(465.5 -1504.154)">
+                        <g id="Group_410" transform="translate(337.5 2737.5)">
+                          <line id="Line_321" class="st7" x1="-255.8" y1="-25.3" x2="-255.8" y2="-31.8"/>
+                          <path id="Path_479" class="st7" d="M-267.4-31.8v6.5l-11.6,4.1c-2.8,1-4.6,3.6-4.6,6.5v5.5h20.2"/>
+                          <ellipse id="Ellipse_119" class="st6" cx="-261.6" cy="-43.8" rx="11.6" ry="13.9"/>
+                          <path id="Path_480" class="st6" d="M-250.2-45.1c-0.4,0-0.7,0-1,0.1c-3.9,0.8-6.5-0.7-8.7-4.5c-1.3,2.5-5.4,4.5-8.7,4.5
+                            c-1.6,0-3.1-0.3-4.5-1.1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+            </svg>
+          </div>
+      </div>
+
+      <div class="team_members_container">
+        <div class="header">
+          <div class="header_title">Meet Our People</div>
+          <div class="header_subtitle">
+            Get to know the experienced, skilled and talented team of ours.
+          </div>
+        </div>
+        <div class="content">
+          <div id="members" class="members"></div>
+          <div class="moreMembers">
+            <div id="moreMembers_btn" class="btn moreMembers_btn">More</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_container footer_container-section">
+        <div class="content">
+          <div class="footer_item-logo">
+            <div class="rationale_logo" onclick="moveToHomePage()"></div>
+          </div>
+          <div class="footer_item footer_item-company">
+            <div class="footer_item_title">Company</div>
+            <div class="footer_item_data">Support</div>
+            <div class="footer_item_data">Products</div>
+            <div class="footer_item_data">Career</div>
+          </div>
+          <div class="footer_item">
+            <div class="footer_item_title">UNITED ARAB EMIRATES</div>
+            <div class="footer_item_data">P.O. Box 7891, Street 13</div>
+            <div class="footer_item_data">+ 971 2 6273701</div>
+            <div class="footer_item_data">dubai-office@rationaletech.com</div>
+          </div>
+          <div class="footer_item">
+            <div class="footer_item_title">REPUBLIC OF SERBIA</div>
+            <div class="footer_item_data">Zmaj Jovina 26, Novi Sad</div>
+            <div class="footer_item_data">+ 381 64 236 26 28</div>
+            <div class="footer_item_data">office@rationaletech.com</div>
+          </div>
+        </div>
+        <div class="footer">© 2020. Rationaletech.com All rights reserved</div>
+      </div>
+      <div class="scroll-button-container" onclick="scrollToTop()">
+        <button class="scroll-button">
+            <div class="arrow-image"></div>
+        </button>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred"></script>
+    <script src="js/team.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

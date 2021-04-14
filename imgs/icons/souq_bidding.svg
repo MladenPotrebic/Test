@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="80.76" viewBox="0 0 73 80.76">
+  <g id="Group_10800" data-name="Group 10800" transform="translate(-777 -3935.24)">
+    <g id="Group_9888" data-name="Group 9888" transform="translate(-104 2031)">
+      <circle id="Ellipse_2585" data-name="Ellipse 2585" cx="36.5" cy="36.5" r="36.5" transform="translate(881 1912)" fill="#fff"/>
+    </g>
+    <g id="Group_6094" data-name="Group 6094" transform="translate(-46.942 3165.908)">
+      <path id="Path_8455" data-name="Path 8455" d="M857.971,793.794H841.5v-1.647a1.649,1.649,0,0,1,1.647-1.647h13.177a1.648,1.648,0,0,1,1.647,1.647Z" transform="translate(0 12.298)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <path id="Path_8456" data-name="Path 8456" d="M855.677,791.794H842.5v-1.647a1.649,1.649,0,0,1,1.647-1.647h9.883a1.648,1.648,0,0,1,1.647,1.647Z" transform="translate(0.647 11.004)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <rect id="Rectangle_1707" data-name="Rectangle 1707" width="12.812" height="8.153" transform="translate(852.206 782.938) rotate(-45)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <path id="Path_8457" data-name="Path 8457" d="M849.489,778.408l-.823-.824c-1.552-1.548-4.027.914-2.471,2.471l7.412,7.412c1.553,1.552,4.029-.914,2.471-2.471l-.823-.823" transform="translate(2.718 4.53)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <path id="Path_8458" data-name="Path 8458" d="M859.783,779.644l.824.823c1.553,1.552,4.029-.914,2.471-2.471l-7.412-7.412c-1.552-1.548-4.027.914-2.471,2.471l.823.824" transform="translate(7.248 0)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      <line id="Line_6430" data-name="Line 6430" x2="16.883" y2="16.883" transform="translate(862.501 784.173)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+    </g>
+  </g>
+</svg>

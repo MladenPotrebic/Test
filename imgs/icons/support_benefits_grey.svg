@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.26" height="38.579" viewBox="0 0 43.26 38.579">
+  <g id="support_benefits" transform="translate(-453.25 -1522.936)">
+    <g id="Group_113" data-name="Group 113" transform="translate(454 1523.686)">
+      <path id="Path_190" data-name="Path 190" d="M824.827,1371.267h0a2.724,2.724,0,0,1,0,5.447h-1.815a2.725,2.725,0,0,1,2.724,2.724c0,1.5-1.224,1.815-2.724,1.815h-11.8c-5.177,0-6.354-.908-12.709-1.815V1364.01c4.452,0,11.8-8.171,11.8-15.433,0-2.871,3.974-3.94,5.447,1.305.908,3.233-1.815,9.589-1.815,9.589h14.525a2.724,2.724,0,0,1,2.724,2.723c0,1.5-1.224,3.632-2.724,3.632h-1.815a2.724,2.724,0,1,1,0,5.447h-1.815" transform="translate(-789.422 -1346.185)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="8.904" height="21.147" transform="translate(0 15.931)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Group_112" data-name="Group 112" transform="translate(4.539 32.347)">
+        <g id="Group_111" data-name="Group 111" transform="translate(0 0)">
+          <g id="Path_191" data-name="Path 191">
+            <path id="Path_35647" data-name="Path 35647" d="M796.908,1364a.908.908,0,1,0,.908.908.908.908,0,0,0-.908-.908Z" transform="translate(-796 -1364)" fill="none"/>
+            <path id="Path_35648" data-name="Path 35648" d="M796.908,1364a.912.912,0,0,1,.907.913.908.908,0,0,1-1.815,0A.912.912,0,0,1,796.908,1364Z" transform="translate(-796 -1364)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="80.65" viewBox="0 0 73 80.65">
+  <g id="Group_10792" data-name="Group 10792" transform="translate(-8138 -3937.35)">
+    <g id="Group_9906" data-name="Group 9906" transform="translate(7807 2042)">
+      <circle id="Ellipse_2584" data-name="Ellipse 2584" cx="36.5" cy="36.5" r="36.5" transform="translate(331 1903)" fill="#fff"/>
+    </g>
+    <g id="Group_9937" data-name="Group 9937" transform="translate(7315.5 1920.5)">
+      <g id="Group_2717" data-name="Group 2717" transform="translate(841.5 2035.636)">
+        <path id="Path_3434" data-name="Path 3434" d="M849.812,2029.5a8.312,8.312,0,1,0,7.99,10.579h1.833l1.511,1.511,1.511-1.511h1.511l1.511,1.511,1.511-1.511h2.267l2.267-2.267-2.267-2.267H857.8A8.307,8.307,0,0,0,849.812,2029.5Z" transform="translate(-841.5 -2029.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <circle id="Ellipse_938" data-name="Ellipse 938" cx="2.41" cy="2.41" r="2.41" transform="translate(3.857 5.967)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      </g>
+      <g id="Group_2718" data-name="Group 2718" transform="translate(856.613 2017.5)">
+        <circle id="Ellipse_939" data-name="Ellipse 939" cx="0.756" cy="0.756" r="0.756" transform="translate(9.068 14.357)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <line id="Line_2207" data-name="Line 2207" y2="3.023" transform="translate(9.823 15.869)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <path id="Path_3435" data-name="Path 3435" d="M869.636,2039.613h1.511V2024.5H851.5v6.045" transform="translate(-851.5 -2013.921)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        <path id="Path_3436" data-name="Path 3436" d="M853.5,2028.079V2024.3a6.8,6.8,0,0,1,13.6,0v3.778" transform="translate(-850.477 -2017.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3849" height="2493" viewBox="0 0 3849 2493">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4288" data-name="Rectangle 4288" width="3849" height="2493" transform="translate(-779 8249)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Union_24" x="-9" y="982" width="3867" height="1065" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.012"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="wave1" transform="translate(779 -8249)" clip-path="url(#clip-path)">
+    <g id="Group_10782" data-name="Group 10782" transform="translate(-9 33)">
+      <g id="Group_10781" data-name="Group 10781" transform="translate(-264.998)">
+        <path id="Union_23" data-name="Union 23" d="M0,1867.681V9.713A1823.733,1823.733,0,0,1,239.578.678C581.38,9.713,929.417,78.493,1250.43,195.285c167.533,60.95,333.443,126.128,502.187,183.763,283.32,96.774,575.647,175.076,877.549,162.482C3026.408,525,3396.193,358.019,3785.337,298.168q31.873-4.9,63.657-7.995V1867.681Z" transform="translate(-505 8219.998)" fill="#008ae9"/>
+        <g transform="matrix(1, 0, 0, 1, -505, 8216)" filter="url(#Union_24)">
+          <path id="Union_24-2" data-name="Union 24" d="M0,1046V593.135H3849V1046ZM0,592.911V9.7A1824.241,1824.241,0,0,1,239.582.681c341.8,9.01,689.841,77.685,1010.85,194.292,167.538,60.859,333.443,125.927,502.193,183.475,283.317,96.614,575.645,174.792,877.547,162.218,396.241-16.5,766.03-183.221,1155.18-242.975q31.859-4.891,63.647-7.978v303.2Z" transform="translate(0 1001)" fill="#47baff"/>
+        </g>
+        <path id="Union_25" data-name="Union 25" d="M3609.41,1374.447c-341.8-7.208-689.838-62.137-1010.848-155.406-167.538-48.676-333.442-100.722-502.19-146.751-283.318-77.278-611.706-89.962-913.608-79.905-396.242,13.2-729.967,96.7-1119.117,144.5Q31.788,1140.8,0,1143.264V474.418H3848.991v892.816q-93.807,7.917-188.229,7.758Q3635.086,1374.992,3609.41,1374.447ZM0,474.239V7.758A2278.158,2278.158,0,0,1,239.582.545c341.8,7.208,689.84,62.135,1010.848,155.406,167.537,48.676,333.442,100.722,502.192,146.751,283.316,77.278,575.644,139.807,877.545,129.75,396.24-13.2,766.028-146.549,1155.178-194.343q31.859-3.913,63.647-6.382V474.239Z" transform="translate(-505.002 9328.59)" fill="#109aed"/>
+      </g>
+    </g>
+  </g>
+</svg>

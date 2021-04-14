@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.3" height="57.3" viewBox="0 0 57.3 57.3">
+  <defs>
+    <filter id="Ellipse_259" x="0" y="0" width="57.3" height="57.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1525" x="17.674" y="9.641" width="30.415" height="38.449" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="benefits_flexible" transform="translate(-183.35 -1338.35)">
+    <g transform="matrix(1, 0, 0, 1, 183.35, 1338.35)" filter="url(#Ellipse_259)">
+      <circle id="Ellipse_259-2" data-name="Ellipse 259" cx="18.5" cy="18.5" r="18.5" transform="translate(10.15 7.15)" fill="none" stroke="#0087e4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 183.35, 1338.35)" filter="url(#Path_1525)">
+      <path id="Path_1525-2" data-name="Path 1525" d="M204.5,1351.5v8.837l9.64,8.837" transform="translate(-176.68 -1334.71)" fill="none" stroke="#0087e4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1962" height="1247.89" viewBox="0 0 1962 1247.89">
+  <defs>
+    <filter id="Union_18" x="12" y="478" width="1938" height="541.001" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.012"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_19" x="0" y="520" width="1962" height="727.89" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7" result="blur-2"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(21)">
+    <path id="Union_17" data-name="Union 17" d="M15296,9179.657V8252.844a909.83,909.83,0,0,1,119.51-4.507c170.5,4.507,344.113,38.816,504.245,97.076,83.57,30.4,166.332,62.917,250.507,91.667,141.328,48.274,287.15,87.333,437.75,81.051,197.658-8.243,382.119-91.541,576.236-121.4q15.9-2.443,31.754-3.988v786.911Z" transform="translate(-15295.998 -8247.999)" fill="#008ae9"/>
+    <g transform="matrix(1, 0, 0, 1, -21, 0)" filter="url(#Union_18)">
+      <path id="Union_18-2" data-name="Union 18" d="M0,522V296H1920V522ZM0,295.89V4.841A909.6,909.6,0,0,1,119.511.341C290.01,4.838,463.625,39.11,623.754,97.3c83.573,30.371,166.332,62.843,250.51,91.562,141.327,48.215,287.149,87.229,437.747,80.954,197.657-8.233,382.119-91.436,576.24-121.255q15.892-2.441,31.749-3.982V295.89Z" transform="translate(21 497)" fill="#47baff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -21, 0)" filter="url(#Union_19)">
+      <path id="Union_19-2" data-name="Union 19" d="M1800.489,685.619c-170.5-3.6-344.113-31-504.243-77.522-83.573-24.281-166.332-50.243-250.509-73.2C904.409,496.345,740.6,490.018,590,495.034c-197.658,6.583-364.131,48.239-558.251,72.08Q15.857,569.066,0,570.3V3.871A1136.418,1136.418,0,0,1,119.511.273c170.5,3.6,344.114,31,504.243,77.522,83.573,24.281,166.332,50.243,250.51,73.2,141.327,38.549,287.149,69.74,437.747,64.724,197.657-6.583,382.119-73.1,576.24-96.944q15.892-1.952,31.749-3.183V682.021q-46.794,3.949-93.895,3.87Q1813.3,685.891,1800.489,685.619Z" transform="translate(21 551)" fill="#109aed"/>
+    </g>
+  </g>
+</svg>

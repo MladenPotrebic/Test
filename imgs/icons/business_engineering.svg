@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.613" height="33.772" viewBox="0 0 38.613 33.772">
+  <g id="business_engineering" transform="translate(-406.262 -1830.431)">
+    <g id="Group_8189" data-name="Group 8189" transform="translate(-2 11)">
+      <g id="Group_5398" data-name="Group 5398" transform="translate(-720.488 -343.319)">
+        <g id="Group_5397" data-name="Group 5397" transform="translate(1129.5 2163.5)">
+          <path id="Path_7430" data-name="Path 7430" d="M1166.613,2189.981a2.5,2.5,0,0,1-2.42,2.564H1131.92a2.5,2.5,0,0,1-2.421-2.564v-23.917a2.5,2.5,0,0,1,2.421-2.564h32.272a2.5,2.5,0,0,1,2.42,2.564Z" transform="translate(-1129.5 -2163.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Line_5439" data-name="Line 5439" x2="20.227" transform="translate(8.262 32.272)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Line_6020" data-name="Line 6020" x2="36" transform="translate(0.488 25.272)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Line_5440" data-name="Line 5440" y2="3.227" transform="translate(18.75 29.045)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g id="Group_4747" data-name="Group 4747" transform="translate(-616.488 -290.887)">
+        <g id="Group_4745" data-name="Group 4745" transform="translate(1039.745 2119.585)">
+          <path id="Path_6316" data-name="Path 6316" d="M1047.4,2127.13l.936-1.621-.936-.541a3.031,3.031,0,0,0,0-1.512l.936-.539-.936-1.621-.936.539a3.27,3.27,0,0,0-1.308-.748V2120h-1.872v1.088a3.269,3.269,0,0,0-1.308.748l-.936-.539-.936,1.621.936.539a3.025,3.025,0,0,0,0,1.512l-.936.541.936,1.621.936-.541a3.273,3.273,0,0,0,1.308.748v1.088h1.872v-1.088a3.274,3.274,0,0,0,1.308-.748Z" transform="translate(-1040.103 -2120)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="1"/>
+          <circle id="Ellipse_1551" data-name="Ellipse 1551" cx="1.404" cy="1.404" r="1.404" transform="translate(2.712 2.808)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Group_4746" data-name="Group 4746" transform="translate(1035.5 2114.541)">
+          <path id="Path_6317" data-name="Path 6317" d="M1042.981,2113.5h-.015c-2.111,2.117-8.466,3.83-8.466,3.83,0,6.746.424,12.677,8.474,15.66,8.05-2.982,8.474-8.914,8.474-15.66C1051.448,2117.33,1045.092,2115.617,1042.981,2113.5Z" transform="translate(-1034.5 -2113.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

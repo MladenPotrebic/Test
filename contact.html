@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rationaletech - Contact</title>
+
+    <!-- Modules -->
+    <!-- Google maps -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXbMetMYBDPEO8e1pQgLRwtud3yOSjQRw&callback=initMap&libraries=&v=weekly"
+        defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JS -->
+    <script src="js/contact.js"></script>
+
+
+</head>
+
+<body>
+    <div class="body_wrap">
+
+        <div class="navigations_container navigations_container_negative">
+            <div class="content">
+                <div class="logo" onclick="moveToHomePage()"></div>
+                <div class="navigations">
+                    <a class="navigations_item" href="index.html">Home</a>
+                    <a class="navigations_item" href="products.html">Products</a>
+                    <a class="navigations_item" href="services.html">Services</a>
+                    <a class="navigations_item" href="support.html">Support</a>
+                    <a class="navigations_item" href="career.html">Career</a>
+                    <a class="navigations_item" href="team.html">About Us</a>
+                    <a class="navigations_item navigations_item-active" href="contact.html">Contact</a>
+                </div>
+                <div class="contact">
+                    <div class="contact-btn">
+                        Contact Us
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigations_container-M">
+            <div class="header">
+                <div class="logo" onclick="moveToHomePage()"></div>
+                <div class="navigations_btn">
+                    <span class="navigations_btn_line-1"></span>
+                    <span class="navigations_btn_line-2"></span>
+                    <span class="navigations_btn_line-3"></span>
+                </div>
+            </div>
+            <div class="content_background">
+                <div class="background"></div>
+            </div>
+            <div class="content_navigations">
+                <a class="navigations_item navigations_item-active" href="index.html">Home</a>
+                <a class="navigations_item" href="products.html">Products</a>
+                <a class="navigations_item" href="services.html">Services</a>
+                <a class="navigations_item" href="support.html">Support</a>
+                <a class="navigations_item" href="career.html">Career</a>
+                <a class="navigations_item" href="team.html">About Us</a>
+                <a class="navigations_item" href="contact.html">Contact</a>
+            </div>
+        </div>
+
+
+        <div class="contact_header_container">
+            <!-- <div class="illustration">
+                <img src="imgs/backgrounds/header_contact1.svg">
+            </div> -->
+            <div class="content">
+                <div class="article">
+                    <div class="article_content">
+                        <div class="article_title">Send us a message</div>
+                    <div class="article_text">
+                        Whatever you have a question about features, trials, pricing, need a demo, or anything else, our team is ready to answer all your questions.
+                    </div>
+                    <div class="article_form">
+                        <form action="" name="contact">
+                            <div class="form-container">
+                                <div class="f-basic-c col-2">
+                                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                                </div>
+                                <div class="f-basic-c col-2">
+                                    <input type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+                                </div>
+                                <div class="f-basic-c">
+                                    <input type="text" name="email" id="email" placeholder="Enter Your Email">
+                                </div>
+                                <div class="f-textarea-c">
+                                    <textarea type="text" placeholder="Enter Your Message"
+                                        formControlName="description"></textarea>
+                                </div>
+                                <button class="btn btn-submit" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                    <img src="imgs/backgrounds/header-contact.svg" class="article_image">
+                </div>
+            </div>
+        </div>
+
+        <div class="contact_offices_container">
+            <div class="header">
+                <div class="header_title">
+                    Connect with us
+                </div>
+                <div class="header_subtitle header_subtitle-XL">
+                    Our main office is in Abu Dhabi, United Arab Emirates and our research and development Center is in Novi Sad, Republic of Serbia.
+                </div>
+            </div>
+            <div class="content">
+                <div class="offices">
+                    <div class="map">
+                        <div class="office_info research">
+                            <div class="office_info_subtitle">REPUBLIC OF SERBIA</div>
+                            <div class="office_info_title">Novi Sad</div>
+                            <div class="office_info_details">Research and Development Center</div>
+                            <div class="office_info_details_hover">Zmaj Jovina 26, Novi Sad</div>
+                            <div class="office_info_details_hover">+ 381 64 236 26 28</div>
+                            <div class="office_info_details_hover">office@rationaletech.com</div>
+                        </div>
+                        <div class="office_info headquarters">
+                            <div class="office_info_subtitle">UNITED ARAB EMIRATES</div>
+                            <div class="office_info_title">Abu Dhabi</div>
+                            <div class="office_info_details">Headquarters</div>
+                            <div class="office_info_details_hover"></div>
+                            <div class="office_info_details_hover">P.O. Box 7891, Street 13</div>
+                            <div class="office_info_details_hover">+ 971 2 6273701</div>
+                            <div class="office_info_details_hover">dubai-office@rationaletech.com</div>
+                        </div>
+                    </div>
+                    <!-- <div class="office">
+                        <div id="map-serbia" style="height: 400px;" class="office_map"></div>
+                        <div class="office_informations">
+                            <div class="office_informations_country">
+                                REPUBLIC OF SERBIA
+                            </div>
+                            <div class="office_informations_title">
+                                Research and Development Center
+                            </div>
+                            <div class="office_informations_address">
+                                Zmaj Jovina 26, Novi Sad  office@rationaletech.com
+                            </div>
+                            <div class="office_informations_contactUs">
+                                <button class="btn office_informations_contacUs_btn">Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="office">
+                        <div id="map-emirates" style="height: 400px;" class="office_map"></div>
+                        <div class="office_informations">
+                            <div class="office_informations_country">
+                                UNITED ARAB EMIRATES
+                            </div>
+                            <div class="office_informations_title">
+                                Headquarters
+                            </div>
+                            <div class="office_informations_address">
+                                P.O. Box 7891, Street 13  dubai-office@rationaletech.com
+                            </div>
+                            <div class="office_informations_contactUs">
+                                <button class="btn office_informations_contacUs_btn">Contact Us</button>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_container footer_container-section">
+            <div class="content">
+                <div class="footer_item-logo">
+                    <div class="rationale_logo" onclick="moveToHomePage()"></div>
+                </div>
+                <div class="footer_item footer_item-company">
+                    <div class="footer_item_title">
+                        Company
+                    </div>
+                    <div class="footer_item_data">
+                        Support
+                    </div>
+                    <div class="footer_item_data">
+                        Products
+                    </div>
+                    <div class="footer_item_data">
+                        Career
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <div class="footer_item_title">
+                        UNITED ARAB EMIRATES
+                    </div>
+                    <div class="footer_item_data">
+                        P.O. Box 7891, Street 13
+                    </div>
+                    <div class="footer_item_data">
+                        + 971 2 6273701
+                    </div>
+                    <div class="footer_item_data">
+                        dubai-office@rationaletech.com
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <div class="footer_item_title">
+                        REPUBLIC OF SERBIA
+                    </div>
+                    <div class="footer_item_data">
+                        Zmaj Jovina 26, Novi Sad
+                    </div>
+                    <div class="footer_item_data">
+                        + 381 64 236 26 28
+                    </div>
+                    <div class="footer_item_data">
+                        office@rationaletech.com
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                © 2020. Rationaletech.com All rights reserved
+            </div>
+        </div>
+        <div class="scroll-button-container" onclick="scrollToTop()">
+            <button class="scroll-button">
+                <div class="arrow-image"></div>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

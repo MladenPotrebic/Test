@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="106" viewBox="0 0 106 106">
+  <defs>
+    <filter id="Ellipse_2585" x="0" y="0" width="106" height="106" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="support_services" transform="translate(-905.5 -1486.5)">
+    <g id="Group_9893" data-name="Group 9893" transform="translate(41 -409)">
+      <g transform="matrix(1, 0, 0, 1, 864.5, 1895.5)" filter="url(#Ellipse_2585)">
+        <circle id="Ellipse_2585-2" data-name="Ellipse 2585" cx="36.5" cy="36.5" r="36.5" transform="translate(16.5 16.5)" fill="#007ee1"/>
+      </g>
+    </g>
+    <g id="Group_232" data-name="Group 232" transform="translate(652.5 -490.499)">
+      <path id="Path_268" data-name="Path 268" d="M313.558,2037.3l4.525-3.77H312.8l-3-6.033-3,6.033h-5.3l4.548,3.77-2.262,6.787,6.021-4.134,6.021,4.134Z" transform="translate(6.094 4.574)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.3"/>
+      <g id="Group_231" data-name="Group 231" transform="translate(289.5 2018.5)">
+        <g id="Group_230" data-name="Group 230">
+          <path id="Path_269" data-name="Path 269" d="M303.828,2039.615H291.762a2.263,2.263,0,0,1-2.262-2.262v-16.59a2.263,2.263,0,0,1,2.262-2.263H318.91a2.263,2.263,0,0,1,2.262,2.263v12.065" transform="translate(-289.5 -2018.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+          <path id="Path_270" data-name="Path 270" d="M320.164,2019l-15.082,12.065L290,2019" transform="translate(-289.246 -2018.246)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

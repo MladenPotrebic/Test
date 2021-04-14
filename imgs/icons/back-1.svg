@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.039" height="83.039" viewBox="0 0 83.039 83.039">
+  <defs>
+    <filter id="Path_8268" x="0" y="0" width="83.039" height="83.039" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="back-1" transform="translate(-1797.5 -534.216)">
+    <g transform="matrix(1, 0, 0, 1, 1797.5, 534.22)" filter="url(#Path_8268)">
+      <path id="Path_8268-2" data-name="Path 8268" d="M25.02,0A25.02,25.02,0,1,1,0,25.02,25.02,25.02,0,0,1,25.02,0Z" transform="translate(16.5 16.5)" fill="#007ee1"/>
+    </g>
+    <g id="Group_8248" data-name="Group 8248" transform="translate(1826.641 566.064)">
+      <g id="Group_8231" data-name="Group 8231" transform="translate(0 0)">
+        <line id="Line_6021" data-name="Line 6021" x1="8.461" y2="9.518" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5"/>
+        <line id="Line_6022" data-name="Line 6022" x1="8.461" y1="9.518" transform="translate(0 9.518)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5"/>
+      </g>
+      <line id="Line_6026" data-name="Line 6026" x1="25.177" transform="translate(1.371 9.595)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>
