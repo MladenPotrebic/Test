@@ -19,15 +19,15 @@
 
     <script src='https://code.createjs.com/1.0.0/createjs.min.js'></script>
 
-     <!-- Animation - Banner -->
-     <script src="animate/banner_2/Banner.js?1609119149579"></script>
-     <script src="animate/banner_2/Banner-Start.js"></script>
-     <!-- Animation - Research Inteligence -->
-     <!-- <script src="animate/Research_Intelligence/research_inteligence.js"></script> -->
+    <!-- Animation - Banner -->
+    <script src="animate/banner_2/Banner.js?1609119149579"></script>
+    <script src="animate/banner_2/Banner-Start.js"></script>
+    <!-- Animation - Research Inteligence -->
+    <!-- <script src="animate/Research_Intelligence/research_inteligence.js"></script> -->
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
-    
+
     <!-- JS -->
     <script src="js/main.js"></script>
     <script src="js/home.js"></script>
@@ -35,31 +35,62 @@
 
 </head>
 
-<body onload="init();" style="margin:0px;">
+<body onload="init();">
     <div class="body_wrap">
-        <!-- Naviagation-->
 
-        <div class="navigations_container">
+        <!-- Naviagations-->
+        <div class="navigations_c">
             <div class="content">
-                <div class="logo" onclick="moveToHomePage()"></div>
-                <div class="navigations">
-                    <a class="navigations_item navigations_item-active" href="index.html">Home</a>
-                    <a class="navigations_item" href="products.html">Products</a>
-                    <a class="navigations_item" href="services.html">Services</a>
-                    <a class="navigations_item" href="support.html">Support</a>
-                    <a class="navigations_item" href="career.html">Career</a>
-                    <a class="navigations_item" href="team.html">About Us</a>
-                    <a class="navigations_item" href="contact.html">Contact</a>
+                <div class="content__logo" onclick="moveToHomePage()"></div>
+                <div class="content__navigations">
+                    <a class="navigation navigation--active" href="index.html" target="_top">Home</a>
+                    <a class="navigation" href="products.html" target="_top">Products</a>
+                    <a class="navigation" href="services.html" target="_top">Services</a>
+                    <a class="navigation" href="support.html" target="_top">Support</a>
+                    <a class="navigation" href="career.html" target="_top">Career</a>
+                    <a class="navigation" href="team.html" target="_top">About Us</a>
+                    <a class="navigation" href="contact.html" target="_top">Contact</a>
                 </div>
-                <div class="contact">
-                    <div class="contact-btn">
+                <div class="content__contact">
+                    <button class="btn">
                         Contact Us
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
 
-        <div class="navigations_container-M">
+        <div class="navigation_c--m">
+            <div class="content">
+                <div class="logo"></div>
+                <div class="ham" onclick="toggleNav()">
+                    <div class="ham__line ham__line--1"></div>
+                    <div class="ham__line ham__line--2"></div>
+                    <div class="ham__line ham__line--3"></div>
+                </div>
+                <div id="nav" class="navigations">
+                    <div class="nav-logo"></div>
+                    <a class="nav nav--active" href="index.html" target="_top">Home</a>
+                    <a class="nav" href="products.html" target="_top">Products</a>
+                    <a class="nav" href="services.html" target="_top">Services</a>
+                    <a class="nav" href="support.html" target="_top">Support</a>
+                    <a class="nav" href="career.html" target="_top">Career</a>
+                    <a class="nav" href="team.html" target="_top">About Us</a>
+                    <a class="nav" href="contact.html" target="_top">Contact</a>
+                </div>
+                <div id="nav_bg" class="navigations_bg" >
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- <div class="navigations_container-M">
             <div class="header">
                 <div class="logo" onclick="moveToHomePage()"></div>
                 <div class="navigations_btn">
@@ -80,14 +111,15 @@
                     <a class="navigations_item" href="team.html">About Us</a>
                     <a class="navigations_item" href="contact.html">Contact</a>
             </div>
-        </div>
+        </div> -->
 
-        <div class="innovative_container"> 
+        <div class="innovative_container">
             <div class="content">
                 <div class="placeholder_container">
                     <img src="imgs/placeholders/innovative_thinking.svg">
                 </div>
-                <div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:2526px; height:1170px">
+                <div id="animation_container"
+                    style="background-color:rgba(255, 255, 255, 1.00); width:2526px; height:1170px">
                     <canvas id="canvas" width="100%" height="auto"
                         style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
                     <div id="dom_overlay_container"
@@ -104,7 +136,8 @@
                         with the most applicable solution
                     </div>
                     <div class="introduction_content-mob">
-                        Every issue is a challenge of its own. Once the issue is understood and technologies analyzed, we are bridging them together with the best solution.
+                        Every issue is a challenge of its own. Once the issue is understood and technologies analyzed,
+                        we are bridging them together with the best solution.
                     </div>
                     <div class="introduction_footer">
                         <button class="introduction_footer_contactUs">
@@ -123,7 +156,7 @@
                         </div>
                     </div>
 
-                    
+
                     <div class="about_card about_whatWeThink">
                         <div class="about_card_title">
                             What we think
@@ -133,7 +166,7 @@
                             core business and to be the main driving force for product, service, and process innovation.
                         </div>
                     </div>
-                    
+
                     <div class="about_card about_whyWeAreDifferent">
                         <div class="about_card_title">
                             Why we are different
@@ -146,7 +179,7 @@
 
 
                 </div>
-                
+
             </div>
         </div>
 
@@ -189,7 +222,8 @@
                                     Big Data & Analytics
                                 </div>
                                 <div class="card_text">
-                                    Gain greater insights that improve business processes and ideas that drive game-changing
+                                    Gain greater insights that improve business processes and ideas that drive
+                                    game-changing
                                     outcomes.
                                 </div>
                             </div>
@@ -203,7 +237,8 @@
                                     Social Data Mining
                                 </div>
                                 <div class="card_text">
-                                    Use large-scale social media data to innovate your organization core business and broaden
+                                    Use large-scale social media data to innovate your organization core business and
+                                    broaden
                                     the
                                     target audience.
                                 </div>
@@ -218,7 +253,8 @@
                                     Cognitive Solutions
                                 </div>
                                 <div class="card_text">
-                                    Unlock the potential in all data - internal, external, structured, and unstructured - and
+                                    Unlock the potential in all data - internal, external, structured, and unstructured
+                                    - and
                                     make
                                     it work together.
                                 </div>
@@ -248,7 +284,8 @@
                                     Mobility
                                 </div>
                                 <div class="card_text">
-                                    Transform your organization to deliver more relevant and personalized user engagements at
+                                    Transform your organization to deliver more relevant and personalized user
+                                    engagements at
                                     the
                                     market speed.
                                 </div>
@@ -278,7 +315,8 @@
                                     Research
                                 </div>
                                 <div class="card_text">
-                                    Minimize uncertainty and mitigate the risk of emerging technologies by using our advanced
+                                    Minimize uncertainty and mitigate the risk of emerging technologies by using our
+                                    advanced
                                     research department.
                                 </div>
                             </div>
@@ -324,7 +362,8 @@
                                     Big Data & Analytics
                                 </div>
                                 <div class="card_text">
-                                    Gain greater insights that improve business processes and ideas that drive game-changing
+                                    Gain greater insights that improve business processes and ideas that drive
+                                    game-changing
                                     outcomes.
                                 </div>
                             </div>
@@ -338,7 +377,8 @@
                                     Social Data Mining
                                 </div>
                                 <div class="card_text">
-                                    Use large-scale social media data to innovate your organization core business and broaden
+                                    Use large-scale social media data to innovate your organization core business and
+                                    broaden
                                     the
                                     target audience.
                                 </div>
@@ -353,7 +393,8 @@
                                     Cognitive Solutions
                                 </div>
                                 <div class="card_text">
-                                    Unlock the potential in all data - internal, external, structured, and unstructured - and
+                                    Unlock the potential in all data - internal, external, structured, and unstructured
+                                    - and
                                     make
                                     it work together.
                                 </div>
@@ -383,7 +424,8 @@
                                     Mobility
                                 </div>
                                 <div class="card_text">
-                                    Transform your organization to deliver more relevant and personalized user engagements at
+                                    Transform your organization to deliver more relevant and personalized user
+                                    engagements at
                                     the
                                     market speed.
                                 </div>
@@ -413,14 +455,15 @@
                                     Research
                                 </div>
                                 <div class="card_text">
-                                    Minimize uncertainty and mitigate the risk of emerging technologies by using our advanced
+                                    Minimize uncertainty and mitigate the risk of emerging technologies by using our
+                                    advanced
                                     research department.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button id="btn--owl--next--IYB"class="btn--next"></button>
+                <button id="btn--owl--next--IYB" class="btn--next"></button>
             </div>
         </div>
 
@@ -620,13 +663,14 @@
                         <div class="product_description_products_c">
                             <div id="btn--owl--next--PD" class="product_description_prevProduct"></div>
                             <div id="owl--PD" class="product_description_products owl-carousel ">
-                            
+
                                 <div class="item product_description_product">
                                     <div class="product_description_content_title">
                                         Meeting Management Platform (Meetie)
                                     </div>
                                     <div class="product_description_content_text">
-                                        Enhance your board meetings experience with easy-to-use system with a vast pool of
+                                        Enhance your board meetings experience with easy-to-use system with a vast pool
+                                        of
                                         features that save time and make it enjoyable to work with
                                     </div>
                                     <div class="product_description_content_more">
@@ -640,7 +684,8 @@
                                         News Management System
                                     </div>
                                     <div class="product_description_content_text">
-                                        Be briefed on what's going on in your work environment. Get in touch with new technologies and procedures, 
+                                        Be briefed on what's going on in your work environment. Get in touch with new
+                                        technologies and procedures,
                                         and find new and useful information related to your work.
                                     </div>
                                     <div class="product_description_content_more">
@@ -654,7 +699,8 @@
                                         Souq
                                     </div>
                                     <div class="product_description_content_text">
-                                        Easy to use all-in-one Buy, Sell and Bid solution for your company and employees to have fun while bidding, 
+                                        Easy to use all-in-one Buy, Sell and Bid solution for your company and employees
+                                        to have fun while bidding,
                                         purchasing and selling company and personal items.
                                     </div>
                                     <div class="product_description_content_more">
@@ -668,8 +714,10 @@
                                         Corporate Tender Board Management System
                                     </div>
                                     <div class="product_description_content_text">
-                                        Manage the tender board process with this easy-to-use governing tool specially designed to meet all your needs 
-                                        offering a plethora of features that will help you enhance your tender board managing process.
+                                        Manage the tender board process with this easy-to-use governing tool specially
+                                        designed to meet all your needs
+                                        offering a plethora of features that will help you enhance your tender board
+                                        managing process.
                                     </div>
                                     <div class="product_description_content_more">
                                         <div class="product_description_content_more_btn">
@@ -682,7 +730,8 @@
                                         Offers Management System
                                     </div>
                                     <div class="product_description_content_text">
-                                        Get the best and latest deals and discounts for your employees and business partners by using Offers App
+                                        Get the best and latest deals and discounts for your employees and business
+                                        partners by using Offers App
                                     </div>
                                     <div class="product_description_content_more">
                                         <div class="product_description_content_more_btn">
@@ -710,7 +759,7 @@
 
         <div class="companies_container--m">
             <div class="content">
-                <div id="owl--C"  class="companies owl-carousel">
+                <div id="owl--C" class="companies owl-carousel">
                     <div class="company">
                         <img class="company__img" src="imgs/companies/Adnoc.svg">
                     </div>
@@ -724,7 +773,7 @@
             </div>
         </div>
 
-        <div class="contact_container" >
+        <div class="contact_container">
             <div class="content">
                 <div class="contact">
                     <div class="contact_title">
@@ -743,7 +792,7 @@
             </div>
         </div>
 
-        <div class="footer_container" >
+        <div class="footer_container">
             <div class="content">
                 <div class="footer_item-logo">
                     <div class="rationale_logo" onclick="moveToHomePage()"></div>
@@ -795,8 +844,8 @@
                 © 2020. Rationaletech.com All rights reserved
             </div>
         </div>
-        
-        
+
+
         <div class="scroll-button-container" style="display: none;" onclick="scrollToTop()">
             <button class="scroll-button">
                 <div class="arrow-image"></div>
