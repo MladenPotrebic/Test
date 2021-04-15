@@ -604,7 +604,7 @@ html, body {
   margin: 8px 0;
 }
 .navigation_c--m .content .navigations_bg {
-  display: flex;
+  display: none;
   position: fixed;
   top: 50%;
   right: 50%;
@@ -624,7 +624,7 @@ html, body {
   display: flex;
 }
 .navigation_c--m .content .navigations {
-  display: flex;
+  display: none;
   position: fixed;
   z-index: 9999;
   top: 0;

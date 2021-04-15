@@ -1515,7 +1515,7 @@ $img-wave: "products/img-wave.svg";
             }
         }
         .navigations_bg{
-            display: flex;
+            display: none;
             position: fixed;
             top: 50%;
             right: 50%;
@@ -1538,7 +1538,7 @@ $img-wave: "products/img-wave.svg";
           
         }
         .navigations {
-            display: flex;
+            display: none;
             position: fixed;
             z-index: 9999;
             top:0;
