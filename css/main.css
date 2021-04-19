@@ -1,3 +1,4 @@
+@import "../css/modules/animate.min.css";
 html, body, div, span, applet, object, iframe,
 p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -458,6 +459,7 @@ html, body {
   width: 100%;
   margin: 0 auto;
   scroll-behavior: smooth;
+  overflow-y: hidden;
 }
 
 @keyframes animNavBgIn {
@@ -478,22 +480,22 @@ html, body {
     opacity: 100%;
   }
 }
-.navigations_c {
+#navigation {
   max-width: 1600px;
   margin: 0 auto;
   position: relative;
 }
 @media only screen and (max-width: 1699px) {
-  .navigations_c {
+  #navigation {
     margin: 0 50px;
   }
 }
 @media only screen and (max-width: 999px) {
-  .navigations_c {
+  #navigation {
     margin: 0 20px;
   }
 }
-.navigations_c .content {
+#navigation .content {
   position: absolute;
   z-index: 1000;
   width: 100%;
@@ -502,7 +504,7 @@ html, body {
   align-items: center;
   justify-content: space-between;
 }
-.navigations_c .content__logo {
+#navigation .content__logo {
   width: 180px;
   min-width: 180px;
   height: 50px;
@@ -510,10 +512,10 @@ html, body {
   background-size: auto 32px;
   cursor: pointer;
 }
-.navigations_c .content__navigations {
+#navigation .content__navigations {
   display: flex;
 }
-.navigations_c .content__navigations .navigation {
+#navigation .content__navigations .nav {
   margin: 0 15px;
   font-family: "Segoe-UI";
   color: #2b2b2b;
@@ -522,63 +524,65 @@ html, body {
   text-decoration: none;
   border-bottom: 2px solid transparent;
   cursor: pointer;
+  transition: transform 0.3s;
 }
 @media only screen and (max-width: 1899px) {
-  .navigations_c .content__navigations .navigation {
+  #navigation .content__navigations .nav {
     font-size: 1.035rem;
   }
 }
 @media only screen and (max-width: 1699px) {
-  .navigations_c .content__navigations .navigation {
+  #navigation .content__navigations .nav {
     font-size: 0.9rem;
   }
 }
-.navigations_c .content__navigations .navigation:hover {
+#navigation .content__navigations .nav:hover {
   color: #007ee1;
+  transform: scale(1.03);
 }
-.navigations_c .content__navigations .navigation--active {
+#navigation .content__navigations .nav--active {
   color: #007ee1;
   border-color: #007ee1;
 }
-.navigations_c .content__contact {
+#navigation .content__contact {
   width: 180px;
   display: flex;
   justify-content: flex-end;
 }
 @media only screen and (max-width: 1199px) {
-  .navigations_c .content__contact {
+  #navigation .content__contact {
     display: none;
   }
 }
-.navigations_c--negative .navigation {
+#navigation--negative .navigation {
   color: white;
 }
-.navigations_c--negative .navigation--active {
+#navigation--negative .navigation--active {
   border-color: white;
 }
 @media only screen and (max-width: 991px) {
-  .navigations_c {
+  #navigation {
     display: none;
   }
 }
 
-.navigation_c--m {
+#navigation--m {
   max-width: 1600px;
   margin: 0 auto;
   position: relative;
   display: none;
 }
 @media only screen and (max-width: 1699px) {
-  .navigation_c--m {
+  #navigation--m {
     margin: 0 50px;
   }
 }
 @media only screen and (max-width: 999px) {
-  .navigation_c--m {
+  #navigation--m {
     margin: 0 20px;
   }
 }
-.navigation_c--m .content {
+#navigation--m .content {
   position: absolute;
   z-index: 1000;
   width: 100%;
@@ -587,23 +591,23 @@ html, body {
   align-items: center;
   justify-content: space-between;
 }
-.navigation_c--m .content .logo {
+#navigation--m .content .logo {
   width: 180px;
   min-width: 180px;
   height: 50px;
   background: url("../imgs/logos/Rationaletech-2.svg") no-repeat center left;
   background-size: auto 32px;
 }
-.navigation_c--m .content .ham__line {
-  border-top: 2.5px solid #007ee1;
+#navigation--m .content .ham__line {
+  border-top: 2.5px solid white;
   display: block;
   transition: margin 0.5s, transform 0.5s;
   width: 30px;
 }
-.navigation_c--m .content .ham__line--2 {
+#navigation--m .content .ham__line--2 {
   margin: 8px 0;
 }
-.navigation_c--m .content .navigations_bg {
+#navigation--m .content .navigations_bg {
   display: none;
   position: fixed;
   top: 50%;
@@ -620,10 +624,10 @@ html, body {
   align-items: center;
   justify-content: center;
 }
-.navigation_c--m .content .navigations_bg--active {
+#navigation--m .content .navigations_bg--active {
   display: flex;
 }
-.navigation_c--m .content .navigations {
+#navigation--m .content .navigations {
   display: none;
   position: fixed;
   z-index: 9999;
@@ -640,7 +644,7 @@ html, body {
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
 }
-.navigation_c--m .content .navigations .nav-logo {
+#navigation--m .content .navigations .nav--logo {
   width: 180px;
   min-width: 180px;
   height: 50px;
@@ -648,7 +652,7 @@ html, body {
   background-size: 180px auto;
   margin-bottom: 25px;
 }
-.navigation_c--m .content .navigations .nav {
+#navigation--m .content .navigations .nav {
   margin: 7px;
   padding-bottom: 3px;
   font-family: "Segoe-UI";
@@ -659,155 +663,29 @@ html, body {
   cursor: pointer;
 }
 @media only screen and (max-width: 1899px) {
-  .navigation_c--m .content .navigations .nav {
+  #navigation--m .content .navigations .nav {
     font-size: 1.035rem;
   }
 }
 @media only screen and (max-width: 1699px) {
-  .navigation_c--m .content .navigations .nav {
+  #navigation--m .content .navigations .nav {
     font-size: 0.9rem;
   }
 }
-.navigation_c--m .content .navigations .nav:hover {
+#navigation--m .content .navigations .nav:hover {
   color: white;
 }
-.navigation_c--m .content .navigations .nav--active {
+#navigation--m .content .navigations .nav--active {
   color: white;
   border-color: white;
 }
-.navigation_c--m .content .navigations--active {
+#navigation--m .content .navigations--active {
   display: flex;
 }
 @media only screen and (max-width: 991px) {
-  .navigation_c--m {
+  #navigation--m {
     display: block;
   }
-}
-
-.navigations_container-M {
-  display: none;
-  position: relative;
-  max-width: 1600px;
-  margin: 0 auto;
-}
-@media only screen and (max-width: 1699px) {
-  .navigations_container-M {
-    margin: 0 50px;
-  }
-}
-@media only screen and (max-width: 999px) {
-  .navigations_container-M {
-    margin: 0 20px;
-  }
-}
-.navigations_container-M .header {
-  position: absolute;
-  z-index: 1000;
-  width: 100%;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.navigations_container-M .header .logo {
-  width: 180px;
-  min-width: 180px;
-  height: 50px;
-  background: url("../imgs/logos/Rationaletech-1.svg") no-repeat center left;
-  background-size: auto 32px;
-}
-@media only screen and (max-width: 934px) {
-  .navigations_container-M .header .logo {
-    width: 130px;
-    min-width: 130px;
-    height: 50px;
-    background: url("../imgs/logos/Rationaletech-1.svg") no-repeat center left;
-    background-size: auto 26px;
-    cursor: pointer;
-  }
-}
-.navigations_container-M .header .navigations_btn {
-  padding: 0;
-  transition: transform 0.5s;
-}
-.navigations_container-M .header .navigations_btn * {
-  border-top: 3px solid #007ee1;
-  display: block;
-  transition: margin 0.5s, transform 0.5s;
-  width: 30px;
-}
-.navigations_container-M .header .navigations_btn .navigations_btn_line-2 {
-  margin: 8px 0;
-}
-.navigations_container-M .header .navigations_btn-close {
-  padding: 15px 0px;
-}
-.navigations_container-M .header .navigations_btn-close .navigations_btn_line-1 {
-  transform: rotate(45deg);
-}
-.navigations_container-M .header .navigations_btn-close .navigations_btn_line-2 {
-  margin: -3px 0;
-  opacity: 0;
-}
-.navigations_container-M .header .navigations_btn-close .navigations_btn_line-3 {
-  transform: rotate(-45deg);
-}
-.navigations_container-M .content_background {
-  display: none;
-  position: absolute;
-  z-index: 800;
-  left: -15px;
-  right: -15px;
-  overflow: hidden;
-  height: 100vh;
-}
-.navigations_container-M .content_background .background {
-  position: absolute;
-  width: 400vh;
-  height: 400vh;
-  top: -400vh;
-  right: -400vh;
-  border-radius: 50%;
-  background-color: #109aed;
-}
-.navigations_container-M .content_background-active {
-  display: block;
-}
-.navigations_container-M .content_background-active .background {
-  animation: navigateBackgroundIn 0.5s linear forwards;
-}
-.navigations_container-M .content_navigations {
-  position: absolute;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index: 900;
-  left: -15px;
-  right: -15px;
-  height: 100vh;
-  opacity: 0;
-}
-.navigations_container-M .content_navigations .navigations_item {
-  text-decoration: none;
-  font-family: "Segoe-UI-Semi-Bold";
-  color: white;
-  font-size: 1.8rem;
-  margin: 10px 0;
-}
-@media only screen and (max-width: 1899px) {
-  .navigations_container-M .content_navigations .navigations_item {
-    font-size: 1.725rem;
-  }
-}
-@media only screen and (max-width: 1699px) {
-  .navigations_container-M .content_navigations .navigations_item {
-    font-size: 1.5rem;
-  }
-}
-.navigations_container-M .content_navigations-active {
-  display: flex;
-  animation: 0.5s navigateContentIn 0.5s linear forwards;
 }
 
 .footer_container {
@@ -919,31 +797,31 @@ html, body {
   border-top: 1px solid #cbcbcb;
 }
 
-.innovative_container {
+#innovative {
   overflow: hidden;
   max-width: 100vw;
 }
-.innovative_container .content {
+#innovative .content {
   max-width: 1600px;
   margin: 0 auto;
   position: relative;
 }
 @media only screen and (max-width: 1699px) {
-  .innovative_container .content {
+  #innovative .content {
     margin: 0 50px;
   }
 }
 @media only screen and (max-width: 999px) {
-  .innovative_container .content {
+  #innovative .content {
     margin: 0 20px;
   }
 }
-.innovative_container .content .placeholder_container img {
+#innovative .content .animation_home--placeholder img {
   width: 155%;
   height: auto;
   margin-top: calc(-10% + 70px);
 }
-.innovative_container .content #animation_container {
+#innovative .content #animation_home {
   position: absolute;
   top: 0;
   margin-top: calc(-10% + 70px);
@@ -951,257 +829,209 @@ html, body {
   width: 155% !important;
   height: auto !important;
 }
-.innovative_container .content #animation_container * {
+#innovative .content #animation_home * {
   width: 100% !important;
   height: auto !important;
 }
-.innovative_container .content .introduction {
+#innovative .content .introduction {
   position: absolute;
   top: 36%;
   width: 33%;
   left: calc(3% + 70px);
+  visibility: hidden;
 }
-.innovative_container .content .introduction > .introduction_title {
+#innovative .content .introduction .card__title {
   font-family: "Segoe-UI-Bold";
   color: #2b2b2b;
   font-size: 2.4rem;
 }
 @media only screen and (max-width: 1899px) {
-  .innovative_container .content .introduction > .introduction_title {
+  #innovative .content .introduction .card__title {
     font-size: 2.3rem;
   }
 }
 @media only screen and (max-width: 1699px) {
-  .innovative_container .content .introduction > .introduction_title {
+  #innovative .content .introduction .card__title {
     font-size: 2rem;
   }
 }
-.innovative_container .content .introduction > .introduction_content {
-  margin-top: 20px;
+#innovative .content .introduction .card__content {
   font-family: "Segoe-UI";
   color: #707070;
   font-size: 1.2rem;
+  margin-top: 20px;
 }
 @media only screen and (max-width: 1899px) {
-  .innovative_container .content .introduction > .introduction_content {
+  #innovative .content .introduction .card__content {
     font-size: 1.15rem;
   }
 }
 @media only screen and (max-width: 1699px) {
-  .innovative_container .content .introduction > .introduction_content {
+  #innovative .content .introduction .card__content {
     font-size: 1rem;
   }
 }
-.innovative_container .content .introduction > .introduction_content-mob {
-  display: none;
-  margin-top: 10px;
-  font-family: "Segoe-UI";
-  color: #707070;
-  font-size: 1.2rem;
-}
-@media only screen and (max-width: 1899px) {
-  .innovative_container .content .introduction > .introduction_content-mob {
-    font-size: 1.15rem;
-  }
-}
-@media only screen and (max-width: 1699px) {
-  .innovative_container .content .introduction > .introduction_content-mob {
-    font-size: 1rem;
-  }
-}
-.innovative_container .content .introduction > .introduction_content-mob {
-  display: none;
-}
-.innovative_container .content .introduction > .introduction_footer {
-  margin-top: 20px;
-}
-.innovative_container .content .introduction > .introduction_footer > .introduction_footer_contactUs {
-  border: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 6px 15px;
-  border-radius: 15px 0 15px 0;
-  font-family: "Segoe-UI";
-  color: white;
-  font-size: 1.08rem;
-  transition: all 0.2s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  background-color: #007ee1;
-  cursor: pointer;
-}
-@media only screen and (max-width: 1899px) {
-  .innovative_container .content .introduction > .introduction_footer > .introduction_footer_contactUs {
-    font-size: 1.035rem;
-  }
-}
-@media only screen and (max-width: 1699px) {
-  .innovative_container .content .introduction > .introduction_footer > .introduction_footer_contactUs {
-    font-size: 0.9rem;
-  }
-}
-.innovative_container .content .introduction > .introduction_footer > .introduction_footer_contactUs:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background-color: #006dc2;
-  transition: all 0.2s;
-  border-radius: 15px 0 15px 0;
-  z-index: -1;
-}
-.innovative_container .content .introduction > .introduction_footer > .introduction_footer_contactUs:hover {
-  color: #fff;
-}
-.innovative_container .content .introduction > .introduction_footer > .introduction_footer_contactUs:hover:before {
-  width: 100%;
-}
-@media only screen and (max-width: 1399px) {
-  .innovative_container .content .introduction {
+@media only screen and (max-width: 1199px) {
+  #innovative .content .introduction {
+    top: 33%;
+    width: 33%;
     left: calc(3% + 50px);
   }
-  .innovative_container .content .introduction .introduction_content {
-    display: none;
-  }
-  .innovative_container .content .introduction .introduction_content-mob {
-    display: block;
-  }
 }
-@media only screen and (max-width: 1049px) {
-  .innovative_container .content .introduction .introduction_title {
-    left: calc(3% + 40px);
-    top: 33%;
+@media only screen and (max-width: 1099px) {
+  #innovative .content .introduction .card__title {
     font-family: "Segoe-UI-Bold";
     color: #2b2b2b;
     font-size: 1.92rem;
   }
 }
-@media only screen and (max-width: 1049px) and (max-width: 1899px) {
-  .innovative_container .content .introduction .introduction_title {
+@media only screen and (max-width: 1099px) and (max-width: 1899px) {
+  #innovative .content .introduction .card__title {
     font-size: 1.84rem;
   }
 }
-@media only screen and (max-width: 1049px) and (max-width: 1699px) {
-  .innovative_container .content .introduction .introduction_title {
+@media only screen and (max-width: 1099px) and (max-width: 1699px) {
+  #innovative .content .introduction .card__title {
     font-size: 1.6rem;
   }
 }
-@media only screen and (max-width: 899px) {
-  .innovative_container .content .introduction {
-    left: calc(3% + 30px);
-  }
-  .innovative_container .content .introduction .introduction_footer {
-    display: none;
+@media only screen and (max-width: 1099px) {
+  #innovative .content .introduction .card__content {
+    font-family: "Segoe-UI";
+    color: #707070;
+    font-size: 1.08rem;
+    margin-top: 15px;
   }
 }
-@media only screen and (max-width: 779px) {
-  .innovative_container .content .introduction .introduction_title {
+@media only screen and (max-width: 1099px) and (max-width: 1899px) {
+  #innovative .content .introduction .card__content {
+    font-size: 1.035rem;
+  }
+}
+@media only screen and (max-width: 1099px) and (max-width: 1699px) {
+  #innovative .content .introduction .card__content {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 899px) {
+  #innovative .content .introduction {
+    top: 35%;
+    left: calc(3% + 30px);
+  }
+  #innovative .content .introduction .card__title {
     font-family: "Segoe-UI-Bold";
     color: #2b2b2b;
     font-size: 1.44rem;
   }
 }
-@media only screen and (max-width: 779px) and (max-width: 1899px) {
-  .innovative_container .content .introduction .introduction_title {
+@media only screen and (max-width: 899px) and (max-width: 1899px) {
+  #innovative .content .introduction .card__title {
     font-size: 1.38rem;
   }
 }
-@media only screen and (max-width: 779px) and (max-width: 1699px) {
-  .innovative_container .content .introduction .introduction_title {
+@media only screen and (max-width: 899px) and (max-width: 1699px) {
+  #innovative .content .introduction .card__title {
     font-size: 1.2rem;
   }
 }
-.innovative_container .content .about {
+@media only screen and (max-width: 899px) {
+  #innovative .content .introduction .card__content {
+    margin-top: 10px;
+  }
+}
+#innovative .content .about {
   position: absolute;
   top: 64%;
   display: flex;
   justify-content: space-between;
+  visibility: hidden;
 }
-.innovative_container .content .about > .about_card {
+#innovative .content .about .card {
   width: calc((100% - 80px) / 3);
   background-color: white;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
 }
-.innovative_container .content .about > .about_card > .about_card_title {
+#innovative .content .about .card:hover {
+  transform: scale(1.03);
+}
+#innovative .content .about .card__title {
   padding: 40px 45px 0 45px;
   font-family: "Segoe-UI-Semi-Bold";
-  color: #707070;
+  color: #2b2b2b;
   font-size: 1.2rem;
 }
 @media only screen and (max-width: 1899px) {
-  .innovative_container .content .about > .about_card > .about_card_title {
+  #innovative .content .about .card__title {
     font-size: 1.15rem;
   }
 }
 @media only screen and (max-width: 1699px) {
-  .innovative_container .content .about > .about_card > .about_card_title {
+  #innovative .content .about .card__title {
     font-size: 1rem;
   }
 }
-.innovative_container .content .about > .about_card > .about_card_content {
+#innovative .content .about .card__content {
   padding: 15px 45px 40px 45px;
   font-family: "Segoe-UI";
   color: #707070;
   font-size: 1.08rem;
 }
 @media only screen and (max-width: 1899px) {
-  .innovative_container .content .about > .about_card > .about_card_content {
+  #innovative .content .about .card__content {
     font-size: 1.035rem;
   }
 }
 @media only screen and (max-width: 1699px) {
-  .innovative_container .content .about > .about_card > .about_card_content {
+  #innovative .content .about .card__content {
     font-size: 0.9rem;
   }
 }
-.innovative_container .content .about .about_whatWeDo {
+#innovative .content .about .card--whatWeDo {
   border-radius: 90px 0 90px 0;
 }
-.innovative_container .content .about .about_whatWeThink {
+#innovative .content .about .card--whatWeThink {
   border-radius: 90px 90px 0 0;
 }
-.innovative_container .content .about .about_whyWeAreDifferent {
+#innovative .content .about .card--whyWeAreDifferent {
   border-radius: 0 90px 0 90px;
 }
-@media only screen and (max-width: 1399px) {
-  .innovative_container .content .about > .about_card {
-    width: calc((100% - 80px) / 3);
+@media only screen and (max-width: 1349px) {
+  #innovative .content .about .card {
+    width: calc((100% - 60px) / 3);
   }
-  .innovative_container .content .about > .about_card > .about_card_title {
+  #innovative .content .about .card__title {
     padding: 30px 30px 0 30px;
   }
-  .innovative_container .content .about > .about_card > .about_card_content {
+  #innovative .content .about .card__content {
     padding: 15px 30px 30px 30px;
   }
-  .innovative_container .content .about .about_whatWeDo {
+  #innovative .content .about .card--whatWeDo {
     border-radius: 50px 0 50px 0;
   }
-  .innovative_container .content .about .about_whatWeThink {
+  #innovative .content .about .card--whatWeThink {
     border-radius: 50px 50px 0 0;
   }
-  .innovative_container .content .about .about_whyWeAreDifferent {
+  #innovative .content .about .card--whyWeAreDifferent {
     border-radius: 0 50px 0 50px;
   }
 }
-@media only screen and (max-width: 1249px) {
-  .innovative_container .content .about .about_card {
-    width: calc((100% - 30px) / 2);
+@media only screen and (max-width: 1349px) {
+  #innovative .content .about .card {
+    width: calc((100% - 40px) / 2);
   }
-  .innovative_container .content .about .about_whatWeThink {
+  #innovative .content .about .card--whatWeDo {
+    border-radius: 50px 0 50px 0;
+  }
+  #innovative .content .about .card--whatWeThink {
     display: none;
   }
-}
-@media only screen and (max-width: 1249px) {
-  .innovative_container .content .about {
-    top: 70%;
+  #innovative .content .about .card--whyWeAreDifferent {
+    border-radius: 0 50px 0 50px;
   }
 }
-@media only screen and (max-width: 779px) {
-  .innovative_container .content .about .about_card {
+@media only screen and (max-width: 899px) {
+  #innovative .content .about .card {
     display: none;
   }
 }

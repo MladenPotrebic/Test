@@ -76,6 +76,22 @@ $(document).ready(function(){
         
     });
 
+    // Introduction
+    $("#owl--I").owlCarousel({
+        stagePadding: 0,
+        items: 1,
+        loop:true,
+        margin:0,
+        singleItem:true,
+        dots: true,
+        animateOut: 'animate__fadeOut',
+        animateIn: 'animate__fadeIn',
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        
+    });
+
     
   });
 

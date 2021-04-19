@@ -26,6 +26,7 @@
     <!-- <script src="animate/Research_Intelligence/research_inteligence.js"></script> -->
 
     <!-- CSS -->
+    <link rel="stylesheet" href="css/modules/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <!-- JS -->
@@ -39,17 +40,17 @@
     <div class="body_wrap">
 
         <!-- Naviagations-->
-        <div class="navigations_c">
+        <div id="navigation">
             <div class="content">
                 <div class="content__logo" onclick="moveToHomePage()"></div>
                 <div class="content__navigations">
-                    <a class="navigation navigation--active" href="index.html" target="_top">Home</a>
-                    <a class="navigation" href="products.html" target="_top">Products</a>
-                    <a class="navigation" href="services.html" target="_top">Services</a>
-                    <a class="navigation" href="support.html" target="_top">Support</a>
-                    <a class="navigation" href="career.html" target="_top">Career</a>
-                    <a class="navigation" href="team.html" target="_top">About Us</a>
-                    <a class="navigation" href="contact.html" target="_top">Contact</a>
+                    <a class="nav nav--active" href="index.html" target="_top">Home</a>
+                    <a class="nav" href="products.html" target="_top">Products</a>
+                    <a class="nav" href="services.html" target="_top">Services</a>
+                    <a class="nav" href="support.html" target="_top">Support</a>
+                    <a class="nav" href="career.html" target="_top">Career</a>
+                    <a class="nav" href="team.html" target="_top">About Us</a>
+                    <a class="nav" href="contact.html" target="_top">Contact</a>
                 </div>
                 <div class="content__contact">
                     <button class="btn">
@@ -59,7 +60,7 @@
             </div>
         </div>
 
-        <div class="navigation_c--m">
+        <div id="navigation--m">
             <div class="content">
                 <div class="logo"></div>
                 <div class="ham" onclick="toggleNav()">
@@ -67,8 +68,8 @@
                     <div class="ham__line ham__line--2"></div>
                     <div class="ham__line ham__line--3"></div>
                 </div>
-                <div id="nav" class="navigations">
-                    <div class="nav-logo"></div>
+                <div id="nav" class="navigations" onclick="toggleNav()">
+                    <div class="nav--logo"></div>
                     <a class="nav nav--active" href="index.html" target="_top">Home</a>
                     <a class="nav" href="products.html" target="_top">Products</a>
                     <a class="nav" href="services.html" target="_top">Services</a>
@@ -77,115 +78,122 @@
                     <a class="nav" href="team.html" target="_top">About Us</a>
                     <a class="nav" href="contact.html" target="_top">Contact</a>
                 </div>
-                <div id="nav_bg" class="navigations_bg" >
+                <div id="nav_bg" class="navigations_bg">
                 </div>
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-        <!-- <div class="navigations_container-M">
-            <div class="header">
-                <div class="logo" onclick="moveToHomePage()"></div>
-                <div class="navigations_btn">
-                    <span class="navigations_btn_line-1"></span>
-                    <span class="navigations_btn_line-2"></span>
-                    <span class="navigations_btn_line-3"></span>
-                </div>
-            </div>
-            <div class="content_background">
-                <div class="background"></div>
-            </div>
-            <div class="content_navigations">
-                    <a class="navigations_item navigations_item-active" href="index.html">Home</a>
-                    <a class="navigations_item" href="products.html">Products</a>
-                    <a class="navigations_item" href="services.html">Services</a>
-                    <a class="navigations_item" href="support.html">Support</a>
-                    <a class="navigations_item" href="career.html">Career</a>
-                    <a class="navigations_item" href="team.html">About Us</a>
-                    <a class="navigations_item" href="contact.html">Contact</a>
-            </div>
-        </div> -->
-
-        <div class="innovative_container">
+        <!-- Innovative -->
+        <div id="innovative">
             <div class="content">
-                <div class="placeholder_container">
+                <div class="animation_home--placeholder">
                     <img src="imgs/placeholders/innovative_thinking.svg">
                 </div>
-                <div id="animation_container"
+                <div id="animation_home"
                     style="background-color:rgba(255, 255, 255, 1.00); width:2526px; height:1170px">
-                    <canvas id="canvas" width="100%" height="auto"
+                    <canvas id="animation_home__canvas" width="100%" height="auto"
                         style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
                     <div id="dom_overlay_container"
                         style="pointer-events:none; overflow:hidden; width:100%; height:auto; position: absolute; left: 0px; top: 0px; display: block;">
                     </div>
                 </div>
-                <div class="introduction">
-                    <div class="introduction_title">
-                        Innovative Thinking
+                <div id="owl--I" class="introduction owl-carousel">
+                    <div class="card">
+                        <div class="card__title">Innovative Thinking</div>
+                        <div class="card__content">
+                            Every issue in every organization is a challenge of its own. After understanding the issue
+                            and analyzing available technologies, we are defining a technological bridge to couple the
+                            issue with the most applicable solution.
+                        </div>
                     </div>
-                    <div class="introduction_content">
-                        Every issue in every organization is a challenge of its own. After understanding the issue and
-                        analyzing available technologies, we are defining a technological bridge to couple the issue
-                        with the most applicable solution
+                    <div class="card">
+                        <div class="card__title">Active Listening</div>
+                        <div class="card__content">
+                            While actively listening to our clients we are at the same time helping them explain their
+                            issues in greater depth. Thus making our cooperation more tangible. Active listening is the
+                            skill we are improving continuously.
+                        </div>
                     </div>
-                    <div class="introduction_content-mob">
-                        Every issue is a challenge of its own. Once the issue is understood and technologies analyzed,
-                        we are bridging them together with the best solution.
-                    </div>
-                    <div class="introduction_footer">
-                        <button class="introduction_footer_contactUs">
-                            Contact Us
-                        </button>
+                    <div class="card">
+                        <div class="card__title">Guaranteed Delivery</div>
+                        <div class="card__content">
+                            Implementing a technological solution, within the agreed time and given budget frame is a
+                            challenge we enthusiastically accept and consistently achieve. We deliver products and
+                            services fitting the organization smoothly. Advanced Solutions Delivered.
+                        </div>
                     </div>
                 </div>
                 <div class="about">
-                    <div class="about_card about_whatWeDo">
-                        <div class="about_card_title">
+                    <div class="card card--whatWeDo">
+                        <div class="card__title">
                             What we do
                         </div>
-                        <div class="about_card_content">
+                        <div class="card__content">
                             We are an IT Software Engineering company committed to development of advanced products and
                             a supplier of IT innovative services.
                         </div>
                     </div>
 
-
-                    <div class="about_card about_whatWeThink">
-                        <div class="about_card_title">
+                    <div class="card card--whatWeThink">
+                        <div class="card__title">
                             What we think
                         </div>
-                        <div class="about_card_content">
+                        <div class="card__content">
                             The main purpose of Information Technology is to serve and complement the organization’s
                             core business and to be the main driving force for product, service, and process innovation.
                         </div>
                     </div>
 
-                    <div class="about_card about_whyWeAreDifferent">
-                        <div class="about_card_title">
+                    <div class="card card--whyWeAreDifferent">
+                        <div class="card__title">
                             Why we are different
                         </div>
-                        <div class="about_card_content">
+                        <div class="card__content">
                             We treat all of our Clients as they are the only ones for us and we tightly relate our
                             Client’s success with our own.
                         </div>
                     </div>
-
-
                 </div>
-
             </div>
         </div>
+
+
+
+
+
 
         <div class="inovation_container--m">
             <!--TO DO - Napraviti baner --->
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div class="improveYourBusiness_container">
             <div class="header">

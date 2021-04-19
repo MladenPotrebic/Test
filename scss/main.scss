@@ -1,6 +1,7 @@
 @import "./_patterns";
 @import "./_reset.scss";
 @import "./_standard";
+@import "../css/modules/animate.min.css";
 
 // TO DO - Prebaciti u _standard.scss
 
@@ -1403,6 +1404,7 @@ $img-wave: "products/img-wave.svg";
     width: 100%;
     margin: 0 auto;
     scroll-behavior: smooth;
+    overflow-y: hidden;
 }
 
 // + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
@@ -1419,20 +1421,19 @@ $img-wave: "products/img-wave.svg";
     to {
         margin-top: -1000px;
         margin-right: -1000px;
-
     }
 }
 
 @keyframes animNavIn {
     from {
-       opacity: 0;
+        opacity: 0;
     }
     to {
         opacity: 100%;
     }
 }
 
-.navigations_c {
+#navigation {
     @include container-L();
     position: relative;
     .content {
@@ -1449,15 +1450,17 @@ $img-wave: "products/img-wave.svg";
         }
         &__navigations {
             display: flex;
-            .navigation {
+            .nav {
                 @include margin(0 15px);
                 @include font-basic($c-black, $fs-basic);
                 @include height(27px);
                 text-decoration: none;
                 border-bottom: 2px solid transparent;
                 cursor: pointer;
+                transition: transform .3s;
                 &:hover {
                     color: $c-blue;
+                    transform: scale(1.03); 
                 }
                 &--active {
                     color: $c-blue;
@@ -1487,10 +1490,10 @@ $img-wave: "products/img-wave.svg";
     @include hide-M();
 }
 
-.navigation_c--m {
+#navigation--m {
     @include container-L();
     position: relative;
-    .content{
+    .content {
         position: absolute;
         z-index: 1000;
         width: 100%;
@@ -1502,19 +1505,18 @@ $img-wave: "products/img-wave.svg";
             @include image($logo-Rationaletech-2, 180px, 50px, auto, 32px, center left);
         }
         .ham {
-            
             &__line {
-                border-top: 2.5px solid $c-blue;
+                border-top: 2.5px solid $c-white;
                 display: block;
                 transition: margin 0.5s, transform 0.5s;
                 width: 30px;
 
-                &--2{
+                &--2 {
                     margin: 8px 0;
                 }
             }
         }
-        .navigations_bg{
+        .navigations_bg {
             display: none;
             position: fixed;
             top: 50%;
@@ -1528,20 +1530,19 @@ $img-wave: "products/img-wave.svg";
             background-color: $c-blue;
             animation-name: animNavBgIn;
             animation-duration: 1s;
-            
+
             align-items: center;
             justify-content: center;
 
-            &--active{
+            &--active {
                 display: flex;
             }
-          
         }
         .navigations {
             display: none;
             position: fixed;
             z-index: 9999;
-            top:0;
+            top: 0;
             left: 0;
             right: 0;
             bottom: 0;
@@ -1554,12 +1555,12 @@ $img-wave: "products/img-wave.svg";
             animation-duration: 1s;
             animation-delay: 0.5s;
             animation-fill-mode: forwards;
-            
-            .nav-logo{
+
+            .nav--logo {
                 @include image($logo-Rationaletech-3, 180px, 50px, 180px, auto, center);
                 margin-bottom: 25px;
             }
-            
+
             .nav {
                 margin: 7px;
                 padding-bottom: 3px;
@@ -1576,120 +1577,14 @@ $img-wave: "products/img-wave.svg";
                 }
             }
 
-            &--active{
+            &--active {
                 display: flex;
             }
         }
-
-
     }
     // Resp
     display: none;
     @include show-M(block);
-}
-
-.navigations_container-M {
-    display: none;
-    position: relative;
-    @include container-L();
-    .header {
-        position: absolute;
-        z-index: 1000;
-        width: 100%;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .logo {
-            @include image($logo-Rationaletech-1, 180px, 50px, auto, 32px, center left);
-            @include respSpecif(935) {
-                @include image($logo-Rationaletech-1, 130px, 50px, auto, 26px, center left);
-                cursor: pointer;
-            }
-        }
-
-        .navigations_btn {
-            padding: 0;
-            transition: transform 0.5s;
-
-            * {
-                border-top: 3px solid $c-blue;
-                display: block;
-                transition: margin 0.5s, transform 0.5s;
-                width: 30px;
-            }
-
-            .navigations_btn_line-2 {
-                margin: 8px 0;
-            }
-        }
-
-        .navigations_btn-close {
-            padding: 15px 0px;
-            .navigations_btn_line-1 {
-                transform: rotate(45deg);
-            }
-
-            .navigations_btn_line-2 {
-                margin: -3px 0;
-                opacity: 0;
-            }
-
-            .navigations_btn_line-3 {
-                transform: rotate(-45deg);
-            }
-        }
-    }
-
-    .content_background {
-        display: none;
-        position: absolute;
-        z-index: 800;
-        left: -15px;
-        right: -15px;
-        overflow: hidden;
-        height: 100vh;
-
-        .background {
-            position: absolute;
-            width: 400vh;
-            height: 400vh;
-            top: -400vh;
-            right: -400vh;
-            border-radius: 50%;
-            background-color: #109aed;
-        }
-    }
-
-    .content_background-active {
-        display: block;
-        .background {
-            animation: navigateBackgroundIn 0.5s linear forwards;
-        }
-    }
-
-    .content_navigations {
-        position: absolute;
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        z-index: 900;
-        left: -15px;
-        right: -15px;
-        height: 100vh;
-        opacity: 0;
-        .navigations_item {
-            text-decoration: none;
-            @include font-basic-semi-bold($c-white, 1.5rem);
-            @include margin(10px 0);
-        }
-    }
-
-    .content_navigations-active {
-        display: flex;
-        animation: 0.5s navigateContentIn 0.5s linear forwards;
-    }
 }
 
 // + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
@@ -1776,21 +1671,20 @@ $img-wave: "products/img-wave.svg";
 
 // + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
 
-.innovative_container {
+#innovative {
     overflow: hidden;
     max-width: 100vw;
     .content {
         @include container-L();
         position: relative;
-        .placeholder_container {
+        .animation_home--placeholder {
             img {
                 width: 155%;
                 height: auto;
                 margin-top: calc(-10% + 70px);
             }
         }
-
-        #animation_container {
+        #animation_home {
             position: absolute;
             top: 0;
             margin-top: calc(-10% + 70px);
@@ -1802,70 +1696,52 @@ $img-wave: "products/img-wave.svg";
                 width: 100% !important;
                 height: auto !important;
             }
-            // @include respSpecif(786) {
-            //     width: 172% !important;
-            // }
         }
         .introduction {
             position: absolute;
             top: 36%;
             width: 33%;
             left: calc(3% + 70px);
-
-            > .introduction_title {
-                @include font-basic-bold($c-black, 2rem);
-            }
-
-            > .introduction_content {
-                @include margin-top(20px);
-                @include font-basic($c-black-light, 1rem);
-            }
-
-            > .introduction_content-mob {
-                display: none;
-                @include margin-top(10px);
-                @include font-basic($c-black-light, 1rem);
-            }
-
-            > .introduction_content-mob {
-                @include hide();
-            }
-
-            > .introduction_footer {
-                @include margin-top(20px);
-                > .introduction_footer_contactUs {
-                    @include btn($c-white, $c-blue);
+            visibility: hidden;
+            .card{
+                &__title {
+                    @include font-basic-bold($c-black, 2rem);
+                }
+                &__content {
+                    @include font-basic($c-black-light, 1rem);
+                    margin-top: 20px;
                 }
             }
 
-            @include respSpecif(1400) {
+            // Resp
+            @include respSpecif(1200) {
+                top: 33%;
+                width: 33%;
                 left: calc(3% + 50px);
-                .introduction_content {
-                    display: none;
-                }
-                .introduction_content-mob {
-                    display: block;
+            }
+
+            @include respSpecif(1100) {
+                .card{
+                    &__title {
+                        @include font-basic-bold($c-black, 1.6rem);
+                    }
+                    &__content {
+                        @include font-basic($c-black-light, 0.9rem);
+                        margin-top: 15px;
+                    }
                 }
             }
 
-            @include respSpecif(1050) {
-                .introduction_title {
-                    left: calc(3% + 40px);
-                    top: 33%;
-                    @include font-basic-bold($c-black, 1.6rem);
-                }
-            }
-
-            @include respSpecif(900) {
+            @include respSpecif(900){
+                top: 35%;
                 left: calc(3% + 30px);
-                .introduction_footer {
-                    display: none;
-                }
-            }
-
-            @include respSpecif(780) {
-                .introduction_title {
-                    @include font-basic-bold($c-black, 1.2rem);
+                .card{
+                    &__title {
+                        @include font-basic-bold($c-black, 1.2rem);
+                    }
+                    &__content {
+                        margin-top: 10px;
+                    }
                 }
             }
         }
@@ -1874,74 +1750,79 @@ $img-wave: "products/img-wave.svg";
             top: 64%;
             display: flex;
             justify-content: space-between;
-            > .about_card {
+            visibility: hidden;
+            .card {
                 width: calc((100% - 80px) / 3);
                 background-color: $c-white;
                 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
-                > .about_card_title {
-                    padding: 40px 45px 0 45px;
-                    @include font-basic-semi-bold($c-black-light, 1rem);
+                transition: transform .3s;
+                &:hover{
+                    transform: scale(1.03); 
                 }
-
-                > .about_card_content {
+                &__title {
+                    padding: 40px 45px 0 45px;
+                    @include font-basic-semi-bold($c-black, 1rem);
+                }
+                &__content {
                     padding: 15px 45px 40px 45px;
                     @include font-basic($c-black-light, $fs-basic);
                 }
-            }
-            .about_whatWeDo {
-                border-radius: 90px 0 90px 0;
-            }
-            .about_whatWeThink {
-                border-radius: 90px 90px 0 0;
-            }
-            .about_whyWeAreDifferent {
-                border-radius: 0 90px 0 90px;
-            }
 
-            @include respSpecif(1400) {
-                > .about_card {
-                    width: calc((100% - 80px) / 3);
-                    > .about_card_title {
+                &--whatWeDo {
+                    border-radius: 90px 0 90px 0;
+                }
+
+                &--whatWeThink {
+                    border-radius: 90px 90px 0 0;
+                }
+
+                &--whyWeAreDifferent {
+                    border-radius: 0 90px 0 90px;
+                }
+
+                // Resp
+                @include respSpecif(1350) {
+                    width: calc((100% - 60px) / 3);
+                    &__title {
                         padding: 30px 30px 0 30px;
                     }
-
-                    > .about_card_content {
+                    &__content {
                         padding: 15px 30px 30px 30px;
                     }
+                    &--whatWeDo {
+                        border-radius: 50px 0 50px 0;
+                    }
+    
+                    &--whatWeThink {
+                        border-radius: 50px 50px 0 0;
+                    }
+    
+                    &--whyWeAreDifferent {
+                        border-radius: 0 50px 0 50px;
+                    }
                 }
-                .about_whatWeDo {
-                    border-radius: 50px 0 50px 0;
-                }
-                .about_whatWeThink {
-                    border-radius: 50px 50px 0 0;
-                }
-                .about_whyWeAreDifferent {
-                    border-radius: 0 50px 0 50px;
-                }
-            }
 
-            @include respSpecif(1250) {
-                .about_card {
-                    width: calc((100% - 30px) / 2);
+                @include respSpecif(1350) {
+                    width: calc((100% - 40px) / 2);
+                    &--whatWeDo {
+                        border-radius: 50px 0 50px 0;
+                    }
+    
+                    &--whatWeThink {
+                        display: none;
+                    }
+    
+                    &--whyWeAreDifferent {
+                        border-radius: 0 50px 0 50px;
+                    }
                 }
-                .about_whatWeThink {
-                    display: none;
-                }
-            }
 
-            @include respSpecif(1250) {
-                top: 70%;
-            }
-            @include respSpecif(780) {
-                .about_card {
-                    display: none;
+                @include respSpecif(900) {
+                    display: none
                 }
             }
         }
     }
-    // @include respSpecif(786) {
-    //     overflow: visible;
-    // }
 }
 
 .improveYourBusiness_container {

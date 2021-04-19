@@ -3,8 +3,8 @@ function init() {
     if (screen.width < 688) {
         return
     }
-    canvas = document.getElementById("canvas");
-    anim_container = document.getElementById("animation_container");
+    canvas = document.getElementById("animation_home__canvas");
+    anim_container = document.getElementById("animation_home");
     dom_overlay_container = document.getElementById("dom_overlay_container");
     var comp = AdobeAn.getComposition("1D6C9FB9DE14B04EA5EB2B829FFB4D28");
     var lib = comp.getLibrary();
@@ -39,4 +39,8 @@ function handleComplete(evt, comp) {
     AdobeAn.makeResponsive(false, 'both', false, 1, [canvas, anim_container, dom_overlay_container]);
     AdobeAn.compositionLoaded(lib.properties.id);
     fnStartAnimation();
+
+    // Visible
+    $("#innovative .about").css("visibility", "visible");
+    $("#innovative .introduction").css("visibility", "visible");
 }
