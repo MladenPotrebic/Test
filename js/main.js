@@ -6,3 +6,7 @@ function toggleNav() {
     $("#nav_bg").toggleClass("navigations--active");
 }
 
+// Animations AOS
+$(window).on("load",function() {
+    AOS.init();
+});

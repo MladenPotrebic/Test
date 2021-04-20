@@ -2,6 +2,7 @@
 @import "./_reset.scss";
 @import "./_standard";
 @import "../css/modules/animate.min.css";
+@import "../scss/modules/aos.custom.scss";
 
 // TO DO - Prebaciti u _standard.scss
 
@@ -1829,7 +1830,6 @@ $img-wave: "products/img-wave.svg";
     @include section();
     @include container-M();
     @include header();
-
     .content {
         .cards {
             @include grid-table(auto, max-content, 4, 50px, 50px, 20);
@@ -4893,4 +4893,8 @@ $img-wave: "products/img-wave.svg";
     @include respSpecif(688) {
         display: block;
     }
+}
+
+*{
+    box-sizing: border-box;
 }

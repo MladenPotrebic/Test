@@ -7,34 +7,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rationaletech</title>
 
-    <!--Modules-->
     <!-- JQuery v3.5.1-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- Owl Carousel v2.3.4 -->
     <link rel="stylesheet" href="js/modules/owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="js/modules/owlCarousel/owl.theme.default.min.css">
     <script src="js/modules/owlCarousel/owl.carousel.js"></script>
-    <!-- Create JS-->
-    <!-- <script src="animate/banner_2/libs/1.0.0/createjs.min.js"></script> -->
-
-    <script src='https://code.createjs.com/1.0.0/createjs.min.js'></script>
 
     <!-- Animation - Banner -->
+    <script src='https://code.createjs.com/1.0.0/createjs.min.js'></script>
     <script src="animate/banner_2/Banner.js?1609119149579"></script>
     <script src="animate/banner_2/Banner-Start.js"></script>
-    <!-- Animation - Research Inteligence -->
-    <!-- <script src="animate/Research_Intelligence/research_inteligence.js"></script> -->
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/modules/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="js/modules/aos/aos.css">
+    <script src="js/modules/aos/aos.js"></script>
+
     <!-- JS -->
     <script src="js/main.js"></script>
     <script src="js/home.js"></script>
 
-
 </head>
+
+
 
 <body onload="init();">
     <div class="body_wrap">
@@ -83,11 +83,14 @@
             </div>
         </div>
 
+
+        
+
         <!-- Innovative -->
         <div id="innovative">
             <div class="content">
                 <div class="animation_home--placeholder">
-                    <img src="imgs/placeholders/innovative_thinking.svg">
+                    <img src="imgs/placeholders/innovative_thinking.svg" id="img1">
                 </div>
                 <div id="animation_home"
                     style="background-color:rgba(255, 255, 255, 1.00); width:2526px; height:1170px">
@@ -167,35 +170,7 @@
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="improveYourBusiness_container">
+        <div class="improveYourBusiness_container" data-aos="c-1" data-aos-duration="300">
             <div class="header">
                 <div class="header_title">
                     How can we improve your business
@@ -333,6 +308,37 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
 
         <div class="improveYourBusiness_container--m">
             <div class="header">
@@ -486,7 +492,7 @@
             </div>
             <div class="content">
                 <div class="cards">
-                    <div class="card latestResearch_intelligence">
+                    <div class="card latestResearch_intelligence" data-aos="c-2" data-aos-duration="300" data-aos-offset="200" data-aos-mirror="true">
                         <div class="card_icon"></div>
                         <div class="card_content">
                             <div class="card_content_title">
@@ -506,7 +512,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card latestResearch_security">
+                    <div class="card latestResearch_security" data-aos="c-2" data-aos-duration="300" data-aos-offset="200" data-aos-mirror="true">
                         <div class="card_icon"></div>
                         <div class="card_content">
                             <div class="card_content_title">
@@ -528,7 +534,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card latestResearch_blockchain">
+                    <div class="card latestResearch_blockchain" data-aos="c-2" data-aos-duration="300" data-aos-offset="200" data-aos-mirror="true">
                         <div class="card_icon"></div>
                         <div class="card_content">
                             <div class="card_content_title">
@@ -667,7 +673,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product_description">
+                    <div class="product_description" data-aos="fade-right">
                         <div class="product_description_products_c">
                             <div id="btn--owl--next--PD" class="product_description_prevProduct"></div>
                             <div id="owl--PD" class="product_description_products owl-carousel ">
@@ -755,7 +761,7 @@
             </div>
         </div>
 
-        <div class="companies_container">
+        <div class="companies_container" data-aos="z-1" data-aos-offset="200" data-aos-duration="300">
             <div class="content">
                 <div class="companies">
                     <img class="company" src="imgs/companies/Adnoc.svg">
@@ -781,7 +787,7 @@
             </div>
         </div>
 
-        <div class="contact_container">
+        <div class="contact_container" >
             <div class="content">
                 <div class="contact">
                     <div class="contact_title">
@@ -861,7 +867,8 @@
         </div>
 
     </div>
-    <script src="js/main.js"></script>
+  
+   
 </body>
 
 </html>
