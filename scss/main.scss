@@ -2071,8 +2071,8 @@ $img-wave: "products/img-wave.svg";
         &__img {
             margin-top: 30px;
             flex-grow: 1;
-            
-            img{
+
+            img {
                 border-radius: 20px;
                 height: auto;
                 width: 100%;
@@ -2092,9 +2092,46 @@ $img-wave: "products/img-wave.svg";
             @include image($icon_home_circle, 200px, 200px, 200px, auto, center);
         }
 
-        &__slider{
+        &__slider {
             position: absolute;
+            bottom: -40px;
+            left: -10px;
+            width: calc(100% + 20px);
+            background: #ffffff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 50px 0px;
+            .slider {
+                padding: 25px 35px;
+                padding-bottom: 5px;
+                &__title {
+                    @include font-basic-bold($c-black, 1.2rem);
+                }
+                &__content {
+                    margin-top: 5px;
+                    @include font-basic($c-black-light, 1rem);
+                }
+            }
         }
+    }
+
+    .owl-dots {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .owl-dot{
+            width: 5px;
+            height: 5px;
+            background-color: #E4E4E4;
+            margin: 0 2px;
+            border-radius: 50%;
+        }
+
+        .active{
+            background-color: $c-blue;
+        }
+
     }
 }
 

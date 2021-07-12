@@ -1534,6 +1534,73 @@ html, body {
 }
 .inovation_container--m .screen__slider {
   position: absolute;
+  bottom: -40px;
+  left: -10px;
+  width: calc(100% + 20px);
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 50px 0px;
+}
+.inovation_container--m .screen__slider .slider {
+  padding: 25px 35px;
+  padding-bottom: 5px;
+}
+.inovation_container--m .screen__slider .slider__title {
+  font-family: "Segoe-UI-Bold";
+  color: #2b2b2b;
+  font-size: 1.44rem;
+}
+@media only screen and (max-width: 1899px) {
+  .inovation_container--m .screen__slider .slider__title {
+    font-size: 1.38rem;
+  }
+}
+@media only screen and (max-width: 1699px) {
+  .inovation_container--m .screen__slider .slider__title {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .inovation_container--m .screen__slider .slider__title {
+    font-size: 1.08rem;
+  }
+}
+.inovation_container--m .screen__slider .slider__content {
+  margin-top: 5px;
+  font-family: "Segoe-UI";
+  color: #707070;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 1899px) {
+  .inovation_container--m .screen__slider .slider__content {
+    font-size: 1.15rem;
+  }
+}
+@media only screen and (max-width: 1699px) {
+  .inovation_container--m .screen__slider .slider__content {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .inovation_container--m .screen__slider .slider__content {
+    font-size: 0.9rem;
+  }
+}
+.inovation_container--m .owl-dots {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inovation_container--m .owl-dots .owl-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #E4E4E4;
+  margin: 0 2px;
+  border-radius: 50%;
+}
+.inovation_container--m .owl-dots .active {
+  background-color: #007ee1;
 }
 
 .improveYourBusiness_container {
