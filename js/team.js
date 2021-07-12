@@ -160,53 +160,53 @@ var chart = document.getElementById('chartContainer');
     chart.style.width = '600px';
 }
 
-function hover1() {
-    var chart1 = document.getElementById('chart1');
-    var line1 = document.getElementById('line1');
-    chart1.style.visibility = "visible";
-    chart1.style.opacity = "1";
-    line1.style.visibility= "visible";
-}
+// function hover1() {
+//     var chart1 = document.getElementById('chart1');
+//     var line1 = document.getElementById('line1');
+//     chart1.style.visibility = "visible";
+//     chart1.style.opacity = "1";
+//     line1.style.visibility= "visible";
+// }
 
-function hover2() {
-    var chart1 = document.getElementById('chart2');
-    var line1 = document.getElementById('line2');
-    chart1.style.visibility = "visible";
-    chart1.style.opacity = "1";
-    line1.style.visibility= "visible";
-}
+// function hover2() {
+//     var chart1 = document.getElementById('chart2');
+//     var line1 = document.getElementById('line2');
+//     chart1.style.visibility = "visible";
+//     chart1.style.opacity = "1";
+//     line1.style.visibility= "visible";
+// }
 
-function hover3() {
-    var chart1 = document.getElementById('chart3');
-    var line1 = document.getElementById('line3');
-    chart1.style.visibility = "visible";
-    chart1.style.opacity = "1";
-    line1.style.visibility= "visible";
-}
+// function hover3() {
+//     var chart1 = document.getElementById('chart3');
+//     var line1 = document.getElementById('line3');
+//     chart1.style.visibility = "visible";
+//     chart1.style.opacity = "1";
+//     line1.style.visibility= "visible";
+// }
 
-function hover4() {
-    var chart1 = document.getElementById('chart4');
-    var line1 = document.getElementById('line4');
-    chart1.style.visibility = "visible";
-    chart1.style.opacity = "1";
-    line1.style.visibility= "visible";
-}
+// function hover4() {
+//     var chart1 = document.getElementById('chart4');
+//     var line1 = document.getElementById('line4');
+//     chart1.style.visibility = "visible";
+//     chart1.style.opacity = "1";
+//     line1.style.visibility= "visible";
+// }
 
-function hover5() {
-    var chart1 = document.getElementById('chart5');
-    var line1 = document.getElementById('line5');
-    chart1.style.visibility = "visible";
-    chart1.style.opacity = "1";
-    line1.style.visibility= "visible";
-}
+// function hover5() {
+//     var chart1 = document.getElementById('chart5');
+//     var line1 = document.getElementById('line5');
+//     chart1.style.visibility = "visible";
+//     chart1.style.opacity = "1";
+//     line1.style.visibility= "visible";
+// }
 
-function hover6() {
-    var chart1 = document.getElementById('chart6');
-    var line1 = document.getElementById('line6');
-    chart1.style.visibility = "visible";
-    chart1.style.opacity = "1";
-    line1.style.visibility= "visible";
-}
+// function hover6() {
+//     var chart1 = document.getElementById('chart6');
+//     var line1 = document.getElementById('line6');
+//     chart1.style.visibility = "visible";
+//     chart1.style.opacity = "1";
+//     line1.style.visibility= "visible";
+// }
 
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });

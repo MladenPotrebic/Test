@@ -28,6 +28,12 @@
     <link rel="stylesheet" href="js/modules/aos/aos.css">
     <script src="js/modules/aos/aos.js"></script>
 
+    <!-- ScrollMagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
     <!-- JS -->
     <script src="js/main.js"></script>
     <script src="js/home.js"></script>
@@ -43,7 +49,7 @@
         <div id="navigation">
             <div class="content">
                 <div class="content__logo" onclick="moveToHomePage()"></div>
-                <div class="content__navigations">
+                <!-- <div class="content__navigations">
                     <a class="nav nav--active" href="index.html" target="_top">Home</a>
                     <a class="nav" href="products.html" target="_top">Products</a>
                     <a class="nav" href="services.html" target="_top">Services</a>
@@ -51,7 +57,7 @@
                     <a class="nav" href="career.html" target="_top">Career</a>
                     <a class="nav" href="team.html" target="_top">About Us</a>
                     <a class="nav" href="contact.html" target="_top">Contact</a>
-                </div>
+                </div> -->
                 <div class="content__contact">
                     <button class="btn">
                         Contact Us
@@ -63,7 +69,8 @@
         <div id="navigation--m">
             <div class="content">
                 <div class="logo"></div>
-                <div class="ham" onclick="toggleNav()">
+                <!-- <div class="ham" onclick="toggleNav()">
+                    <img class="ham-stain" src="imgs/backgrounds/ham-stain.svg">
                     <div class="ham__line ham__line--1"></div>
                     <div class="ham__line ham__line--2"></div>
                     <div class="ham__line ham__line--3"></div>
@@ -77,14 +84,11 @@
                     <a class="nav" href="career.html" target="_top">Career</a>
                     <a class="nav" href="team.html" target="_top">About Us</a>
                     <a class="nav" href="contact.html" target="_top">Contact</a>
-                </div>
+                </div> -->
                 <div id="nav_bg" class="navigations_bg">
                 </div>
             </div>
         </div>
-
-
-        
 
         <!-- Innovative -->
         <div id="innovative">
@@ -100,40 +104,24 @@
                         style="pointer-events:none; overflow:hidden; width:100%; height:auto; position: absolute; left: 0px; top: 0px; display: block;">
                     </div>
                 </div>
-                <div id="owl--I" class="introduction owl-carousel">
+                <div class="introduction">
                     <div class="card">
-                        <div class="card__title">Innovative Thinking</div>
-                        <div class="card__content">
-                            Every issue in every organization is a challenge of its own. After understanding the issue
-                            and analyzing available technologies, we are defining a technological bridge to couple the
-                            issue with the most applicable solution.
+                        <div class="card__title">
+                            Where solutions are stepping into the light
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__title">Active Listening</div>
                         <div class="card__content">
-                            While actively listening to our clients we are at the same time helping them explain their
-                            issues in greater depth. Thus making our cooperation more tangible. Active listening is the
-                            skill we are improving continuously.
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__title">Guaranteed Delivery</div>
-                        <div class="card__content">
-                            Implementing a technological solution, within the agreed time and given budget frame is a
-                            challenge we enthusiastically accept and consistently achieve. We deliver products and
-                            services fitting the organization smoothly. Advanced Solutions Delivered.
+                            Every Organization has challenges. By understanding the full impact and analyzing available technologies, 
+                            we are helping our clients to build an innovative technological bridge between the challenges and the most effective solutions.
                         </div>
                     </div>
                 </div>
                 <div class="about">
                     <div class="card card--whatWeDo">
                         <div class="card__title">
-                            What we do
+                            Who we are
                         </div>
                         <div class="card__content">
-                            We are an IT Software Engineering company committed to development of advanced products and
-                            a supplier of IT innovative services.
+                            We are the technology company committed to development of efficient, meaningful and easy-to-use solutions.
                         </div>
                     </div>
 
@@ -142,205 +130,158 @@
                             What we think
                         </div>
                         <div class="card__content">
-                            The main purpose of Information Technology is to serve and complement the organization’s
-                            core business and to be the main driving force for product, service, and process innovation.
+                            The Information Technology purpose is to serve, complement and empower the organization’s advancement.
                         </div>
                     </div>
 
                     <div class="card card--whyWeAreDifferent">
                         <div class="card__title">
-                            Why we are different
+                            Why we are so different
                         </div>
                         <div class="card__content">
-                            We treat all of our Clients as they are the only ones for us and we tightly relate our
-                            Client’s success with our own.
+                            We treat all of our clients as they are the only ones for us and we tightly relate their success with our own.
+                        </div>
+                    </div>
+                </div>
+                <div class="about-owl">
+                    <div class="card card--whatWeDo">
+                        <div class="card__title">
+                            Who we are
+                        </div>
+                        <div class="card__content">
+                            We are the technology company committed to development of efficient, meaningful and easy-to-use solutions.
+                        </div>
+                    </div>
+
+                    <div class="card card--whatWeThink">
+                        <div class="card__title">
+                            What we think
+                        </div>
+                        <div class="card__content">
+                            The Information Technology purpose is to serve, complement and empower the organization’s advancement.
+                        </div>
+                    </div>
+
+                    <div class="card card--whyWeAreDifferent">
+                        <div class="card__title">
+                            Why we are so different
+                        </div>
+                        <div class="card__content">
+                            We treat all of our clients as they are the only ones for us and we tightly relate their success with our own.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
 
         <div class="inovation_container--m">
             <!--TO DO - Napraviti baner --->
         </div>
 
 
-        <div class="improveYourBusiness_container" data-aos="c-1" data-aos-duration="300">
-            <div class="header">
+        <div class="improveYourBusiness_container">
+            <div class="content">
+                <div class="cards">
+                    <div class="cards_group">
+                        <div class="card business_software" data-aos="fade-up-right" data-aos-duration="1000">
+                            <div class="card_content">
+                                <div class="card_icon"></div>
+                                <div class="card_content_text">
+                                    <div class="card_title">
+                                        Software Engineering
+                                    </div>
+                                    <div class="card_text">
+                                        Applying leading technologies, processes and intelligence to deliver innovative and outstanding user experiences in a cost-efficient manner.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card business_digital" data-aos="fade-up-left" data-aos-duration="1000">
+                            <div class="card_content">
+                                <div class="card_icon"></div>
+                                <div class="card_content_text">
+                                    <div class="card_title">
+                                        Digital Transformation
+                                    </div>
+                                    <div class="card_text">
+                                        Speed up your organization leveraging the changes and opportunities of information technologies and their impact in a strategic and prioritized way.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards_group">
+                        <div class="card business_solutions" data-aos="fade-up-right" data-aos-duration="1000">
+                            <div class="card_content">
+                                <div class="card_icon"></div>
+                                <div class="card_content_text">
+                                    <div class="card_title">
+                                        Cognitive Solutions
+                                    </div>
+                                    <div class="card_text">
+                                        Unlock the potential in all data - internal, external, structured, and unstructured - and make it work together.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card business_mobility" data-aos="fade-up-left" data-aos-duration="1000">
+                            <div class="card_content">
+                                <div class="card_icon"></div>
+                                <div class="card_content_text">
+                                    <div class="card_title">
+                                        Mobility
+                                    </div>
+                                    <div class="card_text">
+                                        Transform your organization to deliver more relevant and personalized user engagements at the market speed.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards_group">
+                        <div class="card business_outsourcing">
+                            <div class="card_content">
+                                <div class="card_icon"></div>
+                                <div class="card_content_text">
+                                    <div class="card_title">
+                                        Outsourcing
+                                    </div>
+                                    <div class="card_text">
+                                        Harvest our expertise and the elastic pool of resources to deliver faster and more
+                                        innovative
+                                        solutions promptly.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card business_research" data-aos="fade-up-left" data-aos-duration="1000">
+                            <div class="card_content">
+                                <div class="card_icon"></div>
+                                <div class="card_content_text">
+                                    <div class="card_title">
+                                        Research
+                                    </div>
+                                    <div class="card_text">
+                                        Minimize uncertainty and mitigate the risk of emerging technologies by using our advanced research department.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+                </div>
+            </div>
+            <div class="header" data-aos="c-1" data-aos-duration="1500" data-aos-delay="500">
                 <div class="header_title">
                     How can we improve your business
                 </div>
                 <div class="header_subtitle  header_subtitle-XL">
-                    Transforming enterprises through a strategic approach, enhanced customer experience, innovative
-                    operating models, and process consulting.
-                </div>
-            </div>
-            <div class="content">
-                <div class="cards">
-                    <div class="card business_transform">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Digital Transformation
-                                </div>
-                                <div class="card_text">
-                                    Speed up your organization leveraging the changes and opportunities of information
-                                    technologies
-                                    and their impact in a strategic and prioritized way.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card business_analytic">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Big Data & Analytics
-                                </div>
-                                <div class="card_text">
-                                    Gain greater insights that improve business processes and ideas that drive
-                                    game-changing
-                                    outcomes.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card business_social">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Social Data Mining
-                                </div>
-                                <div class="card_text">
-                                    Use large-scale social media data to innovate your organization core business and
-                                    broaden
-                                    the
-                                    target audience.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card business_solution">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Cognitive Solutions
-                                </div>
-                                <div class="card_text">
-                                    Unlock the potential in all data - internal, external, structured, and unstructured
-                                    - and
-                                    make
-                                    it work together.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card business_engineering">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Software Engineering
-                                </div>
-                                <div class="card_text">
-                                    Applying leading technologies, processes and intelligence to deliver innovative and
-                                    outstanding
-                                    user experiences in a cost-efficient manner.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card business_mobility">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Mobility
-                                </div>
-                                <div class="card_text">
-                                    Transform your organization to deliver more relevant and personalized user
-                                    engagements at
-                                    the
-                                    market speed.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card business_outsourcing">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Outsourcing
-                                </div>
-                                <div class="card_text">
-                                    Harvest our expertise and the elastic pool of resources to deliver faster and more
-                                    innovative
-                                    solutions promptly.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card business_research">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Research
-                                </div>
-                                <div class="card_text">
-                                    Minimize uncertainty and mitigate the risk of emerging technologies by using our
-                                    advanced
-                                    research department.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    Transforming enterprises through a strategic approach, enhanced customer experience, innovative operating models, and process consulting.
                 </div>
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-
-        <div class="improveYourBusiness_container--m">
+        <!-- <div class="improveYourBusiness_container--m">
             <div class="header">
                 <div class="header_title">
                     How can we improve your business
@@ -361,40 +302,7 @@
                                     Digital Transformation
                                 </div>
                                 <div class="card_text">
-                                    Speed up your organization leveraging the changes and opportunities of information
-                                    technologies
-                                    and their impact in a strategic and prioritized way.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card card--business_analytic">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Big Data & Analytics
-                                </div>
-                                <div class="card_text">
-                                    Gain greater insights that improve business processes and ideas that drive
-                                    game-changing
-                                    outcomes.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card card--business_social">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Social Data Mining
-                                </div>
-                                <div class="card_text">
-                                    Use large-scale social media data to innovate your organization core business and
-                                    broaden
-                                    the
-                                    target audience.
+                                    Speed up your organization leveraging the changes and opportunities of information technologies and their impact in a strategic and prioritized way.
                                 </div>
                             </div>
                         </div>
@@ -407,10 +315,7 @@
                                     Cognitive Solutions
                                 </div>
                                 <div class="card_text">
-                                    Unlock the potential in all data - internal, external, structured, and unstructured
-                                    - and
-                                    make
-                                    it work together.
+                                    Unlock the potential in all data - internal, external, structured, and unstructured - and make it work together.
                                 </div>
                             </div>
                         </div>
@@ -423,9 +328,7 @@
                                     Software Engineering
                                 </div>
                                 <div class="card_text">
-                                    Applying leading technologies, processes and intelligence to deliver innovative and
-                                    outstanding
-                                    user experiences in a cost-efficient manner.
+                                    Applying leading technologies, processes and intelligence to deliver innovative and outstanding user experiences in a cost-efficient manner.
                                 </div>
                             </div>
                         </div>
@@ -438,29 +341,12 @@
                                     Mobility
                                 </div>
                                 <div class="card_text">
-                                    Transform your organization to deliver more relevant and personalized user
-                                    engagements at
-                                    the
-                                    market speed.
+                                    Transform your organization to deliver more relevant and personalized user engagements at the market speed.
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card card--business_outsourcing">
-                        <div class="card_content">
-                            <div class="card_icon"></div>
-                            <div class="card_content_text">
-                                <div class="card_title">
-                                    Outsourcing
-                                </div>
-                                <div class="card_text">
-                                    Harvest our expertise and the elastic pool of resources to deliver faster and more
-                                    innovative
-                                    solutions promptly.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="card card--business_research">
                         <div class="card_content">
                             <div class="card_icon"></div>
@@ -469,9 +355,7 @@
                                     Research
                                 </div>
                                 <div class="card_text">
-                                    Minimize uncertainty and mitigate the risk of emerging technologies by using our
-                                    advanced
-                                    research department.
+                                    Minimize uncertainty and mitigate the risk of emerging technologies by using our advanced research department.
                                 </div>
                             </div>
                         </div>
@@ -479,82 +363,110 @@
                 </div>
                 <button id="btn--owl--next--IYB" class="btn--next"></button>
             </div>
-        </div>
+        </div> -->
 
         <div class="latestResearch_container">
-            <div class="header">
-                <div class="header_title">
-                    Our Latest Research
-                </div>
-                <div class="header_subtitle">
-                    Minimize the risk of adopting emerging technologies and extract the best out of it.
-                </div>
-            </div>
             <div class="content">
-                <div class="cards">
-                    <div class="card latestResearch_intelligence" data-aos="c-2" data-aos-duration="300" data-aos-offset="200" data-aos-mirror="true">
-                        <div class="card_icon"></div>
-                        <div class="card_content">
-                            <div class="card_content_title">
-                                Artificial <br> Intelligence
-                            </div>
-                            <div class="card_content_text">
-                                In a world where the term “AI” is being thrown around like the next big thing, many
-                                business
-                                leaders still struggle to understand how AI will help them make better decisions
-                                that
-                                drive
-                                their businesses forward. To make things even more confusing, AI has been decoupled
-                                from
-                                Machine Learning, Natural Language Processing, Computer Vision, and many more.
-                                How will technology that senses, comprehends, acts and learns help your business to
-                                grow?
-                            </div>
+                <div class="header_container">
+                    <div class="header">
+                        <div class="header_title">
+                            Our Latest Research
+                        </div>
+                        <div class="header_subtitle">
+                            Minimize the risk of adopting emerging technologies and extract the best out of it.
                         </div>
                     </div>
-                    <div class="card latestResearch_security" data-aos="c-2" data-aos-duration="300" data-aos-offset="200" data-aos-mirror="true">
-                        <div class="card_icon"></div>
-                        <div class="card_content">
-                            <div class="card_content_title">
-                                Impeccable <br> Security
-                            </div>
-                            <div class="card_content_text">
-                                In a rapidly evolving cyber-physical world, individuals, communities, businesses,
-                                and
-                                governments are facing dynamic security challenges with implications for society.
-                                Globalization, increasing interconnectivity of systems, a growing trend of
-                                autonomous
-                                and
-                                semi-autonomous decision making, and other advances in technology all contribute to
-                                a
-                                complex security landscape. How the Organization can address this challenge? Can
-                                risks
-                                be
-                                eliminated?
+                </div>
+                <div class="card-container" id="scrollable-card">
+                    <!-- <img id="stain" class="stain" src="imgs/backgrounds/stain-shadow.svg"/> -->
+                    <div class="card">
+                        <div class="card-wrapper">
+                            <div class="card-content" id="cc1">
+                                <div class="card-info" id="ci1">
+                                    <div class="card-title">Artificial Intelligence</div>
+                                    <div class="card-subtitle">Virtual Assistant</div>
+                                    <div class="card-text">
+                                        The project was to implement an Organization Virtual Assistant. 
+                                        The Virtual Assistant should answer any question related to the Organization HR Policy like: 
+                                        How many days of vacation I have left? Or What are my entitlements for Child Schooling? Or Similar? 
+                                        Virtual Assistant should recognize a logged-in employee and immediately place him in the correct context.
+                                        <br><br>
+                                        The project was implemented on Apple (iOS) iPhone devices, and as technology, we have used, Apple Siri, IBM Watson and Stanford  NLP Library.
+                                    </div>
+                                </div>
+                                <div class="card-graphic">
+                                    <div class="card-mobile">
+                                        <div class="mobile-header">
+                                            Welcome To Virtual Assistent
+                                            <img class="mobile-header-image" src="imgs/icons/robot.svg">
+                                        </div>
+                                        <div class="mobile-body">
+                                            <div class="mobile-main-message">
+                                                Hello John Doe! <br>
+                                                How can I help you?
+                                                <div class="message-triangle"></div>
+                                            </div>
+                                            <div class="mobile-message-container">
+                                                <span class="mobile-message margin-left-L" id="message-1">Show my assignments.</span>
+                                                <span class="mobile-message margin-left-S" id="message-2">Do I have any meetings today?</span>
+                                                <span class="mobile-message margin-left-S" id="message-3">Show me my unread email list.</span>
+                                                <span class="mobile-message margin-left-L" id="message-4">Do I have any document to sign?</span>
+                                                <span class="mobile-message margin-left-S" id="message-5">Show me my list of tasks.</span>
+                                            </div>
+                                            <div class="mobile-notification top-left">
+                                                <div class="mobile-text">
+                                                    <span class="message-group">You have 1 new email. <img src="imgs/icons/message.svg"></span>
+                                                    <span class="text gray">22 minutes ago.</span>
+                                                    <div class="message-triangle"></div>
+                                                    <img class="user" src="imgs/employees/user.png">
+                                                </div>
+                                            </div>
+                                            <div class="mobile-notification top-right">
+                                                <div class="mobile-text">
+                                                    <span class="message-group headline">Do not be late!<img src="imgs/icons/notification.svg"></span>
+                                                    <span class="text">You have a meeting <br> today at 10:00 AM.</span>
+                                                    <span class="text">Good Luck!</span>
+                                                    <div class="message-triangle"></div>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-notification bottom-left">
+                                                <div class="mobile-text">
+                                                    <span class="message-group right-aligned-group">How many days of vacation <br> do I have?<img src="imgs/employees/user-mobile.png"></span>
+                                                    <span class="message-group"><img style="margin-left: 0rem;" src="imgs/employees/robot-mobile.png"> You have 15 days of <br> vacation to use.</span>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-notification bottom-right">
+                                                <img src="imgs/icons/voicemail-mobile1.svg" style="margin-left: 0rem;">
+                                            </div>
+                                        </div>
+                                        <div class="mobile-footer">
+                                            <img src="imgs/icons/virtual-message.svg">
+                                            <img src="imgs/icons/virtual-voicemail.svg">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card latestResearch_blockchain" data-aos="c-2" data-aos-duration="300" data-aos-offset="200" data-aos-mirror="true">
-                        <div class="card_icon"></div>
-                        <div class="card_content">
-                            <div class="card_content_title">
-                                Blockchain <br> Technology
-                            </div>
-                            <div class="card_content_text">
-                                Blockchain is undeniably ingenious and revolutionary shared ledger technology that
-                                can
-                                help
-                                your enterprise business solve complex problems now and in the near future.
-                                Blockchain
-                                is
-                                poised to do for transactions what the Internet did for information. Technology that
-                                has
-                                the
-                                potential to build trust into every transaction and remove barriers to doing
-                                business
-                                globally. Is the Bitcoin all what Blockchain technology has to offer? Or is there
-                                more
-                                to it?
+                        <div class="card-wrapper">
+                            <div class="card-content" id="cc2">
+                                <div class="card-info" id="ci2">
+                                    <div class="card-title">Blockchain Technology</div>
+                                    <div class="card-subtitle">In Country Value Management System</div>
+                                    <div class="card-text">
+                                        The project was to implement an Organization Virtual Assistant. 
+                                        The Virtual Assistant should answer any question related to the Organization HR Policy like: 
+                                        How many days of vacation I have left? Or What are my entitlements for Child Schooling? Or Similar? 
+                                        Virtual Assistant should recognize a logged-in employee and immediately place him in the correct context.
+                                        <br><br>
+                                        The project was implemented on Apple (iOS) iPhone devices, and as technology, we have used, Apple Siri, IBM Watson and Stanford  NLP Library.
+                                    </div>
+                                </div>
+                                <div class="card-graphic left-aligned">
+                                    <img class="card-product" src="imgs/products/card-chart.svg" id="icv-image">
+                                    <img class="card-product top-right-icv" src="imgs/products/card-icv.svg">
+                                    <img class="card-product middle-right-icv" src="imgs/products/card-logo.svg">
+                                    <img class="card-product bottom-icv" src="imgs/products/card-score.svg">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -563,79 +475,104 @@
         </div>
 
         <div class="latestResearch_container--m">
-            <div class="header">
-                <div class="header_title">
-                    Our Latest Research
-                </div>
-                <div class="header_subtitle">
-                    Minimize the risk of adopting emerging technologies and extract the best out of it.
-                </div>
-            </div>
             <div class="content">
-                <div class="cards">
-                    <div class="card card--latestResearch_intelligence">
-                        <div class="card_icon"></div>
-                        <div class="card_content">
-                            <div class="card_content_title">
-                                Artificial Intelligence
-                            </div>
-                            <div class="card_content_text">
-                                In a world where the term “AI” is being thrown around like the next big thing, many
-                                business
-                                leaders still struggle to understand how AI will help them make better decisions
-                                that
-                                drive
-                                their businesses forward. To make things even more confusing, AI has been decoupled
-                                from
-                                Machine Learning, Natural Language Processing, Computer Vision, and many more.
-                                How will technology that senses, comprehends, acts and learns help your business to
-                                grow?
-                            </div>
+                <div class="header_container">
+                    <div class="header">
+                        <div class="header_title">
+                            Our Latest Research
+                        </div>
+                        <div class="header_subtitle">
+                            Minimize the risk of adopting emerging technologies and extract the best out of it.
                         </div>
                     </div>
-                    <div class="card card--latestResearch_security">
-                        <div class="card_icon"></div>
-                        <div class="card_content">
-                            <div class="card_content_title">
-                                Impeccable Security
-                            </div>
-                            <div class="card_content_text">
-                                In a rapidly evolving cyber-physical world, individuals, communities, businesses,
-                                and
-                                governments are facing dynamic security challenges with implications for society.
-                                Globalization, increasing interconnectivity of systems, a growing trend of
-                                autonomous
-                                and
-                                semi-autonomous decision making, and other advances in technology all contribute to
-                                a
-                                complex security landscape. How the Organization can address this challenge? Can
-                                risks
-                                be
-                                eliminated?
+                </div>
+                <div class="card-container-m" id="scrollable-card-m">
+                    <!-- <img id="stain" class="stain" src="imgs/backgrounds/stain-shadow.svg"/> -->
+                    <div class="card-m">
+                        <div class="card-wrapper-m">
+                            <div class="card-content-m" id="cc1-m">
+                                <div class="card-info-m" id="ci1-m">
+                                    <div class="card-title-m">Artificial Intelligence</div>
+                                    <div class="card-subtitle-m">Virtual Assistant</div>
+                                    <div class="card-text-m">
+                                        The project was to implement an Organization Virtual Assistant. 
+                                        The Virtual Assistant should answer any question related to the Organization HR Policy like: 
+                                        How many days of vacation I have left? Or What are my entitlements for Child Schooling? Or Similar? 
+                                        Virtual Assistant should recognize a logged-in employee and immediately place him in the correct context.
+                                        <br><br>
+                                        The project was implemented on Apple (iOS) iPhone devices, and as technology, we have used, Apple Siri, IBM Watson and Stanford  NLP Library.
+                                    </div>
+                                </div>
+                                <div class="card-graphic-m">
+                                    <div class="card-mobile-m">
+                                        <div class="mobile-header-m">
+                                            Welcome To Virtual Assistent
+                                            <img class="mobile-header-image-m" src="imgs/icons/robot.svg">
+                                        </div>
+                                        <div class="mobile-body-m">
+                                            <div class="mobile-main-message-m">
+                                                Hello John Doe! <br>
+                                                How can I help you?
+                                                <div class="message-triangle-m"></div>
+                                            </div>
+                                            <div class="mobile-message-container-m">
+                                                <span class="mobile-message-m margin-left-S" id="message-1-m">Show my assignments.</span>
+                                                <span class="mobile-message-m margin-left-M" id="message-2-m">Do I have any meetings today?</span>
+                                                <span class="mobile-message-m margin-left-XL" id="message-3-m">Show me my unread email list.</span>
+                                                <span class="mobile-message-m margin-left-M" id="message-4-m">Do I have any document to sign?</span>
+                                                <span class="mobile-message-m margin-left-M" id="message-5-m">Show me my list of tasks.</span>
+                                            </div>
+                                            <div class="mobile-notification-m top-left-m">
+                                                <div class="mobile-text-m">
+                                                    <span class="message-group-m">You have 1 new email. <img src="imgs/icons/message.svg"></span>
+                                                    <span class="text gray">22 minutes ago.</span>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-notification-m top-right-m">
+                                                <div class="mobile-text-m">
+                                                    <span class="message-group-m headline">Do not be late!<img src="imgs/icons/notification.svg"></span>
+                                                    <span class="text">You have a meeting today at 10:00 AM.</span>
+                                                    <span class="text">Good Luck!</span>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-notification-m bottom-left-m">
+                                                <div class="mobile-text-m">
+                                                    <span class="message-group-m right-aligned-group">How many days of vacation do I have?<img src="imgs/employees/user-mobile.png"></span>
+                                                    <span class="message-group-m"><img style="margin-left: 0rem; margin-right: 2rem;" src="imgs/employees/robot-mobile.png"> You have 15 days of vacation to use.</span>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-notification-m bottom-right-m">
+                                                <img src="imgs/icons/voicemail-mobile1.svg" style="margin-left: 0rem;">
+                                            </div>
+                                        </div>
+                                        <div class="mobile-footer-m">
+                                            <img src="imgs/icons/virtual-message.svg">
+                                            <img src="imgs/icons/virtual-voicemail.svg">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card card--latestResearch_blockchain">
-                        <div class="card_icon"></div>
-                        <div class="card_content">
-                            <div class="card_content_title">
-                                Blockchain Technology
-                            </div>
-                            <div class="card_content_text">
-                                Blockchain is undeniably ingenious and revolutionary shared ledger technology that
-                                can
-                                help
-                                your enterprise business solve complex problems now and in the near future.
-                                Blockchain
-                                is
-                                poised to do for transactions what the Internet did for information. Technology that
-                                has
-                                the
-                                potential to build trust into every transaction and remove barriers to doing
-                                business
-                                globally. Is the Bitcoin all what Blockchain technology has to offer? Or is there
-                                more
-                                to it?
+                        <div class="card-wrapper-m additional-content">
+                            <div class="card-content-m" id="cc2-m">
+                                <div class="card-info-m" id="ci2-m">
+                                    <div class="card-title-m">Blockchain Technology</div>
+                                    <div class="card-subtitle-m">In Country Value Management System</div>
+                                    <div class="card-text-m">
+                                        The project was to implement an Organization Virtual Assistant. 
+                                        The Virtual Assistant should answer any question related to the Organization HR Policy like: 
+                                        How many days of vacation I have left? Or What are my entitlements for Child Schooling? Or Similar? 
+                                        Virtual Assistant should recognize a logged-in employee and immediately place him in the correct context.
+                                        <br><br>
+                                        The project was implemented on Apple (iOS) iPhone devices, and as technology, we have used, Apple Siri, IBM Watson and Stanford  NLP Library.
+                                    </div>
+                                </div>
+                                <div class="card-graphic-m">
+                                    <img class="card-product-m" src="imgs/products/card-chart.svg" id="icv-image-m">
+                                    <img class="card-product-m top-right-icv-m" src="imgs/products/card-icv.svg">
+                                    <img class="card-product-m middle-right-icv-m" src="imgs/products/card-logo.svg">
+                                    <img class="card-product-m bottom-icv-m" src="imgs/products/card-score.svg">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -643,7 +580,7 @@
             </div>
         </div>
 
-        <div class="ourProducts_container">
+        <div id="ourProducts_container">
             <div class="header">
                 <div class="header_title">
                     Our Products
@@ -653,115 +590,42 @@
                 </div>
             </div>
             <div class="content">
-                <div class="product">
-                    <div class="product_images_c">
-                        <div id="owl--PI" class="product_images owl-carousel">
-                            <div class="product_image" style="width: 100%; height: 400px;">
-                                <img src="imgs/products/product-3.png">
-                            </div>
-                            <div class="product_image" style="width: 100%; height: 400px;">
-                                <img src="imgs/products/product-3.png">
-                            </div>
-                            <div class="product_image" style="width: 100%; height: 400px;">
-                                <img src="imgs/products/product-3.png" style="width: 650px;">
-                            </div>
-                            <div class="product_image" style="width: 100%; height: 400px;">
-                                <img src="imgs/products/product-4.png">
-                            </div>
-                            <div class="product_image" style="width: 100%; height: 400px;">
-                                <img src="imgs/products/product-5.png" style="width: 650px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product_description" data-aos="fade-right">
-                        <div class="product_description_products_c">
-                            <div id="btn--owl--next--PD" class="product_description_prevProduct"></div>
-                            <div id="owl--PD" class="product_description_products owl-carousel ">
-
-                                <div class="item product_description_product">
-                                    <div class="product_description_content_title">
-                                        Meeting Management Platform (Meetie)
+                <div class="card-container" id="scrollable-card-2">
+                    <!-- <img src="imgs/backgrounds/stain-shadow2.svg" class="stain"> -->
+                    <div class="card">
+                        <div class="card-wrapper">
+                            <div class="card-content" id="ccFocus">
+                                <div class="card-graphic">
+                                    <div class="card-graphic-focus-1">
+                                        <img class="card-product" src="imgs/products/focus.svg" id="focus-image">
                                     </div>
-                                    <div class="product_description_content_text">
-                                        Enhance your board meetings experience with easy-to-use system with a vast pool
-                                        of
-                                        features that save time and make it enjoyable to work with
-                                    </div>
-                                    <div class="product_description_content_more">
-                                        <div class="product_description_content_more_btn">
-                                            SHOW MORE
-                                        </div>
+                                    <div class="card-graphic-focus-2">
+                                        <img src="imgs/products/focus-agenda.svg" id="focus-agenda">
+                                        <img src="imgs/products/focus-calendar.svg" id="focus-calendar">
+                                        <img src="imgs/products/focus-files.svg" id="focus-files">
+                                        <img src="imgs/products/focus-workflow.svg" id="focus-workflow">
                                     </div>
                                 </div>
-                                <div class="item product_description_product">
-                                    <div class="product_description_content_title">
-                                        News Management System
-                                    </div>
-                                    <div class="product_description_content_text">
-                                        Be briefed on what's going on in your work environment. Get in touch with new
-                                        technologies and procedures,
-                                        and find new and useful information related to your work.
-                                    </div>
-                                    <div class="product_description_content_more">
-                                        <div class="product_description_content_more_btn">
-                                            SHOW MORE
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item product_description_product">
-                                    <div class="product_description_content_title">
-                                        Souq
-                                    </div>
-                                    <div class="product_description_content_text">
-                                        Easy to use all-in-one Buy, Sell and Bid solution for your company and employees
-                                        to have fun while bidding,
-                                        purchasing and selling company and personal items.
-                                    </div>
-                                    <div class="product_description_content_more">
-                                        <div class="product_description_content_more_btn">
-                                            SHOW MORE
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item product_description_product">
-                                    <div class="product_description_content_title">
-                                        Corporate Tender Board Management System
-                                    </div>
-                                    <div class="product_description_content_text">
-                                        Manage the tender board process with this easy-to-use governing tool specially
-                                        designed to meet all your needs
-                                        offering a plethora of features that will help you enhance your tender board
-                                        managing process.
-                                    </div>
-                                    <div class="product_description_content_more">
-                                        <div class="product_description_content_more_btn">
-                                            SHOW MORE
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item product_description_product">
-                                    <div class="product_description_content_title">
-                                        Offers Management System
-                                    </div>
-                                    <div class="product_description_content_text">
-                                        Get the best and latest deals and discounts for your employees and business
-                                        partners by using Offers App
-                                    </div>
-                                    <div class="product_description_content_more">
-                                        <div class="product_description_content_more_btn">
-                                            SHOW MORE
-                                        </div>
+                                <div class="card-info" id="ci3">
+                                    <div class="card-title">Focus</div>
+                                    <div class="card-text">Smart and Organizational orientated one-stop-shop to meet all your day-to-day needs. 
+                                        From task creation and follow-up, over smart time organization to meeting governance with full approval, voting and audit process. 
+                                        Focus has a plethora of features that are fun and easy to use while helping you save time. 
                                     </div>
                                 </div>
                             </div>
-                            <div id="btn--owl--prev--PD" class="product_description_nextProduct"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="companies_container" data-aos="z-1" data-aos-offset="200" data-aos-duration="300">
+        <div class="companies_container" data-aos="z-1" data-aos-offset="200" data-aos-duration="700">
+            <div class="header">
+                <div class="header_title">
+                    Companies that believe in us
+                </div>
+            </div>
             <div class="content">
                 <div class="companies">
                     <img class="company" src="imgs/companies/Adnoc.svg">
@@ -771,7 +635,7 @@
             </div>
         </div>
 
-        <div class="companies_container--m">
+        <!-- <div class="companies_container--m">
             <div class="content">
                 <div id="owl--C" class="companies owl-carousel">
                     <div class="company">
@@ -785,7 +649,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="contact_container" >
             <div class="content">
@@ -807,6 +671,7 @@
         </div>
 
         <div class="footer_container">
+            <div class="background-extension"></div>
             <div class="content">
                 <div class="footer_item-logo">
                     <div class="rationale_logo" onclick="moveToHomePage()"></div>
@@ -855,7 +720,7 @@
                 </div>
             </div>
             <div class="footer">
-                © 2020. Rationaletech.com All rights reserved
+                © 2021. Rationaletech.com All rights reserved
             </div>
         </div>
 
