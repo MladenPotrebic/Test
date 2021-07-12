@@ -19,8 +19,8 @@ $c-blue: #007ee1;
 
 $c-blue-dark: #007ee1;
 $c-blue-light: #0297ed;
-$c-blue-sky: #70A2FF;
-$c-blue-pale: #EFF5FF;
+$c-blue-sky: #70a2ff;
+$c-blue-pale: #eff5ff;
 
 $c-black: #2b2b2b;
 $c-black-light: #707070;
@@ -33,7 +33,7 @@ $c-black-bg: #333333;
 
 $c-purple: #9060ef;
 
-$c-orange: #FE993B;
+$c-orange: #fe993b;
 // Fonts
 @font-face {
     font-family: "Segoe-UI";
@@ -499,7 +499,6 @@ $img-wave: "products/img-wave.svg";
     @include respSpecif(752) {
         font-size: $font-size * 0.9;
     }
-
 }
 
 @mixin font-size-L($font-size) {
@@ -1177,7 +1176,7 @@ $img-wave: "products/img-wave.svg";
 }
 
 //position absolute
-@mixin absolute-position($top:null, $right:null, $bottom:null, $left:null) {
+@mixin absolute-position($top: null, $right: null, $bottom: null, $left: null) {
     position: absolute;
     top: $top;
     right: $right;
@@ -1494,11 +1493,10 @@ $img-wave: "products/img-wave.svg";
         &__logo {
             @include image($logo-Rationaletech-1, 180px, 50px, auto, 32px, center left);
             cursor: pointer;
-            transition: transform .3s;
-            &:hover{
+            transition: transform 0.3s;
+            &:hover {
                 @include imageChange($logo-Rationaletech-3);
-                transform: scale(1.03); 
-
+                transform: scale(1.03);
             }
         }
         &__navigations {
@@ -1510,10 +1508,10 @@ $img-wave: "products/img-wave.svg";
                 text-decoration: none;
                 border-bottom: 2px solid transparent;
                 cursor: pointer;
-                transition: transform .3s;
+                transition: transform 0.3s;
                 &:hover {
                     color: $c-blue;
-                    transform: scale(1.03); 
+                    transform: scale(1.03);
                 }
                 &--active {
                     color: $c-blue;
@@ -1557,11 +1555,10 @@ $img-wave: "products/img-wave.svg";
         &__logo {
             @include image($logo-Rationaletech-1, 180px, 50px, auto, 32px, center left);
             cursor: pointer;
-            transition: transform .3s;
-            &:hover{
+            transition: transform 0.3s;
+            &:hover {
                 @include imageChange($logo-Rationaletech-3);
-                transform: scale(1.03); 
-
+                transform: scale(1.03);
             }
         }
         &__navigations {
@@ -1573,9 +1570,9 @@ $img-wave: "products/img-wave.svg";
                 text-decoration: none;
                 border-bottom: 2px solid transparent;
                 cursor: pointer;
-                transition: transform .3s;
+                transition: transform 0.3s;
                 &:hover {
-                    transform: scale(1.03); 
+                    transform: scale(1.03);
                     border-color: $c-white;
                 }
                 &--active {
@@ -1829,7 +1826,7 @@ $img-wave: "products/img-wave.svg";
             width: 33%;
             left: calc(3% + 70px);
             visibility: hidden;
-            .card{
+            .card {
                 &__sub-title {
                     @include font-basic-semi-bold(#737373, 1.2rem);
                 }
@@ -1856,7 +1853,7 @@ $img-wave: "products/img-wave.svg";
             }
 
             @include respSpecif(1160) {
-                .card{
+                .card {
                     &__title {
                         @include font-basic-bold($c-black, 1.6rem);
                     }
@@ -1867,10 +1864,10 @@ $img-wave: "products/img-wave.svg";
                 }
             }
 
-            @include respSpecif(980){
+            @include respSpecif(980) {
                 top: 35%;
                 left: calc(3% + 30px);
-                .card{
+                .card {
                     &__title {
                         @include font-basic-bold($c-black, 1.2rem);
                     }
@@ -1893,9 +1890,9 @@ $img-wave: "products/img-wave.svg";
                 width: calc((100% - 80px) / 3);
                 background-color: $c-white;
                 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
-                transition: transform .3s;
-                &:hover{
-                    transform: scale(1.03); 
+                transition: transform 0.3s;
+                &:hover {
+                    transform: scale(1.03);
                 }
                 &__title {
                     padding: 40px 45px 0 45px;
@@ -1930,11 +1927,11 @@ $img-wave: "products/img-wave.svg";
                     &--whatWeDo {
                         border-radius: 50px 0 50px 0;
                     }
-    
+
                     &--whatWeThink {
                         border-radius: 50px 50px 0 0;
                     }
-    
+
                     &--whyWeAreDifferent {
                         border-radius: 0 50px 0 50px;
                     }
@@ -1969,9 +1966,9 @@ $img-wave: "products/img-wave.svg";
                 @include respSpecif(980) {
                     background-color: $c-white;
                     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
-                    transition: transform .3s;
-                    &:hover{
-                        transform: scale(1.03); 
+                    transition: transform 0.3s;
+                    &:hover {
+                        transform: scale(1.03);
                     }
                 }
                 &__title {
@@ -2040,6 +2037,49 @@ $img-wave: "products/img-wave.svg";
                     }
                 }
             }
+        }
+    }
+
+    @include hide-S();
+}
+
+.inovation_container--m {
+    @include show(S);
+    padding: 80px 20px;
+    .screen {
+        padding: 20px 0 0 0;
+        position: relative;
+        border-radius: 22px;
+        background-color: white;
+        box-shadow: 0px 0px 20px rgb(0 0 0 / 8%);
+        min-height: calc(100vh - 160px);
+        display: flex;
+        flex-direction: column;
+        &__title {
+            padding: 0 20px;
+            @include font-basic-bold($c-black, 1.8rem);
+        }
+
+        &__text {
+            padding: 0 20px;
+            @include margin(15px auto 0 auto);
+            @include font-basic($c-black-light, 1rem);
+        }
+
+        &__img {
+            margin-top: 30px;
+            flex-grow: 1;
+            overflow-x: hidden;
+            background: url(../imgs/backgrounds/home_mobile_cover.png) no-repeat top 2px center;
+            background-size: 100% auto;
+        }
+
+        &__circle {
+            position: absolute;
+        }
+
+        &__slider{
+            position: absolute;
         }
     }
 }
@@ -2124,7 +2164,7 @@ $img-wave: "products/img-wave.svg";
                                 @include font-basic-semi-bold($c-black, 1rem);
                                 text-align: start;
                             }
-    
+
                             .card_text {
                                 @include margin-top(10px);
                                 @include font-basic($c-black-light, $fs-basic);
@@ -2196,7 +2236,7 @@ $img-wave: "products/img-wave.svg";
             .business_outsourcing {
                 visibility: hidden;
                 @include respSpecif(600) {
-                  display: none;
+                    display: none;
                 }
                 .card_icon {
                     @include image($icon-business_outsourcing, 35px, 35px, auto, 35px, top center);
@@ -2339,7 +2379,7 @@ $img-wave: "products/img-wave.svg";
             left: 0;
             z-index: -2;
         }
-        
+
         .card {
             position: relative;
             border-radius: 10px;
@@ -2372,11 +2412,11 @@ $img-wave: "products/img-wave.svg";
                     }
                     position: relative;
                     @include respSpecif(1400) {
-                       padding: 40px;
+                        padding: 40px;
                     }
                     .card-info {
                         // tween
-                        opacity: 0; 
+                        opacity: 0;
                         transform: translateX(100%);
                         transition: transform 0.5s ease-in-out;
                         // tween
@@ -2386,7 +2426,7 @@ $img-wave: "products/img-wave.svg";
                             width: 100%;
                             margin-bottom: 7%;
                             margin-right: unset;
-                         }
+                        }
                         .card-title {
                             @include font-basic-bold($c-black, 1.8rem);
                             margin-bottom: 60px;
@@ -2415,7 +2455,7 @@ $img-wave: "products/img-wave.svg";
                     #ci2 {
                         @include respSpecif(850) {
                             margin-bottom: 20%;
-                         }
+                        }
                     }
                     .card-graphic {
                         display: flex;
@@ -2447,7 +2487,7 @@ $img-wave: "products/img-wave.svg";
                         }
                         .card-mobile {
                             // tween
-                            opacity: 0; 
+                            opacity: 0;
                             transform: translateX(100%);
                             transition: transform 0.5s ease-in-out;
                             // tween
@@ -2479,7 +2519,7 @@ $img-wave: "products/img-wave.svg";
                                 position: relative;
                                 .mobile-main-message {
                                     // tween
-                                    visibility: hidden; 
+                                    visibility: hidden;
                                     transform: translateX(100%);
                                     transition: transform 0.5s ease-in-out;
                                     // tween
@@ -2495,8 +2535,8 @@ $img-wave: "products/img-wave.svg";
                                     @include font-basic-semi-bold($c-blue-sky, 0.9rem);
                                     position: relative;
                                     .message-triangle {
-                                        width: 0; 
-                                        height: 0; 
+                                        width: 0;
+                                        height: 0;
                                         border-left: 10px solid transparent;
                                         border-right: 10px solid transparent;
                                         border-bottom: 15px solid white;
@@ -2594,8 +2634,8 @@ $img-wave: "products/img-wave.svg";
                                         }
                                     }
                                     .message-triangle {
-                                        width: 0; 
-                                        height: 0; 
+                                        width: 0;
+                                        height: 0;
                                         border-left: 10px solid transparent;
                                         border-right: 10px solid transparent;
                                         border-top: 15px solid white;
@@ -2625,7 +2665,7 @@ $img-wave: "products/img-wave.svg";
                                         .message-triangle {
                                             display: none;
                                         }
-                                    }   
+                                    }
                                     &.bottom-right {
                                         visibility: hidden; // tween
                                         @include absolute-position($bottom: -6rem, $right: -39rem);
@@ -2640,7 +2680,7 @@ $img-wave: "products/img-wave.svg";
                                 display: flex;
                                 justify-content: center;
                                 margin: 20px 0;
-        
+
                                 img {
                                     width: 100px;
                                     height: 100px;
@@ -2735,7 +2775,7 @@ $img-wave: "products/img-wave.svg";
                     }
                     .card-info-m {
                         // tween
-                        opacity: 0; 
+                        opacity: 0;
                         transform: translateX(100%);
                         transition: transform 0.5s ease-in-out;
                         // tween
@@ -2773,7 +2813,7 @@ $img-wave: "products/img-wave.svg";
                         }
                         .card-mobile-m {
                             // tween
-                            opacity: 0; 
+                            opacity: 0;
                             transform: translateX(100%);
                             transition: transform 0.5s ease-in-out;
                             // tween
@@ -2804,7 +2844,7 @@ $img-wave: "products/img-wave.svg";
                                 position: relative;
                                 .mobile-main-message-m {
                                     // tween
-                                    visibility: hidden; 
+                                    visibility: hidden;
                                     transform: translateX(100%);
                                     transition: transform 0.5s ease-in-out;
                                     // tween
@@ -2822,8 +2862,8 @@ $img-wave: "products/img-wave.svg";
                                     color: $c-blue-sky;
                                     position: relative;
                                     .message-triangle-m {
-                                        width: 0; 
-                                        height: 0; 
+                                        width: 0;
+                                        height: 0;
                                         border-left: 10px solid transparent;
                                         border-right: 10px solid transparent;
                                         border-bottom: 15px solid white;
@@ -2941,7 +2981,7 @@ $img-wave: "products/img-wave.svg";
                                         transition: transform 0.5s ease;
                                         background-color: transparent;
                                         box-shadow: none;
-                                    }   
+                                    }
                                     &.bottom-right-m {
                                         visibility: hidden; // tween
                                         @include absolute-position($bottom: 0, $right: 0%);
@@ -2954,7 +2994,7 @@ $img-wave: "products/img-wave.svg";
                                 display: flex;
                                 justify-content: center;
                                 margin: 10px 0;
-        
+
                                 img {
                                     width: 70px;
                                     height: 70px;
@@ -3156,7 +3196,7 @@ $img-wave: "products/img-wave.svg";
                         transition: transform 0.5s ease-in-out;
                         #focus-image {
                             width: 100%;
-                             // tween
+                            // tween
                             transform: translateX(100%);
                             transition: transform 0.5s ease-in-out;
                             // tween
@@ -3164,12 +3204,12 @@ $img-wave: "products/img-wave.svg";
                         .middle-right-focus {
                             @include absolute-position($right: 0px, $top: 31%);
                             transform: scale(0.1);
-                            transition: transform .5s ease;
+                            transition: transform 0.5s ease;
                         }
                         .bottom-right-focus {
                             @include absolute-position($right: 0px, $bottom: -2%);
                             transform: scale(0.1);
-                            transition: transform .5s ease;
+                            transition: transform 0.5s ease;
                         }
                     }
                     .card-graphic-focus-2 {
@@ -3182,7 +3222,7 @@ $img-wave: "products/img-wave.svg";
                             top: 0;
                             left: -100px;
                             transform: scale(0.1);
-                            transition: transform .5s ease;
+                            transition: transform 0.5s ease;
                         }
                         #focus-agenda {
                             position: absolute;
@@ -3191,7 +3231,7 @@ $img-wave: "products/img-wave.svg";
                             height: 260px;
                             z-index: 1;
                             transform: scale(0.1);
-                            transition: transform .5s ease;
+                            transition: transform 0.5s ease;
                         }
                         #focus-files {
                             position: absolute;
@@ -3199,14 +3239,14 @@ $img-wave: "products/img-wave.svg";
                             top: 255px;
                             right: 0px;
                             transform: scale(0.1);
-                            transition: transform .5s ease;
+                            transition: transform 0.5s ease;
                         }
                         #focus-calendar {
                             position: absolute;
                             right: 0px;
                             top: -45px;
                             transform: scale(0.1);
-                            transition: transform .5s ease;
+                            transition: transform 0.5s ease;
                         }
                     }
                 }
@@ -3354,10 +3394,9 @@ $img-wave: "products/img-wave.svg";
                     border: none;
                     cursor: pointer;
                     transition: transform 0.3s;
-                    &:hover{
+                    &:hover {
                         transform: scale(1.03);
                     }
-                    
 
                     @include respSpecif(600) {
                         margin-bottom: 15px;
@@ -3374,7 +3413,7 @@ $img-wave: "products/img-wave.svg";
                     border: 2px solid $c-blue-light;
                     cursor: pointer;
                     transition: transform 0.3s;
-                    &:hover{
+                    &:hover {
                         transform: scale(1.03);
                     }
                 }
@@ -3712,20 +3751,20 @@ $img-wave: "products/img-wave.svg";
                 }
                 .mission {
                     border-radius: 10px;
-                    transition: transform .3s;
-                &:hover{
-                    transform: scale(1.03); 
-                }
+                    transition: transform 0.3s;
+                    &:hover {
+                        transform: scale(1.03);
+                    }
                     .statement_card_icon {
                         background: url(../imgs/icons/mission.svg) no-repeat top center;
                     }
                 }
                 .vision {
                     border-radius: 10px;
-                    transition: transform .3s;
-                &:hover{
-                    transform: scale(1.03); 
-                }
+                    transition: transform 0.3s;
+                    &:hover {
+                        transform: scale(1.03);
+                    }
                     .statement_card_icon {
                         background: url(../imgs/icons/vision.svg) no-repeat top center;
                     }
@@ -5533,7 +5572,14 @@ $img-wave: "products/img-wave.svg";
 
             .tender_board_secure {
                 .tender_board_icon {
-                    @include image($icon-corporateTenderBoardManagement_secure_grey, 80px, 80px, auto, 60px, top center);
+                    @include image(
+                        $icon-corporateTenderBoardManagement_secure_grey,
+                        80px,
+                        80px,
+                        auto,
+                        60px,
+                        top center
+                    );
                 }
             }
 
@@ -5914,6 +5960,6 @@ $img-wave: "products/img-wave.svg";
     }
 }
 
-*{
+* {
     box-sizing: border-box;
 }

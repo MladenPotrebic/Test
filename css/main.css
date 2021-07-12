@@ -967,7 +967,7 @@ html, body {
   margin-top: 40px;
   text-align: center;
   width: 100%;
-  background-color: #EFF5FF;
+  background-color: #eff5ff;
   padding: 10px 0;
   font-family: "Segoe-UI";
   color: #707070;
@@ -1446,6 +1446,82 @@ html, body {
   #innovative .content .about-owl .owl-dots .active {
     background: #869791;
   }
+}
+@media only screen and (max-width: 687px) {
+  #innovative {
+    display: none;
+  }
+}
+
+.inovation_container--m {
+  display: S;
+  padding: 80px 20px;
+}
+.inovation_container--m .screen {
+  padding: 20px 0 0 0;
+  position: relative;
+  border-radius: 22px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+  min-height: calc(100vh - 160px);
+  display: flex;
+  flex-direction: column;
+}
+.inovation_container--m .screen__title {
+  padding: 0 20px;
+  font-family: "Segoe-UI-Bold";
+  color: #2b2b2b;
+  font-size: 2.16rem;
+}
+@media only screen and (max-width: 1899px) {
+  .inovation_container--m .screen__title {
+    font-size: 2.07rem;
+  }
+}
+@media only screen and (max-width: 1699px) {
+  .inovation_container--m .screen__title {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .inovation_container--m .screen__title {
+    font-size: 1.62rem;
+  }
+}
+.inovation_container--m .screen__text {
+  padding: 0 20px;
+  margin: 15px auto 0 auto;
+  font-family: "Segoe-UI";
+  color: #707070;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 1899px) {
+  .inovation_container--m .screen__text {
+    font-size: 1.15rem;
+  }
+}
+@media only screen and (max-width: 1699px) {
+  .inovation_container--m .screen__text {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .inovation_container--m .screen__text {
+    font-size: 0.9rem;
+  }
+}
+.inovation_container--m .screen__img {
+  margin-top: 30px;
+  flex-grow: 1;
+  overflow-x: hidden;
+  background: url(../imgs/backgrounds/home_mobile_cover.png) no-repeat top 2px center;
+  background-size: 100% auto;
+}
+.inovation_container--m .screen__circle {
+  position: absolute;
+}
+.inovation_container--m .screen__slider {
+  position: absolute;
 }
 
 .improveYourBusiness_container {
@@ -2241,7 +2317,7 @@ html, body {
   color: white;
   font-size: 1.2rem;
   text-align: center;
-  background-color: #70A2FF;
+  background-color: #70a2ff;
   padding: 20px 0 80px 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -2287,7 +2363,7 @@ html, body {
   margin-left: 175px;
   margin-top: 70px;
   font-family: "Segoe-UI-Semi-Bold";
-  color: #70A2FF;
+  color: #70a2ff;
   font-size: 1.08rem;
   position: relative;
 }
@@ -2323,7 +2399,7 @@ html, body {
 }
 .latestResearch_container .content .card .card-wrapper .card-content .card-graphic .card-mobile .mobile-body .mobile-message-container .mobile-message {
   transition: transform 0.5s ease-in-out;
-  background-color: #EFF5FF;
+  background-color: #eff5ff;
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 15px;
@@ -2417,7 +2493,7 @@ html, body {
   justify-content: space-evenly;
 }
 .latestResearch_container .content .card .card-wrapper .card-content .card-graphic .card-mobile .mobile-body .mobile-notification .mobile-text .message-group.headline {
-  color: #FE993B;
+  color: #fe993b;
 }
 .latestResearch_container .content .card .card-wrapper .card-content .card-graphic .card-mobile .mobile-body .mobile-notification .mobile-text .message-group.right-aligned-group {
   text-align: right;
@@ -2805,7 +2881,7 @@ html, body {
   color: white;
   font-size: 1.2rem;
   text-align: center;
-  background-color: #70A2FF;
+  background-color: #70a2ff;
   padding: 20px 0 50px 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -2852,7 +2928,7 @@ html, body {
   margin-top: 55px;
   font-family: "Segoe-UI-Semi-Bold";
   font-size: 0.9rem;
-  color: #70A2FF;
+  color: #70a2ff;
   position: relative;
 }
 .latestResearch_container--m .content .card-m .card-wrapper-m .card-content-m .card-graphic-m .card-mobile-m .mobile-body-m .mobile-main-message-m .message-triangle-m {
@@ -2872,7 +2948,7 @@ html, body {
 }
 .latestResearch_container--m .content .card-m .card-wrapper-m .card-content-m .card-graphic-m .card-mobile-m .mobile-body-m .mobile-message-container-m .mobile-message-m {
   transition: transform 0.5s ease-in-out;
-  background-color: #EFF5FF;
+  background-color: #eff5ff;
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 15px;
@@ -2957,7 +3033,7 @@ html, body {
   justify-content: space-between;
 }
 .latestResearch_container--m .content .card-m .card-wrapper-m .card-content-m .card-graphic-m .card-mobile-m .mobile-body-m .mobile-notification-m .mobile-text-m .message-group-m.headline {
-  color: #FE993B;
+  color: #fe993b;
   margin-bottom: 5px;
 }
 .latestResearch_container--m .content .card-m .card-wrapper-m .card-content-m .card-graphic-m .card-mobile-m .mobile-body-m .mobile-notification-m .mobile-text-m .message-group-m.right-aligned-group {
