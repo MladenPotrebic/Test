@@ -346,6 +346,8 @@ $icon_news_quality_grey: "icons/new_management_system_quality.svg";
 $icon_news_reading_grey: "icons/new_management_system_reading.svg";
 $icon_news_effective_grey: "icons/new_management_system_effective.svg";
 
+$icon_home_circle: "backgrounds/home_mobile_circle.png";
+
 // Icon
 $icon-nav_msg-0: "icon/nav_msg-0.svg";
 $icon-nav_msg-1: "icon/nav_msg-1.svg";
@@ -2045,14 +2047,14 @@ $img-wave: "products/img-wave.svg";
 
 .inovation_container--m {
     @include show(S);
-    padding: 80px 20px;
+    padding: 55px 20px;
     .screen {
         padding: 20px 0 0 0;
         position: relative;
         border-radius: 22px;
         background-color: white;
         box-shadow: 0px 0px 20px rgb(0 0 0 / 8%);
-        min-height: calc(100vh - 160px);
+        min-height: calc(100vh - 110px);
         display: flex;
         flex-direction: column;
         &__title {
@@ -2069,13 +2071,25 @@ $img-wave: "products/img-wave.svg";
         &__img {
             margin-top: 30px;
             flex-grow: 1;
-            overflow-x: hidden;
-            background: url(../imgs/backgrounds/home_mobile_cover.png) no-repeat top 2px center;
-            background-size: 100% auto;
+            
+            img{
+                border-radius: 20px;
+                height: auto;
+                width: 100%;
+            }
+            // overflow-x: hidden;
+            // background: url(../imgs/backgrounds/home_mobile_cover.png) no-repeat top 2px center;
+            // background-size: 100% auto;
         }
 
         &__circle {
             position: absolute;
+            width: 50px;
+            height: 50px;
+            z-index: -1;
+            top: -100px;
+            left: -100px;
+            @include image($icon_home_circle, 200px, 200px, 200px, auto, center);
         }
 
         &__slider{

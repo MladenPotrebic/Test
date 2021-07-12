@@ -1455,7 +1455,7 @@ html, body {
 
 .inovation_container--m {
   display: S;
-  padding: 80px 20px;
+  padding: 55px 20px;
 }
 .inovation_container--m .screen {
   padding: 20px 0 0 0;
@@ -1463,7 +1463,7 @@ html, body {
   border-radius: 22px;
   background-color: white;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
-  min-height: calc(100vh - 160px);
+  min-height: calc(100vh - 110px);
   display: flex;
   flex-direction: column;
 }
@@ -1513,12 +1513,24 @@ html, body {
 .inovation_container--m .screen__img {
   margin-top: 30px;
   flex-grow: 1;
-  overflow-x: hidden;
-  background: url(../imgs/backgrounds/home_mobile_cover.png) no-repeat top 2px center;
-  background-size: 100% auto;
+}
+.inovation_container--m .screen__img img {
+  border-radius: 20px;
+  height: auto;
+  width: 100%;
 }
 .inovation_container--m .screen__circle {
   position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: -1;
+  top: -100px;
+  left: -100px;
+  width: 200px;
+  min-width: 200px;
+  height: 200px;
+  background: url("../imgs/backgrounds/home_mobile_circle.png") no-repeat center;
+  background-size: 200px auto;
 }
 .inovation_container--m .screen__slider {
   position: absolute;
