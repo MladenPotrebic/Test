@@ -1924,6 +1924,9 @@ html, body {
   background-size: auto 50px;
 }
 
+.improveYourBusiness_container--m {
+  margin-top: 50px;
+}
 .improveYourBusiness_container--m .improveYourBusiness__header {
   text-align: center;
 }
