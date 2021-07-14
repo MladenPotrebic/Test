@@ -431,6 +431,15 @@ html, body {
   transition-timing-function: ease-out !important;
 }
 
+[data-aos=opacity-2] {
+  opacity: 0;
+  transition-property: opacity;
+}
+[data-aos=opacity-2].aos-animate {
+  opacity: 1;
+  transition-timing-function: ease-out !important;
+}
+
 @font-face {
   font-family: "Segoe-UI";
   src: url("../fonts/Segoe-UI.woff") format("woff");
@@ -1465,6 +1474,7 @@ html, body {
 .inovation_container--m {
   display: S;
   padding: 55px 20px;
+  padding-bottom: 100px;
 }
 .inovation_container--m .screen {
   padding: 20px 0 0 0;
@@ -1543,7 +1553,7 @@ html, body {
 }
 .inovation_container--m .screen__slider {
   position: absolute;
-  bottom: -40px;
+  bottom: -100px;
   left: -10px;
   width: calc(100% + 20px);
   background: #ffffff;
@@ -1934,6 +1944,7 @@ html, body {
   font-family: "Segoe-UI-Bold";
   color: #2b2b2b;
   font-size: 2.16rem;
+  padding: 0 10px;
 }
 @media only screen and (max-width: 1899px) {
   .improveYourBusiness_container--m .improveYourBusiness__title {
@@ -1952,6 +1963,7 @@ html, body {
 }
 .improveYourBusiness_container--m .improveYourBusiness__subtitle {
   margin-top: 20px;
+  padding: 0 10px;
   font-family: "Segoe-UI";
   color: #707070;
   font-size: 1.2rem;
@@ -1988,6 +2000,14 @@ html, body {
     height: 115px;
   }
 }
+@media only screen and (max-width: 389px) {
+  .improveYourBusiness_container--m .improveYourBusiness .feature {
+    height: 125px;
+  }
+}
+.improveYourBusiness_container--m .improveYourBusiness .feature:last-of-type {
+  margin-bottom: 0px;
+}
 .improveYourBusiness_container--m .improveYourBusiness .feature__icon {
   position: absolute;
   top: -15px;
@@ -2011,7 +2031,7 @@ html, body {
   width: 50px;
   min-width: 50px;
   height: 50px;
-  background: url("../imgs/icons/cognitive-solutions.svg") no-repeat top center;
+  background: url("../imgs/icons/digital-transformation.svg") no-repeat top center;
   background-size: auto 50px;
 }
 .improveYourBusiness_container--m .improveYourBusiness .feature__icon--mobility {
@@ -2885,6 +2905,7 @@ html, body {
 
 .latestResearch_container--m {
   margin: 20px;
+  margin-top: 50px;
 }
 .latestResearch_container--m .latestResearch__header {
   text-align: center;
@@ -2936,7 +2957,7 @@ html, body {
 }
 .latestResearch_container--m .latestResearch__ornament-c .ornament {
   position: absolute;
-  right: -108px;
+  right: -130px;
   width: 215px;
   min-width: 215px;
   height: 188px;
@@ -3031,6 +3052,13 @@ html, body {
   min-width: 90px;
   height: 90px;
   background: url("../imgs/icons/latestResearch-m_robot.svg") no-repeat center;
+  background-size: 90px auto;
+}
+.latestResearch_container--m .assistent__robot--active {
+  width: 90px;
+  min-width: 90px;
+  height: 90px;
+  background: url("../imgs/icons/latestResearch-m_robot-1.svg") no-repeat center;
   background-size: 90px auto;
 }
 .latestResearch_container--m .assistent__robot-s {
@@ -3152,6 +3180,7 @@ html, body {
 
 .ourProducts_container--m {
   margin: 20px;
+  margin-top: 50px;
 }
 .ourProducts_container--m .ourProducts__header {
   text-align: center;
@@ -3204,6 +3233,7 @@ html, body {
   background-color: white;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
   padding-top: 20px;
+  overflow: hidden;
 }
 .ourProducts_container--m .screen__title {
   padding: 0 30px;

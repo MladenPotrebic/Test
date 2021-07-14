@@ -397,6 +397,7 @@ $icon-table_users-3: "icon/table_users-3.svg";
 $icon-latestResearch_microphone: "icons/latestResearch-m_microphone.svg";
 $icon-latestResearch_chat: "icons/latestResearch-m_chat.svg";
 $icon-latestResearch_robot: "icons/latestResearch-m_robot.svg";
+$icon-latestResearch_robot-1: "icons/latestResearch-m_robot-1.svg";
 
 // Logos
 $logo-Adnoc: "logos/Adnoc.svg";
@@ -2055,6 +2056,7 @@ $img-wave: "products/img-wave.svg";
 .inovation_container--m {
     @include show(S);
     padding: 55px 20px;
+    padding-bottom: 100px;
     .screen {
         padding: 20px 0 0 0;
         position: relative;
@@ -2098,7 +2100,7 @@ $img-wave: "products/img-wave.svg";
 
         &__slider {
             position: absolute;
-            bottom: -40px;
+            bottom: -100px;
             left: -10px;
             width: calc(100% + 20px);
             background: #ffffff;
@@ -2321,10 +2323,12 @@ $img-wave: "products/img-wave.svg";
 
         &__title {
             @include font-basic-bold($c-black, 1.8rem);
+            padding: 0 10px;
         }
 
         &__subtitle {
             margin-top: 20px;
+            padding: 0 10px;
             @include font-basic($c-black-light, 1rem);
         }
 
@@ -2339,11 +2343,18 @@ $img-wave: "products/img-wave.svg";
             border-radius: 10px;
             padding: 20px 30px;
             margin-bottom: 30px;
-
             height: 100px;
 
             @include respSpecif(500) {
                 height: 115px;
+            }
+
+            @include respSpecif(390) {
+                height: 125px;
+            }
+
+            &:last-of-type{
+                margin-bottom: 0px;
             }
 
             &__icon{
@@ -2360,7 +2371,7 @@ $img-wave: "products/img-wave.svg";
                 }
 
                 &--transformation{
-                    @include image($icon-business_solutions, 50px, 50px, auto, 50px, top center);
+                    @include image($icon-business_digital, 50px, 50px, auto, 50px, top center);
                 }
 
 
@@ -2853,6 +2864,7 @@ $img-wave: "products/img-wave.svg";
 
 .latestResearch_container--m {
     margin: 20px;
+    margin-top: 50px;
     .latestResearch {
         &__header {
             text-align: center;
@@ -2872,7 +2884,7 @@ $img-wave: "products/img-wave.svg";
             height: 80px;
             .ornament {
                 position: absolute;
-                right: -108px;
+                right: -130px;
                 @include image($bc-latestResearch-m_ornament, 215px, 188px, 214px, auto, center);
             }
         }
@@ -2918,6 +2930,9 @@ $img-wave: "products/img-wave.svg";
             left: calc(100% / 2 - 45px);
             @include image($icon-latestResearch_robot, 90px, 90px, 90px, auto, center);
             //117
+        }
+        &__robot--active{
+            @include image($icon-latestResearch_robot-1, 90px, 90px, 90px, auto, center);
         }
         &__robot-s {
             position: absolute;
@@ -3001,6 +3016,7 @@ $img-wave: "products/img-wave.svg";
 
 .ourProducts_container--m {
     margin: 20px;
+    margin-top: 50px;
     .ourProducts {
         &__header {
             text-align: center;
@@ -3026,6 +3042,7 @@ $img-wave: "products/img-wave.svg";
         background-color: white;
         box-shadow: 0px 0px 20px rgb(0 0 0 / 8%);
         padding-top: 20px;
+        overflow: hidden;
         &__title {
             padding: 0 30px;
             @include font-basic-bold($c-black, 1.8rem);
