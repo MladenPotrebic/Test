@@ -56,4 +56,22 @@
   transition-delay: 5000ms;
 }
 
+[data-aos=opacity-1] {
+  opacity: 0.2;
+  transition-property: opacity;
+}
+[data-aos=opacity-1].aos-animate {
+  opacity: 1;
+  transition-timing-function: ease-out !important;
+}
+
+[data-aos=opacity-2] {
+  opacity: 0;
+  transition-property: opacity;
+}
+[data-aos=opacity-2].aos-animate {
+  opacity: 1;
+  transition-timing-function: ease-out !important;
+}
+
 /*# sourceMappingURL=aos.custom.css.map */

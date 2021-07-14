@@ -22,7 +22,7 @@
 
 [data-aos="z-1"] {
     opacity: 0.15;
-    transform: scale(0.8);
+    transform: scale(.8);
     transition-property: transform, opacity;
 
     &.aos-animate {
@@ -51,6 +51,7 @@
         transition-delay: 4000ms;
     }
 }
+
 
 [data-aos="delay-5"] {
     opacity: 0;
@@ -89,5 +90,6 @@
         transition-timing-function: ease-out !important;
     }
 }
+
 
 
