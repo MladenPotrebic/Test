@@ -22,7 +22,7 @@
 
 [data-aos="z-1"] {
     opacity: 0.15;
-    transform: scale(.8);
+    transform: scale(0.8);
     transition-property: transform, opacity;
 
     &.aos-animate {
@@ -52,7 +52,6 @@
     }
 }
 
-
 [data-aos="delay-5"] {
     opacity: 0;
     transition-delay: 0ms;
@@ -63,4 +62,21 @@
     }
 }
 
+// [data-aos="opacity-1"] {
+//     transform: rotate(360deg);
+//     opacity: 0;
+//     transition-property: transform, opacity;
+//     &.aos-animate {
+//       transform: rotate(0);
+//       opacity: 1;
+//     }
+//   }
 
+[data-aos="opacity-1"] {
+    opacity: 0.2;
+    transition-property: opacity;
+    &.aos-animate {
+        opacity: 1;
+        transition-timing-function: ease-out !important;
+    }
+}

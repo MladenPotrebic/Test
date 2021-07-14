@@ -394,6 +394,10 @@ $icon-table_users-1: "icon/table_users-1.svg";
 $icon-table_users-2: "icon/table_users-2.svg";
 $icon-table_users-3: "icon/table_users-3.svg";
 
+$icon-latestResearch_microphone: "icons/latestResearch-m_microphone.svg";
+$icon-latestResearch_chat: "icons/latestResearch-m_chat.svg";
+$icon-latestResearch_robot: "icons/latestResearch-m_robot.svg";
+
 // Logos
 $logo-Adnoc: "logos/Adnoc.svg";
 $logo-Masdar: "logos/Masdar.svg";
@@ -422,6 +426,9 @@ $bc-header_msg: "backgrounds/header_msg.svg";
 $bc-header_products: "backgrounds/header_products.svg";
 $bc-header_team: "backgrounds/header_team.svg";
 $bc-header_together: "backgrounds/header_together.svg";
+$bc-latestResearch-m_ornament: "backgrounds/latestResearch-m_ornament.png";
+
+// 118
 
 // Placeholders
 $no-gallery: "placeholders/header_together.svg";
@@ -2077,9 +2084,6 @@ $img-wave: "products/img-wave.svg";
                 height: auto;
                 width: 100%;
             }
-            // overflow-x: hidden;
-            // background: url(../imgs/backgrounds/home_mobile_cover.png) no-repeat top 2px center;
-            // background-size: 100% auto;
         }
 
         &__circle {
@@ -2103,6 +2107,7 @@ $img-wave: "products/img-wave.svg";
             .slider {
                 padding: 25px 35px;
                 padding-bottom: 5px;
+                height: 110px;
                 &__title {
                     @include font-basic-bold($c-black, 1.2rem);
                 }
@@ -2120,18 +2125,17 @@ $img-wave: "products/img-wave.svg";
         align-items: center;
         justify-content: center;
 
-        .owl-dot{
+        .owl-dot {
             width: 5px;
             height: 5px;
-            background-color: #E4E4E4;
+            background-color: #e4e4e4;
             margin: 0 2px;
             border-radius: 50%;
         }
 
-        .active{
+        .active {
             background-color: $c-blue;
         }
-
     }
 }
 
@@ -2308,7 +2312,80 @@ $img-wave: "products/img-wave.svg";
     }
 }
 
-.improveYourBusiness_container--m {
+.improveYourBusiness_container--m{
+    .improveYourBusiness{
+        &__header {
+            text-align: center;
+        }
+
+        &__title {
+            @include font-basic-bold($c-black, 1.8rem);
+        }
+
+        &__subtitle {
+            margin-top: 20px;
+            @include font-basic($c-black-light, 1rem);
+        }
+
+        &__content{
+            margin-top: 20px;
+            padding: 0 30px;
+        }
+
+        .feature{
+            position: relative;
+            box-shadow: 0px 0px 20px rgb(0 0 0 / 8%);
+            border-radius: 10px;
+            padding: 20px 30px;
+            margin-bottom: 30px;
+
+            height: 100px;
+
+            @include respSpecif(500) {
+                height: 115px;
+            }
+
+            &__icon{
+                position: absolute;
+                top: -15px;
+                right: -15px;
+
+                &--software{
+                    @include image($icon-business_software, 50px, 50px, auto, 50px, top center);
+                }
+
+                &--solutions{
+                    @include image($icon-business_solutions, 50px, 50px, auto, 50px, top center);
+                }
+
+                &--transformation{
+                    @include image($icon-business_solutions, 50px, 50px, auto, 50px, top center);
+                }
+
+
+                &--mobility{
+                    @include image($icon-business_mobility, 50px, 50px, auto, 50px, top center);
+                }
+
+                &--research{
+                    @include image($icon-business_research, 50px, 50px, auto, 50px, top center);
+                }
+            }
+
+            &__title{
+                @include font-basic-semi-bold($c-black, 1rem); 
+            }
+
+            &__content{
+                @include margin-top(10px);
+                @include font-basic($c-black-light, $fs-basic);
+            }
+        }
+    }
+}
+
+
+.improveYourBusinesss_container--m-DELETE {
     @include section();
     @include container-M();
     @include header();
@@ -2774,6 +2851,243 @@ $img-wave: "products/img-wave.svg";
 }
 
 .latestResearch_container--m {
+    margin: 20px;
+    .latestResearch {
+        &__header {
+            text-align: center;
+        }
+
+        &__title {
+            @include font-basic-bold($c-black, 1.8rem);
+        }
+
+        &__subtitle {
+            margin-top: 20px;
+            @include font-basic($c-black-light, 1rem);
+        }
+
+        &__ornament-c {
+            position: relative;
+            height: 80px;
+            .ornament {
+                position: absolute;
+                right: -108px;
+                @include image($bc-latestResearch-m_ornament, 215px, 188px, 214px, auto, center);
+            }
+        }
+
+        &__content {
+        }
+    }
+
+    .section {
+        margin-top: 50px;
+        &__title {
+            @include font-basic-bold($c-black, 1.8rem);
+        }
+        &__text {
+            margin-top: 20px;
+            @include font-basic($c-black-light, 1rem);
+        }
+        &__content {
+            margin-top: 20px;
+            position: relative;
+            border-radius: 22px;
+            background-color: white;
+            box-shadow: 0px 0px 20px rgb(0 0 0 / 8%);
+        }
+    }
+
+    .assistent {
+        &__header {
+            border-radius: 22px 22px 0 0;
+            background-color: #70a2ff;
+            position: relative;
+            margin-bottom: 85px;
+        }
+        &__title {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 60px;
+            @include font-basic-bold($c-white, 1rem);
+        }
+        &__robot {
+            position: absolute;
+            bottom: -45px;
+            left: calc(100% / 2 - 45px);
+            @include image($icon-latestResearch_robot, 90px, 90px, 90px, auto, center);
+            //117
+        }
+        &__robot-s {
+            position: absolute;
+            left: calc(100% / 2 - 5px);
+            background-color: white;
+            bottom: -90px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgb(0 0 0 / 8%);
+            @include font-basic-semi-bold(#373a98, 0.9rem);
+        }
+        &__chat {
+            padding: 20px 20px 0 20px;
+            .msg {
+                display: flex;
+                margin-bottom: 15px;
+                &__text {
+                    @include font-basic-semi-bold($c-black, 0.9rem);
+                    background: #eff5ff;
+                    border-radius: 17px;
+                    padding: 5px 10px;
+                }
+                &--left {
+                    justify-content: flex-start;
+                }
+                &--right {
+                    justify-content: flex-end;
+                }
+            }
+        }
+        &__footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .opt {
+                margin: 10px 0 20px 0;
+                &--chat {
+                    @include image($icon-latestResearch_chat, 50px, 50px, 50px, auto, center);
+                }
+                &--microphone {
+                    @include image($icon-latestResearch_microphone, 50px, 50px, 50px, auto, center);
+                }
+            }
+        }
+    }
+
+    .diagram {
+        position: relative;
+        &__basic {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        &__lines {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        &__info {
+            position: absolute;
+            left: 0;
+            width: 50%;
+            top: 20%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgb(0 0 0 / 8%);
+            left: calc(100% / 2 + 10px);
+            background-color: white;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+.ourProducts_container--m {
+    margin: 20px;
+    .ourProducts {
+        &__header {
+            text-align: center;
+        }
+
+        &__title {
+            @include font-basic-bold($c-black, 1.8rem);
+        }
+
+        &__subtitle {
+            margin-top: 20px;
+            @include font-basic($c-black-light, 1rem);
+        }
+
+        &__content {
+        }
+    }
+
+    .screen {
+        margin-top: 20px;
+        position: relative;
+        border-radius: 22px;
+        background-color: white;
+        box-shadow: 0px 0px 20px rgb(0 0 0 / 8%);
+        padding-top: 20px;
+        &__title {
+            padding: 0 30px;
+            @include font-basic-bold($c-black, 1.8rem);
+        }
+        &__text {
+            margin-top: 20px;
+            padding: 0 30px;
+            @include font-basic($c-black-light, 1rem);
+        }
+        &__img {
+            overflow-x: hidden;
+            padding: 0 0 0 30px;
+            img{
+                height: 80vh;
+                width: auto;
+            }
+        }
+    }
+}
+
+
+.companies_container--m{
+    margin: 20px;
+    .companies{
+        &__header {
+            text-align: center;
+        }
+
+        &__title {
+            @include font-basic-bold($c-black, 1.8rem);
+        }
+
+        &__logos{
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .logo{
+                height: 45px;
+                margin: 0 20px;
+
+                @include respSpecif(500) {
+                    height: 40px;
+                }
+
+                @include respSpecif(450) {
+                    height: 35px;
+                }
+
+                @include respSpecif(400) {
+                    height: 30px;
+                }
+
+                @include respSpecif(350) {
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
+
+.latestResearch_container--m__DELETE {
     display: none;
     @include header();
     .content {
@@ -3371,24 +3685,6 @@ $img-wave: "products/img-wave.svg";
     }
 }
 
-.companies_container--m {
-    @include section();
-    @include container-M();
-    .content {
-        .companies {
-            .company {
-                &__img {
-                    height: 50px;
-                }
-                // @include height(50px, 40px);
-                // @include margin(0 50px, 0 30px);
-                // &.company-musanada {
-                //     @include height(100px, 70px);
-                // }
-            }
-        }
-    }
-}
 
 .contact_container {
     @include section();
